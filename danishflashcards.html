@@ -7,28 +7,36 @@
   <style>
     :root {
       color-scheme: light dark;
-      --bg: #f7f6f3;
+      --bg: #f4f5f7;
       --panel: #ffffff;
-      --text: #221f1f;
-      --muted: #68615d;
-      --line: #ddd6d1;
-      --red: #d81f26;
-      --red-dark: #a9151b;
-      --green: #247046;
-      --shadow: 0 16px 38px rgba(39, 30, 26, 0.12);
+      --panel-soft: #fafafa;
+      --text: #1f242b;
+      --muted: #66717f;
+      --line: #dfe4ea;
+      --red: #d91f2a;
+      --red-dark: #aa1620;
+      --green: #1f7a4d;
+      --green-bg: #eef8f2;
+      --red-bg: #fff1f2;
+      --shadow: 0 14px 34px rgba(24, 31, 41, 0.1);
+      --shadow-soft: 0 6px 18px rgba(24, 31, 41, 0.07);
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #171717;
-        --panel: #242424;
-        --text: #f5f0ec;
-        --muted: #b9b0ab;
-        --line: #424242;
+        --bg: #111316;
+        --panel: #1c2025;
+        --panel-soft: #171a1f;
+        --text: #f4f6f8;
+        --muted: #aeb8c4;
+        --line: #343b44;
         --red: #ff5a60;
         --red-dark: #ff7b80;
         --green: #7bd39d;
-        --shadow: 0 16px 38px rgba(0, 0, 0, 0.34);
+        --green-bg: #13251c;
+        --red-bg: #2b171a;
+        --shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
+        --shadow-soft: 0 6px 18px rgba(0, 0, 0, 0.24);
       }
     }
 
@@ -44,6 +52,7 @@
       color: var(--text);
       font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       letter-spacing: 0;
+      text-rendering: optimizeLegibility;
     }
 
     button,
@@ -58,17 +67,25 @@
       border-radius: 7px;
       background: var(--panel);
       color: var(--text);
-      padding: 0.66rem 0.82rem;
+      padding: 0.68rem 0.86rem;
     }
 
     button {
       cursor: pointer;
       touch-action: manipulation;
+      font-weight: 700;
+      transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+      box-shadow: var(--shadow-soft);
     }
 
     button:disabled {
       cursor: not-allowed;
       opacity: 0.5;
+      box-shadow: none;
+    }
+
+    button:hover:not(:disabled) {
+      transform: translateY(-1px);
     }
 
     button:hover:not(:disabled),
@@ -94,14 +111,14 @@
     }
 
     .app {
-      width: min(1040px, calc(100vw - 32px));
+      width: min(1100px, calc(100vw - 32px));
       min-height: 100vh;
       min-height: 100dvh;
       margin: 0 auto;
       display: grid;
       grid-template-rows: auto auto 1fr auto;
       gap: 16px;
-      padding: 18px 0 max(18px, env(safe-area-inset-bottom));
+      padding: 20px 0 max(20px, env(safe-area-inset-bottom));
     }
 
     header {
@@ -109,6 +126,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 18px;
+      padding: 4px 0;
     }
 
     .brand {
@@ -124,14 +142,15 @@
       object-fit: contain;
       border-radius: 6px;
       background: #fff;
-      padding: 4px;
-      border: 1px solid color-mix(in srgb, var(--red) 22%, var(--line));
+      padding: 5px;
+      border: 1px solid color-mix(in srgb, var(--red) 24%, var(--line));
+      box-shadow: var(--shadow-soft);
       flex: 0 0 auto;
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      font-size: clamp(1.45rem, 3vw, 2.25rem);
       line-height: 1.05;
       letter-spacing: 0;
     }
@@ -140,14 +159,15 @@
       margin: 4px 0 0;
       color: var(--muted);
       font-size: 0.92rem;
+      font-weight: 600;
     }
 
     .toolbar {
       display: grid;
       grid-template-columns: minmax(160px, 0.8fr) minmax(160px, 0.8fr) minmax(170px, 0.8fr) auto;
-      gap: 10px;
+      gap: 12px;
       align-items: end;
-      padding: 12px;
+      padding: 14px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
@@ -158,25 +178,28 @@
       display: grid;
       gap: 5px;
       color: var(--muted);
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       font-weight: 800;
+      text-transform: uppercase;
     }
 
     select {
       width: 100%;
+      background: var(--panel-soft);
     }
 
     .stats {
       display: grid;
       grid-template-columns: repeat(4, minmax(110px, 1fr));
-      gap: 10px;
+      gap: 12px;
     }
 
     .stat {
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 10px 12px;
-      background: color-mix(in srgb, var(--panel) 84%, transparent);
+      padding: 12px 14px;
+      background: var(--panel);
+      box-shadow: var(--shadow-soft);
     }
 
     .stat span {
@@ -190,12 +213,12 @@
     .stat strong {
       display: block;
       margin-top: 2px;
-      font-size: 1.18rem;
+      font-size: 1.28rem;
     }
 
     main {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 250px;
+      grid-template-columns: minmax(0, 1fr) 280px;
       gap: 16px;
       min-height: 420px;
     }
@@ -226,18 +249,22 @@
       position: absolute;
       top: 14px;
       left: 14px;
-      color: var(--muted);
-      font-size: 0.76rem;
+      color: var(--red);
+      font-size: 0.72rem;
       font-weight: 900;
       text-transform: uppercase;
+      background: color-mix(in srgb, var(--red-bg) 88%, transparent);
+      border: 1px solid color-mix(in srgb, var(--red) 20%, var(--line));
+      border-radius: 999px;
+      padding: 4px 8px;
     }
 
     .card-text {
       max-width: 100%;
       overflow-wrap: anywhere;
-      font-size: clamp(2rem, 6vw, 4.6rem);
+      font-size: clamp(2.1rem, 6vw, 4.8rem);
       line-height: 1.08;
-      font-weight: 780;
+      font-weight: 800;
     }
 
     .card-extra {
@@ -272,11 +299,13 @@
     .again {
       color: var(--red);
       border-color: color-mix(in srgb, var(--red) 55%, var(--line));
+      background: var(--red-bg);
     }
 
     .known {
       color: var(--green);
       border-color: color-mix(in srgb, var(--green) 55%, var(--line));
+      background: var(--green-bg);
     }
 
     .progress-actions {
@@ -291,7 +320,7 @@
       min-height: 44px;
       border: 1px solid var(--line);
       border-radius: 7px;
-      background: var(--panel);
+      background: var(--panel-soft);
       color: var(--text);
       padding: 0.66rem 0.82rem;
       cursor: pointer;
@@ -312,10 +341,11 @@
       display: grid;
       align-content: start;
       gap: 12px;
-      padding: 12px;
+      padding: 14px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: color-mix(in srgb, var(--panel) 82%, transparent);
+      background: var(--panel);
+      box-shadow: var(--shadow-soft);
     }
 
     aside h2 {
@@ -340,7 +370,7 @@
       header {
         align-items: flex-start;
         flex-direction: column;
-        gap: 10px;
+        gap: 12px;
       }
 
       .toolbar,
@@ -349,25 +379,37 @@
         grid-template-columns: 1fr;
       }
 
+      .toolbar {
+        position: static;
+      }
+
       .stats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
       .card {
-        min-height: clamp(290px, 47dvh, 450px);
+        min-height: clamp(300px, 48dvh, 460px);
+      }
+
+      aside {
+        order: 2;
       }
     }
 
     @media (max-width: 520px) {
       .app {
-        width: min(100vw - 16px, 1040px);
-        gap: 11px;
-        padding-top: 10px;
+        width: min(100vw - 14px, 1040px);
+        gap: 10px;
+        padding-top: 8px;
       }
 
       .logo {
-        width: 42px;
-        height: 42px;
+        width: 44px;
+        height: 44px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
       }
 
       .tagline,
@@ -377,11 +419,19 @@
 
       .toolbar,
       aside {
-        padding: 10px;
+        padding: 11px;
+      }
+
+      .toolbar {
+        gap: 9px;
       }
 
       .stat {
-        padding: 8px 9px;
+        padding: 9px 10px;
+      }
+
+      .stat strong {
+        font-size: 1.08rem;
       }
 
       main {
@@ -390,8 +440,8 @@
       }
 
       .card {
-        min-height: clamp(250px, 43dvh, 370px);
-        padding: 38px 14px 22px;
+        min-height: clamp(265px, 44dvh, 380px);
+        padding: 46px 16px 24px;
       }
 
       .side-label {
@@ -414,8 +464,9 @@
         bottom: 0;
         z-index: 5;
         grid-template-columns: 1fr 1fr;
-        padding: 8px 0 max(8px, env(safe-area-inset-bottom));
-        background: linear-gradient(to top, var(--bg) 78%, transparent);
+        padding: 9px 0 max(9px, env(safe-area-inset-bottom));
+        background: color-mix(in srgb, var(--bg) 94%, transparent);
+        backdrop-filter: blur(10px);
       }
 
       button,
