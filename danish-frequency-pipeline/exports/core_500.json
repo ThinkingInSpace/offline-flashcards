@@ -1,0 +1,7502 @@
+﻿[
+  {
+    "lemma": "i",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 1,
+    "normalized_frequency": 0.0322404804271641,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "være",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 2,
+    "normalized_frequency": 0.030935463606501,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "og",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 3,
+    "normalized_frequency": 0.0296007020873918,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "en",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 4,
+    "normalized_frequency": 0.0253585933517205,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "den",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 5,
+    "normalized_frequency": 0.0248530479877218,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "på",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 6,
+    "normalized_frequency": 0.0153180160799095,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "til",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 7,
+    "normalized_frequency": 0.0152311044168289,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "det",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 8,
+    "normalized_frequency": 0.0147416726637171,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "at",
+    "english": null,
+    "pos": "function_word",
+    "frequency_rank": 9,
+    "normalized_frequency": 0.0145099408399794,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "function_word",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "af",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 10,
+    "normalized_frequency": 0.0141683654191358,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "have",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 11,
+    "normalized_frequency": 0.0141026891694366,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "for",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 12,
+    "normalized_frequency": 0.0129306780108177,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "der",
+    "english": null,
+    "pos": "function_word",
+    "frequency_rank": 13,
+    "normalized_frequency": 0.0128903272789881,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "function_word",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "at",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 14,
+    "normalized_frequency": 0.0112893932329769,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "med",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 15,
+    "normalized_frequency": 0.0112550014465284,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "som",
+    "english": null,
+    "pos": "function_word",
+    "frequency_rank": 16,
+    "normalized_frequency": 0.00994214016343829,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "function_word",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ikke",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 17,
+    "normalized_frequency": 0.00925109483086469,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kunne",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 18,
+    "normalized_frequency": 0.00683768304050003,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "blive",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 19,
+    "normalized_frequency": 0.00640145599804168,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "han",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 20,
+    "normalized_frequency": 0.0063829588090024,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "om",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 21,
+    "normalized_frequency": 0.00608752852732537,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "men",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 22,
+    "normalized_frequency": 0.00591391976766766,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "jeg",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 23,
+    "normalized_frequency": 0.00563974935772991,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vi",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 24,
+    "normalized_frequency": 0.00556168050277641,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fra",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 25,
+    "normalized_frequency": 0.00520294532037365,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "de",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 26,
+    "normalized_frequency": 0.00481552493111962,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "skulle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 27,
+    "normalized_frequency": 0.00460186338690137,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "så",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 28,
+    "normalized_frequency": 0.00421004494019816,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "man",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 29,
+    "normalized_frequency": 0.00420731449806086,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ville",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 30,
+    "normalized_frequency": 0.00414692347715674,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sig",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 31,
+    "normalized_frequency": 0.00412805941274885,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "megen",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 32,
+    "normalized_frequency": 0.00412510217492913,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "få",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 33,
+    "normalized_frequency": 0.00381861226850377,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sige",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 34,
+    "normalized_frequency": 0.00371318785197432,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "år",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 35,
+    "normalized_frequency": 0.00356138816536527,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "også",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 36,
+    "normalized_frequency": 0.00328106536667026,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "anden",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 37,
+    "normalized_frequency": 0.00311531996907979,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "god",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 38,
+    "normalized_frequency": 0.00309121848084908,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nogen",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 39,
+    "normalized_frequency": 0.00296544026356647,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stor",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 40,
+    "normalized_frequency": 0.0028997895839687,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ved",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 41,
+    "normalized_frequency": 0.00284613239369392,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "komme",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 42,
+    "normalized_frequency": 0.00275456141343196,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sin",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 43,
+    "normalized_frequency": 0.0027150522714631,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvor",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 44,
+    "normalized_frequency": 0.00267071149206397,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hun",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 45,
+    "normalized_frequency": 0.00242485274314764,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "eller",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 46,
+    "normalized_frequency": 0.00220239174880042,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "al",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 47,
+    "normalized_frequency": 0.00214791075656157,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ud",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 48,
+    "normalized_frequency": 0.00214440876440664,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ny",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 49,
+    "normalized_frequency": 0.00209002338211234,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hel",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 50,
+    "normalized_frequency": 0.00207414768434332,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nu",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 51,
+    "normalized_frequency": 0.00207267351240762,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gå",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 52,
+    "normalized_frequency": 0.00205256318348999,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "efter",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 53,
+    "normalized_frequency": 0.00204904006820778,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gøre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 54,
+    "normalized_frequency": 0.00199218550350837,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "se",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 55,
+    "normalized_frequency": 0.00197203848705387,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dansk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 56,
+    "normalized_frequency": 0.00193841158016175,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "når",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 57,
+    "normalized_frequency": 0.00187062301773417,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "over",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 58,
+    "normalized_frequency": 0.00184844262234273,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "op",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 59,
+    "normalized_frequency": 0.0018323779281717,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "denne",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 60,
+    "normalized_frequency": 0.00177026481652219,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 61,
+    "normalized_frequency": 0.00175385659359691,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mangen",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 62,
+    "normalized_frequency": 0.00174751298495055,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvis",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 63,
+    "normalized_frequency": 0.00169925886828623,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tage",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 64,
+    "normalized_frequency": 0.00156195854094213,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "da",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 65,
+    "normalized_frequency": 0.00155520581067259,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "krone",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 66,
+    "normalized_frequency": 0.0014532033407631,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mange",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 67,
+    "normalized_frequency": 0.00143724759745912,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "her",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 68,
+    "normalized_frequency": 0.00137771817779946,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "deres",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 69,
+    "normalized_frequency": 0.00135492965869096,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gang",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 70,
+    "normalized_frequency": 0.00131941723475289,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tid",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 71,
+    "normalized_frequency": 0.00131086903866423,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "måtte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 72,
+    "normalized_frequency": 0.00128341564365666,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "give",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 73,
+    "normalized_frequency": 0.00125207225799826,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mod",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 74,
+    "normalized_frequency": 0.00123689807040377,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "end",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 75,
+    "normalized_frequency": 0.0012221396748937,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "finde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 76,
+    "normalized_frequency": 0.00120452187499555,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvad",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 77,
+    "normalized_frequency": 0.0012003239313838,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kun",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 78,
+    "normalized_frequency": 0.00119224489106955,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ind",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 79,
+    "normalized_frequency": 0.00117094722004987,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stå",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 80,
+    "normalized_frequency": 0.00115828557285859,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "du",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 81,
+    "normalized_frequency": 0.00114730488190169,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "blandt",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 82,
+    "normalized_frequency": 0.00109369104962502,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lang",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 83,
+    "normalized_frequency": 0.00108135736677841,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "første",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 84,
+    "normalized_frequency": 0.0010367286458021,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "under",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 85,
+    "normalized_frequency": 0.00102869629871659,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "så",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 86,
+    "normalized_frequency": 0.00102576463099832,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sted",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 87,
+    "normalized_frequency": 0.00100969882508374,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "land",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 88,
+    "normalized_frequency": 0.00100827468160741,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hans",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 89,
+    "normalized_frequency": 0.000952350646252018,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "selv",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 90,
+    "normalized_frequency": 0.000951851473401998,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "barn",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 91,
+    "normalized_frequency": 0.000948803072611896,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "procent",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 92,
+    "normalized_frequency": 0.000946642954911252,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fordi",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 93,
+    "normalized_frequency": 0.000943094269527589,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "jo",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 94,
+    "normalized_frequency": 0.000935949093787989,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "derfor",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 95,
+    "normalized_frequency": 0.000928582681083681,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lige",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 96,
+    "normalized_frequency": 0.00090012426991482,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sammen",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 97,
+    "normalized_frequency": 0.000898292116558844,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sen",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 98,
+    "normalized_frequency": 0.00089630209562001,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sidste",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 99,
+    "normalized_frequency": 0.000891622767054898,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mand",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 100,
+    "normalized_frequency": 0.000890245316807292,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "selv",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 101,
+    "normalized_frequency": 0.000888059629005199,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ingen",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 102,
+    "normalized_frequency": 0.000886453159588096,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mellem",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 103,
+    "normalized_frequency": 0.000876420785871876,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sætte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 104,
+    "normalized_frequency": 0.000846888430442169,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vise",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 105,
+    "normalized_frequency": 0.000841752175281605,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "holde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 106,
+    "normalized_frequency": 0.000834353522014601,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lidt",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 107,
+    "normalized_frequency": 0.000827395119189931,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "om",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 108,
+    "normalized_frequency": 0.000819237145084254,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bruge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 109,
+    "normalized_frequency": 0.000818456701118298,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lille",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 110,
+    "normalized_frequency": 0.000816742392577694,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tidlig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 111,
+    "normalized_frequency": 0.000815597296730209,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hver",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 112,
+    "normalized_frequency": 0.000810406566136123,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samme",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 113,
+    "normalized_frequency": 0.000795136768597085,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mene",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 114,
+    "normalized_frequency": 0.000794020578081672,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "både",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 115,
+    "normalized_frequency": 0.000788884322921107,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "del",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 116,
+    "normalized_frequency": 0.000777363324603156,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "med",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 117,
+    "normalized_frequency": 0.00077656509274054,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gammel",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 118,
+    "normalized_frequency": 0.00075959210409631,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nok",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 119,
+    "normalized_frequency": 0.000751883274381298,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kommune",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 120,
+    "normalized_frequency": 0.000746061073455783,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "liden",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 121,
+    "normalized_frequency": 0.000745310646565441,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mens",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 122,
+    "normalized_frequency": 0.000737310540042622,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dog",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 123,
+    "normalized_frequency": 0.000730740135713847,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "for",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 124,
+    "normalized_frequency": 0.000727536090827971,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "skrive",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 125,
+    "normalized_frequency": 0.000709245686087362,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bare",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 126,
+    "normalized_frequency": 0.000699519041844985,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hos",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 127,
+    "normalized_frequency": 0.000691848011410375,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "høj",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 128,
+    "normalized_frequency": 0.000679317549956971,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "menneske",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 129,
+    "normalized_frequency": 0.000675507604841115,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ligge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 130,
+    "normalized_frequency": 0.000657735272590728,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "replik",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 131,
+    "normalized_frequency": 0.000655486215406784,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tilbage",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 132,
+    "normalized_frequency": 0.0006451125364234,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ske",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 133,
+    "normalized_frequency": 0.000639716133274184,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "igen",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 134,
+    "normalized_frequency": 0.000631414744251686,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "siden",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 135,
+    "normalized_frequency": 0.000629470304798044,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 136,
+    "normalized_frequency": 0.000628726548368949,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "regering",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 137,
+    "normalized_frequency": 0.000622954375902791,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "eksempel",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 138,
+    "normalized_frequency": 0.00062009385977116,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "frem",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 139,
+    "normalized_frequency": 0.000613859201991842,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "verden",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 140,
+    "normalized_frequency": 0.00060761120329003,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "måske",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 141,
+    "normalized_frequency": 0.000603312091016025,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sådan",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 142,
+    "normalized_frequency": 0.000601787890620974,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "folk",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 143,
+    "normalized_frequency": 0.000599437664774776,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vide",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 144,
+    "normalized_frequency": 0.000599332049138358,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lave",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 145,
+    "normalized_frequency": 0.000597018510829021,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "uden",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 146,
+    "normalized_frequency": 0.000596551578541697,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tale",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 147,
+    "normalized_frequency": 0.000596487097416304,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "endnu",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 148,
+    "normalized_frequency": 0.00059501292548061,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "egen",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 149,
+    "normalized_frequency": 0.000594507082169342,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ung",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 150,
+    "normalized_frequency": 0.000594361443765439,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvordan",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 151,
+    "normalized_frequency": 0.000593074044744674,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "problem",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 152,
+    "normalized_frequency": 0.000585198453498474,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "spille",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 153,
+    "normalized_frequency": 0.000581117242958554,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "side",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 154,
+    "normalized_frequency": 0.000577688625877345,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "uge",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 155,
+    "normalized_frequency": 0.000576539083055695,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "årig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 156,
+    "normalized_frequency": 0.000575176085474125,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vej",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 157,
+    "normalized_frequency": 0.000573880904248572,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "minut",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 158,
+    "normalized_frequency": 0.000572421184978913,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "penge",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 159,
+    "normalized_frequency": 0.000568928086772313,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vores",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 160,
+    "normalized_frequency": 0.000568838035545472,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ned",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 161,
+    "normalized_frequency": 0.000568753543036337,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fortælle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 162,
+    "normalized_frequency": 0.00056129040864394,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "rigtig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 163,
+    "normalized_frequency": 0.000554873424923858,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tro",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 164,
+    "normalized_frequency": 0.000551031239245306,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kamp",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 165,
+    "normalized_frequency": 0.00055013517395106,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "klar",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 166,
+    "normalized_frequency": 0.000548628761452669,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kvinde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 167,
+    "normalized_frequency": 0.000543243475738865,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ifølge",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 168,
+    "normalized_frequency": 0.000540123923362124,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "liv",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 169,
+    "normalized_frequency": 0.000538520789175644,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "omkring",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 170,
+    "normalized_frequency": 0.000536507421622444,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "virksomhed",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 171,
+    "normalized_frequency": 0.000525229895140027,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "politisk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 172,
+    "normalized_frequency": 0.000524899707308276,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "by",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 173,
+    "normalized_frequency": 0.000523725706128718,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lægge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 174,
+    "normalized_frequency": 0.000520443839194955,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stadig",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 175,
+    "normalized_frequency": 0.000518482723588194,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forhold",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 176,
+    "normalized_frequency": 0.000515474345565577,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "først",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 177,
+    "normalized_frequency": 0.000513051856389198,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "måde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 178,
+    "normalized_frequency": 0.000511886749157971,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mulighed",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 179,
+    "normalized_frequency": 0.00050965881510131,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "arbejde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 180,
+    "normalized_frequency": 0.000509389773164328,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gennem",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 181,
+    "normalized_frequency": 0.00050085602974171,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lade",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 182,
+    "normalized_frequency": 0.000497564157116075,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "arbejde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 183,
+    "normalized_frequency": 0.000496116667025371,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "grund",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 184,
+    "normalized_frequency": 0.000493092724593177,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "over",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 185,
+    "normalized_frequency": 0.000491879812389675,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "allerede",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 186,
+    "normalized_frequency": 0.000482961405701786,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "begynde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 187,
+    "normalized_frequency": 0.000482623435665246,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samtidig",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 188,
+    "normalized_frequency": 0.000481444987511524,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "politi",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 189,
+    "normalized_frequency": 0.00047246988190303,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "køre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 190,
+    "normalized_frequency": 0.000471735019422265,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bog",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 191,
+    "normalized_frequency": 0.000471343685695746,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "skabe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 192,
+    "normalized_frequency": 0.000468353095569789,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vælge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 193,
+    "normalized_frequency": 0.000466572082416711,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "da",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 194,
+    "normalized_frequency": 0.000462807718786045,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "område",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 195,
+    "normalized_frequency": 0.000460171774849747,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "måned",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 196,
+    "normalized_frequency": 0.000456993300065319,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sidde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 197,
+    "normalized_frequency": 0.000450139401133527,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "altså",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 198,
+    "normalized_frequency": 0.000446977602502218,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gerne",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 199,
+    "normalized_frequency": 0.000446187152844391,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "par",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 200,
+    "normalized_frequency": 0.000441349956696422,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "svær",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 201,
+    "normalized_frequency": 0.000439612301541451,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "min",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 202,
+    "normalized_frequency": 0.000438441635592517,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "række",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 203,
+    "normalized_frequency": 0.000435685623353764,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "aldrig",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 204,
+    "normalized_frequency": 0.000434025790246681,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "netop",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 205,
+    "normalized_frequency": 0.000432594976309095,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "følge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 206,
+    "normalized_frequency": 0.000427964564459798,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "altid",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 207,
+    "normalized_frequency": 0.000426674941951951,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "skole",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 208,
+    "normalized_frequency": 0.000424638227784385,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "plads",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 209,
+    "normalized_frequency": 0.000422405846753559,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "amerikansk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 210,
+    "normalized_frequency": 0.000417949978640238,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "familie",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 211,
+    "normalized_frequency": 0.000417056136833075,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "betyde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 212,
+    "normalized_frequency": 0.000416260128457541,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "høre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 213,
+    "normalized_frequency": 0.000414911583542008,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vigtig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 214,
+    "normalized_frequency": 0.000413545250729814,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "går",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 215,
+    "normalized_frequency": 0.000413437411606313,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "næste",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 216,
+    "normalized_frequency": 0.000410652494035488,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "slå",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 217,
+    "normalized_frequency": 0.000406571283495567,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "klokke",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 218,
+    "normalized_frequency": 0.000404773594189369,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "million",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 219,
+    "normalized_frequency": 0.000403231605897659,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "pris",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 220,
+    "normalized_frequency": 0.000402938105602769,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nemlig",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 221,
+    "normalized_frequency": 0.000399009203927999,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "historie",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 222,
+    "normalized_frequency": 0.000398321034675967,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tænke",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 223,
+    "normalized_frequency": 0.000397809632646993,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ting",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 224,
+    "normalized_frequency": 0.000397000283348965,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bil",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 225,
+    "normalized_frequency": 0.000395444954134759,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "møde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 226,
+    "normalized_frequency": 0.000394890194107676,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kende",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 227,
+    "normalized_frequency": 0.000393890736664095,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forskellig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 228,
+    "normalized_frequency": 0.000393223690539346,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "få",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 229,
+    "normalized_frequency": 0.000391248122266549,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "syne",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 230,
+    "normalized_frequency": 0.000390444331686226,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "film",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 231,
+    "normalized_frequency": 0.000389614971004455,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sende",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 232,
+    "normalized_frequency": 0.000388712235248962,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "falde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 233,
+    "normalized_frequency": 0.000386287522585501,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hus",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 234,
+    "normalized_frequency": 0.0003833469609189,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "formand",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 235,
+    "normalized_frequency": 0.000381569282996445,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "burde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 236,
+    "normalized_frequency": 0.000375410223777932,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hendes",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 237,
+    "normalized_frequency": 0.000374798764830246,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 238,
+    "normalized_frequency": 0.000374370743566866,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "direktør",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 239,
+    "normalized_frequency": 0.00037364366329089,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "aften",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 240,
+    "normalized_frequency": 0.000371138905092458,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "parti",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 241,
+    "normalized_frequency": 0.000370777588441553,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "rundt",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 242,
+    "normalized_frequency": 0.000370344008460466,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "spørgsmål",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 243,
+    "normalized_frequency": 0.000368258377577085,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "inden",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 244,
+    "normalized_frequency": 0.000367043241886501,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "medlem",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 245,
+    "normalized_frequency": 0.000366211657717648,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mulig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 246,
+    "normalized_frequency": 0.000365506812312497,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "jeg",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 247,
+    "normalized_frequency": 0.00036450290789475,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "økonomisk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 248,
+    "normalized_frequency": 0.000363345582868311,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hurtig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 249,
+    "normalized_frequency": 0.000363302224870203,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "købe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 250,
+    "normalized_frequency": 0.00036232833752807,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "alt",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 251,
+    "normalized_frequency": 0.000360120414855151,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dansker",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 252,
+    "normalized_frequency": 0.000358945301932052,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stærk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 253,
+    "normalized_frequency": 0.000358650689893622,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vinde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 254,
+    "normalized_frequency": 0.000355037523384567,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "næsten",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 255,
+    "normalized_frequency": 0.000351043028840863,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "særlig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 256,
+    "normalized_frequency": 0.000349986872476678,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "betale",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 257,
+    "normalized_frequency": 0.000346278096023075,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "leve",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 258,
+    "normalized_frequency": 0.000344244717086133,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "enkelt",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 259,
+    "normalized_frequency": 0.000342055694053416,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "handle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 260,
+    "normalized_frequency": 0.000341798881295388,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ellers",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 261,
+    "normalized_frequency": 0.000341778869911645,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nå",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 262,
+    "normalized_frequency": 0.000341000649432772,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vente",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 263,
+    "normalized_frequency": 0.000340901704257601,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "heller",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 264,
+    "normalized_frequency": 0.000339753273179492,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hold",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 265,
+    "normalized_frequency": 0.000339192954434703,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ønske",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 266,
+    "normalized_frequency": 0.00033734634841269,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "blot",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 267,
+    "normalized_frequency": 0.000337099541346533,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "selskab",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 268,
+    "normalized_frequency": 0.000336632609059209,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dermed",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 269,
+    "normalized_frequency": 0.000336074513801503,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samt",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 270,
+    "normalized_frequency": 0.000335669839152489,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "cirka",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 271,
+    "normalized_frequency": 0.00033485159590613,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fald",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 272,
+    "normalized_frequency": 0.000332566962928866,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stige",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 273,
+    "normalized_frequency": 0.00033144743718283,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gruppe",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 274,
+    "normalized_frequency": 0.000331093902736713,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lov",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 275,
+    "normalized_frequency": 0.000328924891087738,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kalde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 276,
+    "normalized_frequency": 0.000328353454907537,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "billede",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 277,
+    "normalized_frequency": 0.000327657503450716,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "faktisk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 278,
+    "normalized_frequency": 0.000326994904300132,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mål",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 279,
+    "normalized_frequency": 0.000324950407927777,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lyde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 280,
+    "normalized_frequency": 0.000323898698537757,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "især",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 281,
+    "normalized_frequency": 0.000321988723133893,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "videre",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 282,
+    "normalized_frequency": 0.000319584021854174,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "international",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 283,
+    "normalized_frequency": 0.000319555116522102,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stille",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 284,
+    "normalized_frequency": 0.000318378891855462,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "offentlig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 285,
+    "normalized_frequency": 0.000318053150997876,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ord",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 286,
+    "normalized_frequency": 0.000317708510500089,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "time",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 287,
+    "normalized_frequency": 0.000317268260057755,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forsøge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 288,
+    "normalized_frequency": 0.000315565068952563,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "læse",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 289,
+    "normalized_frequency": 0.000314944716056547,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bag",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 290,
+    "normalized_frequency": 0.000314532259202744,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "politiker",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 291,
+    "normalized_frequency": 0.000311754012093166,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gælde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 292,
+    "normalized_frequency": 0.000309522742805882,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "føre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 293,
+    "normalized_frequency": 0.000306357608943949,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "alligevel",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 294,
+    "normalized_frequency": 0.000306240875872118,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ofte",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 295,
+    "normalized_frequency": 0.00030571724466419,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "brug",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 296,
+    "normalized_frequency": 0.000303859521206765,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kort",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 297,
+    "normalized_frequency": 0.000303785034389502,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bank",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 298,
+    "normalized_frequency": 0.000302608809722862,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "person",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 299,
+    "normalized_frequency": 0.000301253594346081,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nær",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 300,
+    "normalized_frequency": 0.00029959598472608,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "udvikling",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 301,
+    "normalized_frequency": 0.000297598181582458,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "resultat",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 302,
+    "normalized_frequency": 0.000297171272062619,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "trække",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 303,
+    "normalized_frequency": 0.000296262977589419,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "leder",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 304,
+    "normalized_frequency": 0.00029605841677783,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forbindelse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 305,
+    "normalized_frequency": 0.000295816056685838,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sikre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 306,
+    "normalized_frequency": 0.000295200150763986,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "navn",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 307,
+    "normalized_frequency": 0.000294879968624107,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "øvrig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 308,
+    "normalized_frequency": 0.000293690403034972,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvorfor",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 309,
+    "normalized_frequency": 0.000292887724198191,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "siden",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 310,
+    "normalized_frequency": 0.000292733191845957,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "løb",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 311,
+    "normalized_frequency": 0.000291677035481772,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "form",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 312,
+    "normalized_frequency": 0.000291184533092999,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forklare",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 313,
+    "normalized_frequency": 0.000291113381506359,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "uden",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 314,
+    "normalized_frequency": 0.000290529716147204,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fast",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 315,
+    "normalized_frequency": 0.000289033309340685,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ganske",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 316,
+    "normalized_frequency": 0.000284601899585271,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ansætte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 317,
+    "normalized_frequency": 0.000284347310314325,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "før",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 318,
+    "normalized_frequency": 0.000283622453525432,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvem",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 319,
+    "normalized_frequency": 0.000283340070665955,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "grad",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 320,
+    "normalized_frequency": 0.000280917581489576,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hård",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 321,
+    "normalized_frequency": 0.000280472884073077,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sikker",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 322,
+    "normalized_frequency": 0.000277026479095209,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "før",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 323,
+    "normalized_frequency": 0.000276344980304424,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "føle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 324,
+    "normalized_frequency": 0.000276069267906194,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tæt",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 325,
+    "normalized_frequency": 0.000275066475231989,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "opleve",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 326,
+    "normalized_frequency": 0.000274427222695771,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "eneste",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 327,
+    "normalized_frequency": 0.000273033096295046,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "projekt",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 328,
+    "normalized_frequency": 0.000272512800317743,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tysk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 329,
+    "normalized_frequency": 0.000272423860834443,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samfund",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 330,
+    "normalized_frequency": 0.000272240423150137,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bo",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 331,
+    "normalized_frequency": 0.000271898006139433,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kræve",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 332,
+    "normalized_frequency": 0.000269654507673194,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "spørge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 333,
+    "normalized_frequency": 0.000265260897198183,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hjælpe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 334,
+    "normalized_frequency": 0.000264738377733797,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forstå",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 335,
+    "normalized_frequency": 0.000263375380152227,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "møde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 336,
+    "normalized_frequency": 0.000262566030854198,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "selvfølgelig",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 337,
+    "normalized_frequency": 0.000262313665070335,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dårlig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 338,
+    "normalized_frequency": 0.000261467628235446,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "således",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 339,
+    "normalized_frequency": 0.000260454829869369,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "situation",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 340,
+    "normalized_frequency": 0.000259274158228564,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "svare",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 341,
+    "normalized_frequency": 0.00025852261959468,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fortsætte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 342,
+    "normalized_frequency": 0.000258176867353352,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "plan",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 343,
+    "normalized_frequency": 0.000257644342197095,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hånd",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 344,
+    "normalized_frequency": 0.000257549843996088,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fri",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 345,
+    "normalized_frequency": 0.00025689169181967,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "universitet",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 346,
+    "normalized_frequency": 0.000256860563000515,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "avis",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 347,
+    "normalized_frequency": 0.000255334139118382,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "valg",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 348,
+    "normalized_frequency": 0.000254105662505303,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "opgave",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 349,
+    "normalized_frequency": 0.00025363094801319,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tal",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 350,
+    "normalized_frequency": 0.000253458627764297,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "slags",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 351,
+    "normalized_frequency": 0.000250918293772545,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "klub",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 352,
+    "normalized_frequency": 0.000249971088275402,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stat",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 353,
+    "normalized_frequency": 0.000249209543949647,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "morgen",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 354,
+    "normalized_frequency": 0.000247190617678741,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tekst",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 355,
+    "normalized_frequency": 0.000247098342964818,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "til",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 356,
+    "normalized_frequency": 0.000245956582347956,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forælder",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 357,
+    "normalized_frequency": 0.000244838168345461,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvilken",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 358,
+    "normalized_frequency": 0.000243183893956084,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ene",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 359,
+    "normalized_frequency": 0.000243137200727352,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ret",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 360,
+    "normalized_frequency": 0.000243113854112986,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ekstra",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 361,
+    "normalized_frequency": 0.000242929304685139,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ude",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 362,
+    "normalized_frequency": 0.00024233341014703,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "flytte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 363,
+    "normalized_frequency": 0.000241836460784092,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "undersøgelse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 364,
+    "normalized_frequency": 0.00024053349735375,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "antal",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 365,
+    "normalized_frequency": 0.000239935379328558,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "alene",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 366,
+    "normalized_frequency": 0.000238646868564252,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "begge",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 367,
+    "normalized_frequency": 0.000237945358389725,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ret",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 368,
+    "normalized_frequency": 0.000237790826037491,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vende",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 369,
+    "normalized_frequency": 0.000237172696628558,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ren",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 370,
+    "normalized_frequency": 0.000236872525872421,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lokal",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 371,
+    "normalized_frequency": 0.000236664629830207,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fremtid",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 372,
+    "normalized_frequency": 0.000236634612754594,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ændre",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 373,
+    "normalized_frequency": 0.000236571243372742,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "aftale",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 374,
+    "normalized_frequency": 0.000236312207127632,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "væk",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 375,
+    "normalized_frequency": 0.000236234385079744,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "krav",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 376,
+    "normalized_frequency": 0.00023595422570735,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "øje",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 377,
+    "normalized_frequency": 0.000235950890476726,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "præsident",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 378,
+    "normalized_frequency": 0.000235465058549201,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "samarbejde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 379,
+    "normalized_frequency": 0.0002342521463457,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "koste",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 380,
+    "normalized_frequency": 0.000234144307222199,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forslag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 381,
+    "normalized_frequency": 0.000234125407581997,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "musik",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 382,
+    "normalized_frequency": 0.000234093167019301,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fylde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 383,
+    "normalized_frequency": 0.000233571759298456,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "privat",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 384,
+    "normalized_frequency": 0.000233175978597772,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "oplyse",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 385,
+    "normalized_frequency": 0.000230815747059703,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fuld",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 386,
+    "normalized_frequency": 0.000230606739273948,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "søndag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 387,
+    "normalized_frequency": 0.000230159818370366,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ramme",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 388,
+    "normalized_frequency": 0.000229393827070447,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "medarbejder",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 389,
+    "normalized_frequency": 0.000229354916046503,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bygge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 390,
+    "normalized_frequency": 0.000229310446304853,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "længe",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 391,
+    "normalized_frequency": 0.000229277093998616,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "imod",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 392,
+    "normalized_frequency": 0.000228879089810849,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "pige",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 393,
+    "normalized_frequency": 0.00022815867999612,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tilfælde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 394,
+    "normalized_frequency": 0.000227269285163122,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "elev",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 395,
+    "normalized_frequency": 0.000226728977802076,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "social",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 396,
+    "normalized_frequency": 0.000225576099749802,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "igennem",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 397,
+    "normalized_frequency": 0.000225231459252015,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "marked",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 398,
+    "normalized_frequency": 0.000225223677047226,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lære",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 399,
+    "normalized_frequency": 0.000224273136319459,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "far",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 400,
+    "normalized_frequency": 0.000224079692943282,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "udvikle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 401,
+    "normalized_frequency": 0.000223324819078775,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lørdag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 402,
+    "normalized_frequency": 0.000222602185776964,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mor",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 403,
+    "normalized_frequency": 0.000220462079460062,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kirke",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 404,
+    "normalized_frequency": 0.000219258061204891,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kunde",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 405,
+    "normalized_frequency": 0.000218997913216239,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "åbne",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 406,
+    "normalized_frequency": 0.000218974566601872,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "prøve",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 407,
+    "normalized_frequency": 0.000218915644194186,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "halv",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 408,
+    "normalized_frequency": 0.000218577674157647,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "europæisk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 409,
+    "normalized_frequency": 0.000218245262838814,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hedde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 410,
+    "normalized_frequency": 0.000217970662184126,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "periode",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 411,
+    "normalized_frequency": 0.000217542640920745,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "borger",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 412,
+    "normalized_frequency": 0.000217308063033542,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "masse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 413,
+    "normalized_frequency": 0.000216696604085856,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "rejse",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 414,
+    "normalized_frequency": 0.000215923942324688,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ligne",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 415,
+    "normalized_frequency": 0.000215453674806741,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vel",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 416,
+    "normalized_frequency": 0.00021513238092332,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "åben",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 417,
+    "normalized_frequency": 0.000214884462113622,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mangle",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 418,
+    "normalized_frequency": 0.00021446422305503,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hjem",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 419,
+    "normalized_frequency": 0.000213336915104205,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ligesom",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 420,
+    "normalized_frequency": 0.000213015621220784,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hen",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 421,
+    "normalized_frequency": 0.000212684321645492,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ja",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 422,
+    "normalized_frequency": 0.000212642075390925,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sælge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 423,
+    "normalized_frequency": 0.000212250741664406,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "uddannelse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 424,
+    "normalized_frequency": 0.000212199601461508,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "desuden",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 425,
+    "normalized_frequency": 0.000212148461258611,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forvente",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 426,
+    "normalized_frequency": 0.000210845497828268,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "direkte",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 427,
+    "normalized_frequency": 0.000210299631749516,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fredag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 428,
+    "normalized_frequency": 0.000209564769268751,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "for",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 429,
+    "normalized_frequency": 0.000208455249214586,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "søge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 430,
+    "normalized_frequency": 0.000208265141069032,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lukke",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 431,
+    "normalized_frequency": 0.00020759475971366,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lav",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 432,
+    "normalized_frequency": 0.000207544731254304,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "der",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 433,
+    "normalized_frequency": 0.00020571480138541,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ven",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 434,
+    "normalized_frequency": 0.000205576945186295,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ende",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 435,
+    "normalized_frequency": 0.000205200064125812,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "job",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 436,
+    "normalized_frequency": 0.000205186723203317,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fin",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 437,
+    "normalized_frequency": 0.000205045531773579,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "krig",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 438,
+    "normalized_frequency": 0.000205016626441506,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vand",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 439,
+    "normalized_frequency": 0.000204629739689152,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "slet",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 440,
+    "normalized_frequency": 0.000203984928435228,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fortsat",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 441,
+    "normalized_frequency": 0.000203885983260057,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nummer",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 442,
+    "normalized_frequency": 0.000203401263076073,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "interesse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 443,
+    "normalized_frequency": 0.000203087751397441,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hinanden",
+    "english": null,
+    "pos": "pronoun",
+    "frequency_rank": 444,
+    "normalized_frequency": 0.000203047728629956,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "pronoun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "økonomi",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 445,
+    "normalized_frequency": 0.000202739775669031,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "end",
+    "english": null,
+    "pos": "adverb",
+    "frequency_rank": 446,
+    "normalized_frequency": 0.000202548555779936,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adverb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "spil",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 447,
+    "normalized_frequency": 0.000202098299645731,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "såkaldt",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 448,
+    "normalized_frequency": 0.000201632479101948,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hjælp",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 449,
+    "normalized_frequency": 0.000201404571675992,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "deltage",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 450,
+    "normalized_frequency": 0.000201252262810841,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "starte",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 451,
+    "normalized_frequency": 0.00020105548420404,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tv",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 452,
+    "normalized_frequency": 0.000200375097156797,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ad",
+    "english": null,
+    "pos": "preposition",
+    "frequency_rank": 453,
+    "normalized_frequency": 0.000199472361401304,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "preposition",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "kilometer",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 454,
+    "normalized_frequency": 0.000197186616680498,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "virke",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 455,
+    "normalized_frequency": 0.000195812501663516,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "rolle",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 456,
+    "normalized_frequency": 0.000195128779385648,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "øjeblik",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 457,
+    "normalized_frequency": 0.000195124332411483,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "håbe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 458,
+    "normalized_frequency": 0.000195100985797117,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "løbe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 459,
+    "normalized_frequency": 0.000194672964533737,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "almindelig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 460,
+    "normalized_frequency": 0.000194415040032167,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "bringe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 461,
+    "normalized_frequency": 0.000193735764728465,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "gengæld",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 462,
+    "normalized_frequency": 0.000192825246768183,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tur",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 463,
+    "normalized_frequency": 0.000191861365117921,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sort",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 464,
+    "normalized_frequency": 0.000189979183302589,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "politik",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 465,
+    "normalized_frequency": 0.000189929154843232,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tidspunkt",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 466,
+    "normalized_frequency": 0.000189446658146331,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "hvid",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 467,
+    "normalized_frequency": 0.00018926766743619,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "debat",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 468,
+    "normalized_frequency": 0.000188399395730475,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "nødvendig",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 469,
+    "normalized_frequency": 0.000188367155167779,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "meter",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 470,
+    "normalized_frequency": 0.000187757919707175,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "lykkes",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 471,
+    "normalized_frequency": 0.000187190930501139,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "glad",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 472,
+    "normalized_frequency": 0.000186347117153332,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ansvar",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 473,
+    "normalized_frequency": 0.000184877392191802,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "stykke",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 474,
+    "normalized_frequency": 0.000182642787673894,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "modtage",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 475,
+    "normalized_frequency": 0.000182334834712969,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vokse",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 476,
+    "normalized_frequency": 0.000181977965036228,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "forfatter",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 477,
+    "normalized_frequency": 0.000181784521660051,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tale",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 478,
+    "normalized_frequency": 0.000181602195719286,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "vurdere",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 479,
+    "normalized_frequency": 0.000181601083975745,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "inden",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 480,
+    "normalized_frequency": 0.000180285891366449,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "system",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 481,
+    "normalized_frequency": 0.000177999034902102,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "miste",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 482,
+    "normalized_frequency": 0.000177567678408098,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "positiv",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 483,
+    "normalized_frequency": 0.000177449833592726,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fælles",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 484,
+    "normalized_frequency": 0.000176521527735784,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "dreng",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 485,
+    "normalized_frequency": 0.000176424806047695,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "huskeregel",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 486,
+    "normalized_frequency": 0.000176354766204597,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "løsning",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 487,
+    "normalized_frequency": 0.000175958985503913,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "mandag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 488,
+    "normalized_frequency": 0.000175874492994778,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "torsdag",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 489,
+    "normalized_frequency": 0.000175299721583953,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "efter",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 490,
+    "normalized_frequency": 0.000175196329434617,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "tvivl",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 491,
+    "normalized_frequency": 0.000174402544546166,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "øge",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 492,
+    "normalized_frequency": 0.000174312493319325,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "passe",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 493,
+    "normalized_frequency": 0.000174262464859968,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "rød",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 494,
+    "normalized_frequency": 0.000173792197342021,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "ledelse",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 495,
+    "normalized_frequency": 0.000173741057139123,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "skylde",
+    "english": null,
+    "pos": "verb",
+    "frequency_rank": 496,
+    "normalized_frequency": 0.000173320818080532,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "verb",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "til",
+    "english": null,
+    "pos": "conjunction",
+    "frequency_rank": 497,
+    "normalized_frequency": 0.000173259672185763,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "conjunction",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "sæson",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 498,
+    "normalized_frequency": 0.000172861667997996,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "virkelighed",
+    "english": null,
+    "pos": "noun",
+    "frequency_rank": 499,
+    "normalized_frequency": 0.000172483675193972,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "noun",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  },
+  {
+    "lemma": "fransk",
+    "english": null,
+    "pos": "adjective",
+    "frequency_rank": 500,
+    "normalized_frequency": 0.000171781053275903,
+    "cefr_estimate": "A1",
+    "tags": [
+      "core",
+      "adjective",
+      "core_500",
+      "core_1000",
+      "core_2000"
+    ]
+  }
+]
