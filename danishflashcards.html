@@ -697,9 +697,9 @@
     function normalizeFrequencyRows(records) {
       return records.map((record) => ({
         Danish: record.lemma || "",
-        English: record.english || "",
+        English: Array.isArray(record.english) ? record.english.join("; ") : (record.english || ""),
         PartOfSpeech: record.pos || "",
-        Example: "",
+        Example: [record.example_da, record.example_en].filter(Boolean).join(" / "),
         frequencyRank: record.frequency_rank,
         normalizedFrequency: record.normalized_frequency,
         cefrEstimate: record.cefr_estimate || "",
@@ -763,10 +763,10 @@
       state.deck = source.map((row, originalIndex) => {
         const prompt = isFrequencyDeck || direction === "da-en" ? row.Danish : row.English;
         const response = isFrequencyDeck
-          ? `Rank ${row.frequencyRank} - ${row.PartOfSpeech} - ${row.cefrEstimate}`
+          ? row.English || "No English gloss found"
           : direction === "da-en" ? row.English : row.Danish;
         const frequencyDetails = isFrequencyDeck
-          ? `Normalized frequency: ${Number(row.normalizedFrequency).toPrecision(4)} - Tags: ${row.tags}`
+          ? `Rank ${row.frequencyRank} - ${row.PartOfSpeech} - ${row.cefrEstimate} - Frequency ${Number(row.normalizedFrequency).toPrecision(4)}`
           : "";
         return {
           id: `${originalIndex}:${row.Danish}:${row.English}`,

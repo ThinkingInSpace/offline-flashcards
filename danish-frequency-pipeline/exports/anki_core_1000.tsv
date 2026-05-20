@@ -1,1000 +1,1000 @@
-﻿i		preposition	1	core preposition core_500 core_1000 core_2000
-være		verb	2	core verb core_500 core_1000 core_2000
-og		conjunction	3	core conjunction core_500 core_1000 core_2000
-en		pronoun	4	core pronoun core_500 core_1000 core_2000
-den		pronoun	5	core pronoun core_500 core_1000 core_2000
-på		preposition	6	core preposition core_500 core_1000 core_2000
-til		preposition	7	core preposition core_500 core_1000 core_2000
-det		pronoun	8	core pronoun core_500 core_1000 core_2000
-at		function_word	9	core function_word core_500 core_1000 core_2000
-af		preposition	10	core preposition core_500 core_1000 core_2000
-have		verb	11	core verb core_500 core_1000 core_2000
-for		preposition	12	core preposition core_500 core_1000 core_2000
-der		function_word	13	core function_word core_500 core_1000 core_2000
-at		conjunction	14	core conjunction core_500 core_1000 core_2000
-med		preposition	15	core preposition core_500 core_1000 core_2000
-som		function_word	16	core function_word core_500 core_1000 core_2000
-ikke		adverb	17	core adverb core_500 core_1000 core_2000
-kunne		verb	18	core verb core_500 core_1000 core_2000
-blive		verb	19	core verb core_500 core_1000 core_2000
-han		pronoun	20	core pronoun core_500 core_1000 core_2000
-om		preposition	21	core preposition core_500 core_1000 core_2000
-men		conjunction	22	core conjunction core_500 core_1000 core_2000
-jeg		pronoun	23	core pronoun core_500 core_1000 core_2000
-vi		pronoun	24	core pronoun core_500 core_1000 core_2000
-fra		preposition	25	core preposition core_500 core_1000 core_2000
-de		pronoun	26	core pronoun core_500 core_1000 core_2000
-skulle		verb	27	core verb core_500 core_1000 core_2000
-så		adverb	28	core adverb core_500 core_1000 core_2000
-man		pronoun	29	core pronoun core_500 core_1000 core_2000
-ville		verb	30	core verb core_500 core_1000 core_2000
-sig		pronoun	31	core pronoun core_500 core_1000 core_2000
-megen		adjective	32	core adjective core_500 core_1000 core_2000
-få		verb	33	core verb core_500 core_1000 core_2000
-sige		verb	34	core verb core_500 core_1000 core_2000
-år		noun	35	core noun core_500 core_1000 core_2000
-også		adverb	36	core adverb core_500 core_1000 core_2000
-anden		pronoun	37	core pronoun core_500 core_1000 core_2000
-god		adjective	38	core adjective core_500 core_1000 core_2000
-nogen		pronoun	39	core pronoun core_500 core_1000 core_2000
-stor		adjective	40	core adjective core_500 core_1000 core_2000
-ved		preposition	41	core preposition core_500 core_1000 core_2000
-komme		verb	42	core verb core_500 core_1000 core_2000
-sin		pronoun	43	core pronoun core_500 core_1000 core_2000
-hvor		adverb	44	core adverb core_500 core_1000 core_2000
-hun		pronoun	45	core pronoun core_500 core_1000 core_2000
-eller		conjunction	46	core conjunction core_500 core_1000 core_2000
-al		pronoun	47	core pronoun core_500 core_1000 core_2000
-ud		adverb	48	core adverb core_500 core_1000 core_2000
-ny		adjective	49	core adjective core_500 core_1000 core_2000
-hel		adjective	50	core adjective core_500 core_1000 core_2000
-nu		adverb	51	core adverb core_500 core_1000 core_2000
-gå		verb	52	core verb core_500 core_1000 core_2000
-efter		preposition	53	core preposition core_500 core_1000 core_2000
-gøre		verb	54	core verb core_500 core_1000 core_2000
-se		verb	55	core verb core_500 core_1000 core_2000
-dansk		adjective	56	core adjective core_500 core_1000 core_2000
-når		conjunction	57	core conjunction core_500 core_1000 core_2000
-over		preposition	58	core preposition core_500 core_1000 core_2000
-op		adverb	59	core adverb core_500 core_1000 core_2000
-denne		pronoun	60	core pronoun core_500 core_1000 core_2000
-dag		noun	61	core noun core_500 core_1000 core_2000
-mangen		adjective	62	core adjective core_500 core_1000 core_2000
-hvis		conjunction	63	core conjunction core_500 core_1000 core_2000
-tage		verb	64	core verb core_500 core_1000 core_2000
-da		conjunction	65	core conjunction core_500 core_1000 core_2000
-krone		noun	66	core noun core_500 core_1000 core_2000
-mange		adjective	67	core adjective core_500 core_1000 core_2000
-her		adverb	68	core adverb core_500 core_1000 core_2000
-deres		pronoun	69	core pronoun core_500 core_1000 core_2000
-gang		noun	70	core noun core_500 core_1000 core_2000
-tid		noun	71	core noun core_500 core_1000 core_2000
-måtte		verb	72	core verb core_500 core_1000 core_2000
-give		verb	73	core verb core_500 core_1000 core_2000
-mod		preposition	74	core preposition core_500 core_1000 core_2000
-end		conjunction	75	core conjunction core_500 core_1000 core_2000
-finde		verb	76	core verb core_500 core_1000 core_2000
-hvad		pronoun	77	core pronoun core_500 core_1000 core_2000
-kun		adverb	78	core adverb core_500 core_1000 core_2000
-ind		adverb	79	core adverb core_500 core_1000 core_2000
-stå		verb	80	core verb core_500 core_1000 core_2000
-du		pronoun	81	core pronoun core_500 core_1000 core_2000
-blandt		preposition	82	core preposition core_500 core_1000 core_2000
-lang		adjective	83	core adjective core_500 core_1000 core_2000
-første		adjective	84	core adjective core_500 core_1000 core_2000
-under		preposition	85	core preposition core_500 core_1000 core_2000
-så		conjunction	86	core conjunction core_500 core_1000 core_2000
-sted		noun	87	core noun core_500 core_1000 core_2000
-land		noun	88	core noun core_500 core_1000 core_2000
-hans		pronoun	89	core pronoun core_500 core_1000 core_2000
-selv		pronoun	90	core pronoun core_500 core_1000 core_2000
-barn		noun	91	core noun core_500 core_1000 core_2000
-procent		noun	92	core noun core_500 core_1000 core_2000
-fordi		conjunction	93	core conjunction core_500 core_1000 core_2000
-jo		adverb	94	core adverb core_500 core_1000 core_2000
-derfor		adverb	95	core adverb core_500 core_1000 core_2000
-lige		adverb	96	core adverb core_500 core_1000 core_2000
-sammen		adverb	97	core adverb core_500 core_1000 core_2000
-sen		adjective	98	core adjective core_500 core_1000 core_2000
-sidste		adjective	99	core adjective core_500 core_1000 core_2000
-mand		noun	100	core noun core_500 core_1000 core_2000
-selv		adverb	101	core adverb core_500 core_1000 core_2000
-ingen		pronoun	102	core pronoun core_500 core_1000 core_2000
-mellem		preposition	103	core preposition core_500 core_1000 core_2000
-sætte		verb	104	core verb core_500 core_1000 core_2000
-vise		verb	105	core verb core_500 core_1000 core_2000
-holde		verb	106	core verb core_500 core_1000 core_2000
-lidt		adjective	107	core adjective core_500 core_1000 core_2000
-om		conjunction	108	core conjunction core_500 core_1000 core_2000
-bruge		verb	109	core verb core_500 core_1000 core_2000
-lille		adjective	110	core adjective core_500 core_1000 core_2000
-tidlig		adjective	111	core adjective core_500 core_1000 core_2000
-hver		pronoun	112	core pronoun core_500 core_1000 core_2000
-samme		adjective	113	core adjective core_500 core_1000 core_2000
-mene		verb	114	core verb core_500 core_1000 core_2000
+﻿i	in; inside; in, inside	preposition	1	core preposition core_500 core_1000 core_2000
+være	be; to be; exist	verb	2	core verb core_500 core_1000 core_2000
+og	and	conjunction	3	core conjunction core_500 core_1000 core_2000
+en	one; a; an	pronoun	4	core pronoun core_500 core_1000 core_2000
+den	that; the; that, the	pronoun	5	core pronoun core_500 core_1000 core_2000
+på	on	preposition	6	core preposition core_500 core_1000 core_2000
+til	to; towards; to, towards	preposition	7	core preposition core_500 core_1000 core_2000
+det	that; it; the	pronoun	8	core pronoun core_500 core_1000 core_2000
+at	to; elliptically; that	function_word	9	core function_word core_500 core_1000 core_2000
+af	by; of; from	preposition	10	core preposition core_500 core_1000 core_2000
+have	have got; to have, have got	verb	11	core verb core_500 core_1000 core_2000
+for	of; to; on	preposition	12	core preposition core_500 core_1000 core_2000
+der	that; there	function_word	13	core function_word core_500 core_1000 core_2000
+at	that; in order that; so that	conjunction	14	core conjunction core_500 core_1000 core_2000
+med	with; by; including	preposition	15	core preposition core_500 core_1000 core_2000
+som	as; like; as, like	function_word	16	core function_word core_500 core_1000 core_2000
+ikke	not; isn’t it so	adverb	17	core adverb core_500 core_1000 core_2000
+kunne	be able; can; to be able, can	verb	18	core verb core_500 core_1000 core_2000
+blive	become; til; to become	verb	19	core verb core_500 core_1000 core_2000
+han	he	pronoun	20	core pronoun core_500 core_1000 core_2000
+om	about	preposition	21	core preposition core_500 core_1000 core_2000
+men	but; catch; hitch	conjunction	22	core conjunction core_500 core_1000 core_2000
+jeg	I	pronoun	23	core pronoun core_500 core_1000 core_2000
+vi	we	pronoun	24	core pronoun core_500 core_1000 core_2000
+fra	from	preposition	25	core preposition core_500 core_1000 core_2000
+de	they; those; plural definite article	pronoun	26	core pronoun core_500 core_1000 core_2000
+skulle	will; would; shall	verb	27	core verb core_500 core_1000 core_2000
+så	so; at; as	adverb	28	core adverb core_500 core_1000 core_2000
+man	you; one; they	pronoun	29	core pronoun core_500 core_1000 core_2000
+ville	want; willing; to want to, be willing to	verb	30	core verb core_500 core_1000 core_2000
+sig	third-person pronoun	pronoun	31	core pronoun core_500 core_1000 core_2000
+megen	much; a lot; much, a lot	adjective	32	core adjective core_500 core_1000 core_2000
+få	get; to get; have	verb	33	core verb core_500 core_1000 core_2000
+sige	say; to say; tell	verb	34	core verb core_500 core_1000 core_2000
+år	year	noun	35	core noun core_500 core_1000 core_2000
+også	too; as well; also	adverb	36	core adverb core_500 core_1000 core_2000
+anden	other; another; else	pronoun	37	core pronoun core_500 core_1000 core_2000
+god	good	adjective	38	core adjective core_500 core_1000 core_2000
+nogen	some; somebody; someone	pronoun	39	core pronoun core_500 core_1000 core_2000
+stor	large; great; magnificent	adjective	40	core adjective core_500 core_1000 core_2000
+ved	at; by; at, by	preposition	41	core preposition core_500 core_1000 core_2000
+komme	come; to come; get	verb	42	core verb core_500 core_1000 core_2000
+sin	his; her; its	pronoun	43	core pronoun core_500 core_1000 core_2000
+hvor	where; how	adverb	44	core adverb core_500 core_1000 core_2000
+hun	she	pronoun	45	core pronoun core_500 core_1000 core_2000
+eller	or; nor	conjunction	46	core conjunction core_500 core_1000 core_2000
+al	all; any	pronoun	47	core pronoun core_500 core_1000 core_2000
+ud	out	adverb	48	core adverb core_500 core_1000 core_2000
+ny	new; fresh; recent	adjective	49	core adjective core_500 core_1000 core_2000
+hel	whole; entire; complete	adjective	50	core adjective core_500 core_1000 core_2000
+nu	now	adverb	51	core adverb core_500 core_1000 core_2000
+gå	go; to go; walk	verb	52	core verb core_500 core_1000 core_2000
+efter	after	preposition	53	core preposition core_500 core_1000 core_2000
+gøre	do; perform; execute	verb	54	core verb core_500 core_1000 core_2000
+se	see; to see; look	verb	55	core verb core_500 core_1000 core_2000
+dansk	Danish	adjective	56	core adjective core_500 core_1000 core_2000
+når	when	conjunction	57	core conjunction core_500 core_1000 core_2000
+over	above; past; hour	preposition	58	core preposition core_500 core_1000 core_2000
+op	up; un-	adverb	59	core adverb core_500 core_1000 core_2000
+denne	this; this one; latter	pronoun	60	core pronoun core_500 core_1000 core_2000
+dag	day	noun	61	core noun core_500 core_1000 core_2000
+mangen	many	adjective	62	core adjective core_500 core_1000 core_2000
+hvis	if	conjunction	63	core conjunction core_500 core_1000 core_2000
+tage	take; get; pick up	verb	64	core verb core_500 core_1000 core_2000
+da	when; as; as, at the same time as	conjunction	65	core conjunction core_500 core_1000 core_2000
+krone	crown; headdress; currency	noun	66	core noun core_500 core_1000 core_2000
+mange	mangen; plural of mangen	adjective	67	core adjective core_500 core_1000 core_2000
+her	here	adverb	68	core adverb core_500 core_1000 core_2000
+deres	their	pronoun	69	core pronoun core_500 core_1000 core_2000
+gang	walking; walk; the act of walking, a walk	noun	70	core noun core_500 core_1000 core_2000
+tid	time	noun	71	core noun core_500 core_1000 core_2000
+måtte	must; have to; got to	verb	72	core verb core_500 core_1000 core_2000
+give	to give	verb	73	core verb core_500 core_1000 core_2000
+mod	toward; towards; to	preposition	74	core preposition core_500 core_1000 core_2000
+end	than	conjunction	75	core conjunction core_500 core_1000 core_2000
+finde	find; to find; think	verb	76	core verb core_500 core_1000 core_2000
+hvad	what; which; what, which	pronoun	77	core pronoun core_500 core_1000 core_2000
+kun	only	adverb	78	core adverb core_500 core_1000 core_2000
+ind	in	adverb	79	core adverb core_500 core_1000 core_2000
+stå	stand; to stand; be	verb	80	core verb core_500 core_1000 core_2000
+du	thou; you; thou, you	pronoun	81	core pronoun core_500 core_1000 core_2000
+blandt	among	preposition	82	core preposition core_500 core_1000 core_2000
+lang	long	adjective	83	core adjective core_500 core_1000 core_2000
+første	first; former; the former	adjective	84	core adjective core_500 core_1000 core_2000
+under	underneath; below; during	preposition	85	core preposition core_500 core_1000 core_2000
+så	so that; so	conjunction	86	core conjunction core_500 core_1000 core_2000
+sted	place; spot; passage	noun	87	core noun core_500 core_1000 core_2000
+land	country; countryside; country, countryside	noun	88	core noun core_500 core_1000 core_2000
+hans	han; genitive of han	pronoun	89	core pronoun core_500 core_1000 core_2000
+selv	self; -self; self, -self	pronoun	90	core pronoun core_500 core_1000 core_2000
+barn	child; human; offspring	noun	91	core noun core_500 core_1000 core_2000
+procent	percent	noun	92	core noun core_500 core_1000 core_2000
+fordi	because	conjunction	93	core conjunction core_500 core_1000 core_2000
+jo	as you know; after all; obviously	adverb	94	core adverb core_500 core_1000 core_2000
+derfor	therefore; for this, for that, for it	adverb	95	core adverb core_500 core_1000 core_2000
+lige	just; recently; just, recently	adverb	96	core adverb core_500 core_1000 core_2000
+sammen	together	adverb	97	core adverb core_500 core_1000 core_2000
+sen	late; belated; tardy	adjective	98	core adjective core_500 core_1000 core_2000
+sidste	last; latest; latter	adjective	99	core adjective core_500 core_1000 core_2000
+mand	man; husband	noun	100	core noun core_500 core_1000 core_2000
+selv	even	adverb	101	core adverb core_500 core_1000 core_2000
+ingen	no; no one; nobody	pronoun	102	core pronoun core_500 core_1000 core_2000
+mellem	between; among	preposition	103	core preposition core_500 core_1000 core_2000
+sætte	put; place; set	verb	104	core verb core_500 core_1000 core_2000
+vise	show; to show; mathematics	verb	105	core verb core_500 core_1000 core_2000
+holde	hold; to hold; keep	verb	106	core verb core_500 core_1000 core_2000
+lidt	liked	adjective	107	core adjective core_500 core_1000 core_2000
+om	whether; if; even if	conjunction	108	core conjunction core_500 core_1000 core_2000
+bruge	use; to use	verb	109	core verb core_500 core_1000 core_2000
+lille	small; little; slight	adjective	110	core adjective core_500 core_1000 core_2000
+tidlig	early	adjective	111	core adjective core_500 core_1000 core_2000
+hver	every; each; every, each	pronoun	112	core pronoun core_500 core_1000 core_2000
+samme	same; equal; said	adjective	113	core adjective core_500 core_1000 core_2000
+mene	mean; to mean; think	verb	114	core verb core_500 core_1000 core_2000
 både		adverb	115	core adverb core_500 core_1000 core_2000
-del		noun	116	core noun core_500 core_1000 core_2000
+del	part; portion; part, portion	noun	116	core noun core_500 core_1000 core_2000
 med		adverb	117	core adverb core_500 core_1000 core_2000
-gammel		adjective	118	core adjective core_500 core_1000 core_2000
-nok		adverb	119	core adverb core_500 core_1000 core_2000
-kommune		noun	120	core noun core_500 core_1000 core_2000
-liden		adjective	121	core adjective core_500 core_1000 core_2000
-mens		conjunction	122	core conjunction core_500 core_1000 core_2000
-dog		adverb	123	core adverb core_500 core_1000 core_2000
-for		conjunction	124	core conjunction core_500 core_1000 core_2000
-skrive		verb	125	core verb core_500 core_1000 core_2000
-bare		adverb	126	core adverb core_500 core_1000 core_2000
-hos		preposition	127	core preposition core_500 core_1000 core_2000
-høj		adjective	128	core adjective core_500 core_1000 core_2000
-menneske		noun	129	core noun core_500 core_1000 core_2000
-ligge		verb	130	core verb core_500 core_1000 core_2000
+gammel	old	adjective	118	core adjective core_500 core_1000 core_2000
+nok	enough; probably; yet	adverb	119	core adverb core_500 core_1000 core_2000
+kommune	municipality	noun	120	core noun core_500 core_1000 core_2000
+liden	little; small; little, small	adjective	121	core adjective core_500 core_1000 core_2000
+mens	while; when; while, when	conjunction	122	core conjunction core_500 core_1000 core_2000
+dog	however	adverb	123	core adverb core_500 core_1000 core_2000
+for	because; for, because	conjunction	124	core conjunction core_500 core_1000 core_2000
+skrive	write; medium; to write	verb	125	core verb core_500 core_1000 core_2000
+bare	just; simply; only	adverb	126	core adverb core_500 core_1000 core_2000
+hos	at; at X's abode; in X's view	preposition	127	core preposition core_500 core_1000 core_2000
+høj	high; tall; loud	adjective	128	core adjective core_500 core_1000 core_2000
+menneske	human; human being; man	noun	129	core noun core_500 core_1000 core_2000
+ligge	lie; to lie; be	verb	130	core verb core_500 core_1000 core_2000
 replik		noun	131	core noun core_500 core_1000 core_2000
-tilbage		adverb	132	core adverb core_500 core_1000 core_2000
-ske		verb	133	core verb core_500 core_1000 core_2000
-igen		adverb	134	core adverb core_500 core_1000 core_2000
-siden		adverb	135	core adverb core_500 core_1000 core_2000
-sag		noun	136	core noun core_500 core_1000 core_2000
-regering		noun	137	core noun core_500 core_1000 core_2000
-eksempel		noun	138	core noun core_500 core_1000 core_2000
-frem		adverb	139	core adverb core_500 core_1000 core_2000
-verden		noun	140	core noun core_500 core_1000 core_2000
-måske		adverb	141	core adverb core_500 core_1000 core_2000
-sådan		adverb	142	core adverb core_500 core_1000 core_2000
-folk		noun	143	core noun core_500 core_1000 core_2000
-vide		verb	144	core verb core_500 core_1000 core_2000
-lave		verb	145	core verb core_500 core_1000 core_2000
-uden		preposition	146	core preposition core_500 core_1000 core_2000
-tale		verb	147	core verb core_500 core_1000 core_2000
-endnu		adverb	148	core adverb core_500 core_1000 core_2000
-egen		adjective	149	core adjective core_500 core_1000 core_2000
-ung		adjective	150	core adjective core_500 core_1000 core_2000
-hvordan		adverb	151	core adverb core_500 core_1000 core_2000
+tilbage	back; left; remaining	adverb	132	core adverb core_500 core_1000 core_2000
+ske	be; happen; occur	verb	133	core verb core_500 core_1000 core_2000
+igen	again	adverb	134	core adverb core_500 core_1000 core_2000
+siden	since; later; afterwards	adverb	135	core adverb core_500 core_1000 core_2000
+sag	matter; affair; matter, affair	noun	136	core noun core_500 core_1000 core_2000
+regering	politics; government	noun	137	core noun core_500 core_1000 core_2000
+eksempel	example; instance; illustration	noun	138	core noun core_500 core_1000 core_2000
+frem	forward; toward; forward, toward	adverb	139	core adverb core_500 core_1000 core_2000
+verden	world	noun	140	core noun core_500 core_1000 core_2000
+måske	perhaps; possibly; maybe	adverb	141	core adverb core_500 core_1000 core_2000
+sådan	like that; so much; about	adverb	142	core adverb core_500 core_1000 core_2000
+folk	people; person; people, persons	noun	143	core noun core_500 core_1000 core_2000
+vide	know; to know ); widen	verb	144	core verb core_500 core_1000 core_2000
+lave	make; create; construct	verb	145	core verb core_500 core_1000 core_2000
+uden	without; except for; but	preposition	146	core preposition core_500 core_1000 core_2000
+tale	speech; to make a speech; speak	verb	147	core verb core_500 core_1000 core_2000
+endnu	yet	adverb	148	core adverb core_500 core_1000 core_2000
+egen	own; private; peculiar	adjective	149	core adjective core_500 core_1000 core_2000
+ung	young	adjective	150	core adjective core_500 core_1000 core_2000
+hvordan	how	adverb	151	core adverb core_500 core_1000 core_2000
 problem		noun	152	core noun core_500 core_1000 core_2000
-spille		verb	153	core verb core_500 core_1000 core_2000
-side		noun	154	core noun core_500 core_1000 core_2000
-uge		noun	155	core noun core_500 core_1000 core_2000
+spille	play; music; game	verb	153	core verb core_500 core_1000 core_2000
+side	viewpoint; viewpoint an opinion or attitude; page	noun	154	core noun core_500 core_1000 core_2000
+uge	week	noun	155	core noun core_500 core_1000 core_2000
 årig		adjective	156	core adjective core_500 core_1000 core_2000
-vej		noun	157	core noun core_500 core_1000 core_2000
-minut		noun	158	core noun core_500 core_1000 core_2000
-penge		noun	159	core noun core_500 core_1000 core_2000
-vores		pronoun	160	core pronoun core_500 core_1000 core_2000
-ned		adverb	161	core adverb core_500 core_1000 core_2000
-fortælle		verb	162	core verb core_500 core_1000 core_2000
-rigtig		adjective	163	core adjective core_500 core_1000 core_2000
-tro		verb	164	core verb core_500 core_1000 core_2000
-kamp		noun	165	core noun core_500 core_1000 core_2000
-klar		adjective	166	core adjective core_500 core_1000 core_2000
-kvinde		noun	167	core noun core_500 core_1000 core_2000
-ifølge		preposition	168	core preposition core_500 core_1000 core_2000
-liv		noun	169	core noun core_500 core_1000 core_2000
-omkring		preposition	170	core preposition core_500 core_1000 core_2000
-virksomhed		noun	171	core noun core_500 core_1000 core_2000
-politisk		adjective	172	core adjective core_500 core_1000 core_2000
-by		noun	173	core noun core_500 core_1000 core_2000
-lægge		verb	174	core verb core_500 core_1000 core_2000
-stadig		adverb	175	core adverb core_500 core_1000 core_2000
-forhold		noun	176	core noun core_500 core_1000 core_2000
-først		adverb	177	core adverb core_500 core_1000 core_2000
-måde		noun	178	core noun core_500 core_1000 core_2000
-mulighed		noun	179	core noun core_500 core_1000 core_2000
-arbejde		verb	180	core verb core_500 core_1000 core_2000
-gennem		preposition	181	core preposition core_500 core_1000 core_2000
-lade		verb	182	core verb core_500 core_1000 core_2000
-arbejde		noun	183	core noun core_500 core_1000 core_2000
-grund		noun	184	core noun core_500 core_1000 core_2000
-over		adverb	185	core adverb core_500 core_1000 core_2000
-allerede		adverb	186	core adverb core_500 core_1000 core_2000
-begynde		verb	187	core verb core_500 core_1000 core_2000
-samtidig		adverb	188	core adverb core_500 core_1000 core_2000
-politi		noun	189	core noun core_500 core_1000 core_2000
-køre		verb	190	core verb core_500 core_1000 core_2000
-bog		noun	191	core noun core_500 core_1000 core_2000
-skabe		verb	192	core verb core_500 core_1000 core_2000
-vælge		verb	193	core verb core_500 core_1000 core_2000
-da		adverb	194	core adverb core_500 core_1000 core_2000
-område		noun	195	core noun core_500 core_1000 core_2000
-måned		noun	196	core noun core_500 core_1000 core_2000
-sidde		verb	197	core verb core_500 core_1000 core_2000
+vej	road; way; route	noun	157	core noun core_500 core_1000 core_2000
+minut	minute	noun	158	core noun core_500 core_1000 core_2000
+penge	money	noun	159	core noun core_500 core_1000 core_2000
+vores	our; ours; our, ours	pronoun	160	core pronoun core_500 core_1000 core_2000
+ned	down; downwards; down, downwards	adverb	161	core adverb core_500 core_1000 core_2000
+fortælle	tell; report; to tell, to report	verb	162	core verb core_500 core_1000 core_2000
+rigtig	right; proper; correct	adjective	163	core adjective core_500 core_1000 core_2000
+tro	believe; to believe; think	verb	164	core verb core_500 core_1000 core_2000
+kamp	battle; struggle; battle, struggle	noun	165	core noun core_500 core_1000 core_2000
+klar	clear; bright; plain	adjective	166	core adjective core_500 core_1000 core_2000
+kvinde	woman; A woman	noun	167	core noun core_500 core_1000 core_2000
+ifølge	according to; accordance; in accordance with	preposition	168	core preposition core_500 core_1000 core_2000
+liv	life; waist; middle	noun	169	core noun core_500 core_1000 core_2000
+omkring	around; about	preposition	170	core preposition core_500 core_1000 core_2000
+virksomhed	company; enterprise; corporation	noun	171	core noun core_500 core_1000 core_2000
+politisk	politics; political	adjective	172	core adjective core_500 core_1000 core_2000
+by	town; city; town, city	noun	173	core noun core_500 core_1000 core_2000
+lægge	lay; to lay; put	verb	174	core verb core_500 core_1000 core_2000
+stadig	constantly; continuously; continually	adverb	175	core adverb core_500 core_1000 core_2000
+forhold	relation; relationship; proportion	noun	176	core noun core_500 core_1000 core_2000
+først	first; firstly; first, firstly	adverb	177	core adverb core_500 core_1000 core_2000
+måde	method; way; method, way	noun	178	core noun core_500 core_1000 core_2000
+mulighed	possibility; opportunity; chance	noun	179	core noun core_500 core_1000 core_2000
+arbejde	work; work, to do a specific task	verb	180	core verb core_500 core_1000 core_2000
+gennem	through; during; through, during	preposition	181	core preposition core_500 core_1000 core_2000
+lade	let; leave; have	verb	182	core verb core_500 core_1000 core_2000
+arbejde	work; physics	noun	183	core noun core_500 core_1000 core_2000
+grund	reason; motive; site	noun	184	core noun core_500 core_1000 core_2000
+over	across; asunder; in two	adverb	185	core adverb core_500 core_1000 core_2000
+allerede	already	adverb	186	core adverb core_500 core_1000 core_2000
+begynde	start; begin; commence	verb	187	core verb core_500 core_1000 core_2000
+samtidig	also; in addition; furthermore	adverb	188	core adverb core_500 core_1000 core_2000
+politi	police	noun	189	core noun core_500 core_1000 core_2000
+køre	drive; to drive; ride	verb	190	core verb core_500 core_1000 core_2000
+bog	book; beechnut; beech mast	noun	191	core noun core_500 core_1000 core_2000
+skabe	create; make; to create, make	verb	192	core verb core_500 core_1000 core_2000
+vælge	choose; to choose; select	verb	193	core verb core_500 core_1000 core_2000
+da	surely; then; then, at that time	adverb	194	core adverb core_500 core_1000 core_2000
+område	area; region; territory	noun	195	core noun core_500 core_1000 core_2000
+måned	month	noun	196	core noun core_500 core_1000 core_2000
+sidde	sit; to sit; be	verb	197	core verb core_500 core_1000 core_2000
 altså		adverb	198	core adverb core_500 core_1000 core_2000
-gerne		adverb	199	core adverb core_500 core_1000 core_2000
-par		noun	200	core noun core_500 core_1000 core_2000
-svær		adjective	201	core adjective core_500 core_1000 core_2000
-min		pronoun	202	core pronoun core_500 core_1000 core_2000
-række		noun	203	core noun core_500 core_1000 core_2000
-aldrig		adverb	204	core adverb core_500 core_1000 core_2000
-netop		adverb	205	core adverb core_500 core_1000 core_2000
-følge		verb	206	core verb core_500 core_1000 core_2000
-altid		adverb	207	core adverb core_500 core_1000 core_2000
-skole		noun	208	core noun core_500 core_1000 core_2000
-plads		noun	209	core noun core_500 core_1000 core_2000
-amerikansk		adjective	210	core adjective core_500 core_1000 core_2000
-familie		noun	211	core noun core_500 core_1000 core_2000
-betyde		verb	212	core verb core_500 core_1000 core_2000
-høre		verb	213	core verb core_500 core_1000 core_2000
-vigtig		adjective	214	core adjective core_500 core_1000 core_2000
-går		noun	215	core noun core_500 core_1000 core_2000
-næste		adjective	216	core adjective core_500 core_1000 core_2000
-slå		verb	217	core verb core_500 core_1000 core_2000
-klokke		noun	218	core noun core_500 core_1000 core_2000
-million		noun	219	core noun core_500 core_1000 core_2000
-pris		noun	220	core noun core_500 core_1000 core_2000
-nemlig		adverb	221	core adverb core_500 core_1000 core_2000
-historie		noun	222	core noun core_500 core_1000 core_2000
-tænke		verb	223	core verb core_500 core_1000 core_2000
-ting		noun	224	core noun core_500 core_1000 core_2000
-bil		noun	225	core noun core_500 core_1000 core_2000
-møde		verb	226	core verb core_500 core_1000 core_2000
-kende		verb	227	core verb core_500 core_1000 core_2000
-forskellig		adjective	228	core adjective core_500 core_1000 core_2000
-få		adjective	229	core adjective core_500 core_1000 core_2000
-syne		verb	230	core verb core_500 core_1000 core_2000
-film		noun	231	core noun core_500 core_1000 core_2000
-sende		verb	232	core verb core_500 core_1000 core_2000
-falde		verb	233	core verb core_500 core_1000 core_2000
-hus		noun	234	core noun core_500 core_1000 core_2000
-formand		noun	235	core noun core_500 core_1000 core_2000
-burde		verb	236	core verb core_500 core_1000 core_2000
-hendes		pronoun	237	core pronoun core_500 core_1000 core_2000
-samle		verb	238	core verb core_500 core_1000 core_2000
-direktør		noun	239	core noun core_500 core_1000 core_2000
-aften		noun	240	core noun core_500 core_1000 core_2000
-parti		noun	241	core noun core_500 core_1000 core_2000
-rundt		adverb	242	core adverb core_500 core_1000 core_2000
-spørgsmål		noun	243	core noun core_500 core_1000 core_2000
-inden		preposition	244	core preposition core_500 core_1000 core_2000
-medlem		noun	245	core noun core_500 core_1000 core_2000
-mulig		adjective	246	core adjective core_500 core_1000 core_2000
-jeg		noun	247	core noun core_500 core_1000 core_2000
-økonomisk		adjective	248	core adjective core_500 core_1000 core_2000
-hurtig		adjective	249	core adjective core_500 core_1000 core_2000
-købe		verb	250	core verb core_500 core_1000 core_2000
+gerne	with; pleasure; gladly	adverb	199	core adverb core_500 core_1000 core_2000
+par	pair; couple; golf	noun	200	core noun core_500 core_1000 core_2000
+svær	difficult; hard; stiff	adjective	201	core adjective core_500 core_1000 core_2000
+min	mine; my	pronoun	202	core pronoun core_500 core_1000 core_2000
+række	row; line; rank	noun	203	core noun core_500 core_1000 core_2000
+aldrig	never	adverb	204	core adverb core_500 core_1000 core_2000
+netop	precisely; very; precisely [this]	adverb	205	core adverb core_500 core_1000 core_2000
+følge	follow; to follow; logical	verb	206	core verb core_500 core_1000 core_2000
+altid	always	adverb	207	core adverb core_500 core_1000 core_2000
+skole	school	noun	208	core noun core_500 core_1000 core_2000
+plads	place; seat; position	noun	209	core noun core_500 core_1000 core_2000
+amerikansk	American; Americas; United States of America	adjective	210	core adjective core_500 core_1000 core_2000
+familie	family; taxonomy	noun	211	core noun core_500 core_1000 core_2000
+betyde	mean; to mean	verb	212	core verb core_500 core_1000 core_2000
+høre	hear; to hear; learn	verb	213	core verb core_500 core_1000 core_2000
+vigtig	important	adjective	214	core adjective core_500 core_1000 core_2000
+går	i går; yesterday; gårs dato	noun	215	core noun core_500 core_1000 core_2000
+næste	next; following; the following	adjective	216	core adjective core_500 core_1000 core_2000
+slå	beat; hit; knock	verb	217	core verb core_500 core_1000 core_2000
+klokke	bell; doorbell; time	noun	218	core noun core_500 core_1000 core_2000
+million	a million	noun	219	core noun core_500 core_1000 core_2000
+pris	price; fare; cost	noun	220	core noun core_500 core_1000 core_2000
+nemlig	that is; that is to say; that is, that is to say	adverb	221	core adverb core_500 core_1000 core_2000
+historie	history; story; affair	noun	222	core noun core_500 core_1000 core_2000
+tænke	think; to think; believe	verb	223	core verb core_500 core_1000 core_2000
+ting	thing; assembly; parliament	noun	224	core noun core_500 core_1000 core_2000
+bil	car; automobile; car, automobile	noun	225	core noun core_500 core_1000 core_2000
+møde	meet; encounter; to meet, encounter	verb	226	core verb core_500 core_1000 core_2000
+kende	know; recognise; ved	verb	227	core verb core_500 core_1000 core_2000
+forskellig	different	adjective	228	core adjective core_500 core_1000 core_2000
+få	few	adjective	229	core adjective core_500 core_1000 core_2000
+syne	inspect; car; vehicle	verb	230	core verb core_500 core_1000 core_2000
+film	movie; motion picture; a movie, a film, motion picture	noun	231	core noun core_500 core_1000 core_2000
+sende	send; to send	verb	232	core verb core_500 core_1000 core_2000
+falde	fall; to fall; drop	verb	233	core verb core_500 core_1000 core_2000
+hus	house; building; block of flats	noun	234	core noun core_500 core_1000 core_2000
+formand	chairman; head; chairman, head	noun	235	core noun core_500 core_1000 core_2000
+burde	ought	verb	236	core verb core_500 core_1000 core_2000
+hendes	hun; her; possessive of hun, meaning her	pronoun	237	core pronoun core_500 core_1000 core_2000
+samle	collect; gather; assemble	verb	238	core verb core_500 core_1000 core_2000
+direktør	director	noun	239	core noun core_500 core_1000 core_2000
+aften	evening; night	noun	240	core noun core_500 core_1000 core_2000
+parti	lot; quantity; batch	noun	241	core noun core_500 core_1000 core_2000
+rundt	round; around; round, around	adverb	242	core adverb core_500 core_1000 core_2000
+spørgsmål	question	noun	243	core noun core_500 core_1000 core_2000
+inden	before; at a point reached earlier	preposition	244	core preposition core_500 core_1000 core_2000
+medlem	member	noun	245	core noun core_500 core_1000 core_2000
+mulig	possible; feasible; possible, feasible	adjective	246	core adjective core_500 core_1000 core_2000
+jeg	self; psychology; I	noun	247	core noun core_500 core_1000 core_2000
+økonomisk	economic; financial; economic, financial	adjective	248	core adjective core_500 core_1000 core_2000
+hurtig	quick; rapid; fast	adjective	249	core adjective core_500 core_1000 core_2000
+købe	buy; purchase; bribe	verb	250	core verb core_500 core_1000 core_2000
 alt		adverb	251	core adverb core_500 core_1000 core_2000
-dansker		noun	252	core noun core_500 core_1000 core_2000
-stærk		adjective	253	core adjective core_500 core_1000 core_2000
-vinde		verb	254	core verb core_500 core_1000 core_2000
-næsten		adverb	255	core adverb core_500 core_1000 core_2000
-særlig		adjective	256	core adjective core_500 core_1000 core_2000
-betale		verb	257	core verb core_500 core_1000 core_2000
-leve		verb	258	core verb core_500 core_1000 core_2000
-enkelt		adjective	259	core adjective core_500 core_1000 core_2000
-handle		verb	260	core verb core_500 core_1000 core_2000
-ellers		adverb	261	core adverb core_500 core_1000 core_2000
-nå		verb	262	core verb core_500 core_1000 core_2000
-vente		verb	263	core verb core_500 core_1000 core_2000
-heller		adverb	264	core adverb core_500 core_1000 core_2000
-hold		noun	265	core noun core_500 core_1000 core_2000
-ønske		verb	266	core verb core_500 core_1000 core_2000
-blot		adverb	267	core adverb core_500 core_1000 core_2000
-selskab		noun	268	core noun core_500 core_1000 core_2000
-dermed		adverb	269	core adverb core_500 core_1000 core_2000
-samt		conjunction	270	core conjunction core_500 core_1000 core_2000
-cirka		adverb	271	core adverb core_500 core_1000 core_2000
-fald		noun	272	core noun core_500 core_1000 core_2000
-stige		verb	273	core verb core_500 core_1000 core_2000
-gruppe		noun	274	core noun core_500 core_1000 core_2000
-lov		noun	275	core noun core_500 core_1000 core_2000
-kalde		verb	276	core verb core_500 core_1000 core_2000
-billede		noun	277	core noun core_500 core_1000 core_2000
-faktisk		adjective	278	core adjective core_500 core_1000 core_2000
-mål		noun	279	core noun core_500 core_1000 core_2000
-lyde		verb	280	core verb core_500 core_1000 core_2000
-især		adverb	281	core adverb core_500 core_1000 core_2000
-videre		adverb	282	core adverb core_500 core_1000 core_2000
-international		adjective	283	core adjective core_500 core_1000 core_2000
-stille		verb	284	core verb core_500 core_1000 core_2000
-offentlig		adjective	285	core adjective core_500 core_1000 core_2000
-ord		noun	286	core noun core_500 core_1000 core_2000
-time		noun	287	core noun core_500 core_1000 core_2000
-forsøge		verb	288	core verb core_500 core_1000 core_2000
-læse		verb	289	core verb core_500 core_1000 core_2000
-bag		preposition	290	core preposition core_500 core_1000 core_2000
-politiker		noun	291	core noun core_500 core_1000 core_2000
-gælde		verb	292	core verb core_500 core_1000 core_2000
-føre		verb	293	core verb core_500 core_1000 core_2000
-alligevel		adverb	294	core adverb core_500 core_1000 core_2000
-ofte		adverb	295	core adverb core_500 core_1000 core_2000
-brug		noun	296	core noun core_500 core_1000 core_2000
-kort		adjective	297	core adjective core_500 core_1000 core_2000
-bank		noun	298	core noun core_500 core_1000 core_2000
-person		noun	299	core noun core_500 core_1000 core_2000
-nær		adjective	300	core adjective core_500 core_1000 core_2000
-udvikling		noun	301	core noun core_500 core_1000 core_2000
-resultat		noun	302	core noun core_500 core_1000 core_2000
-trække		verb	303	core verb core_500 core_1000 core_2000
-leder		noun	304	core noun core_500 core_1000 core_2000
-forbindelse		noun	305	core noun core_500 core_1000 core_2000
-sikre		verb	306	core verb core_500 core_1000 core_2000
-navn		noun	307	core noun core_500 core_1000 core_2000
-øvrig		adjective	308	core adjective core_500 core_1000 core_2000
-hvorfor		adverb	309	core adverb core_500 core_1000 core_2000
-siden		preposition	310	core preposition core_500 core_1000 core_2000
-løb		noun	311	core noun core_500 core_1000 core_2000
-form		noun	312	core noun core_500 core_1000 core_2000
-forklare		verb	313	core verb core_500 core_1000 core_2000
+dansker	Dane	noun	252	core noun core_500 core_1000 core_2000
+stærk	strong; hot; spicy	adjective	253	core adjective core_500 core_1000 core_2000
+vinde	win; gain; achieve	verb	254	core verb core_500 core_1000 core_2000
+næsten	nearly; almost; all but	adverb	255	core adverb core_500 core_1000 core_2000
+særlig	special; particular	adjective	256	core adjective core_500 core_1000 core_2000
+betale	pay; to pay	verb	257	core verb core_500 core_1000 core_2000
+leve	live; alive; to live, be alive	verb	258	core verb core_500 core_1000 core_2000
+enkelt	enkel; neuter singular of enkel; single	adjective	259	core adjective core_500 core_1000 core_2000
+handle	act; trade; shop	verb	260	core verb core_500 core_1000 core_2000
+ellers	otherwise	adverb	261	core adverb core_500 core_1000 core_2000
+nå	reach; to reach; have time	verb	262	core verb core_500 core_1000 core_2000
+vente	wait; expect	verb	263	core verb core_500 core_1000 core_2000
+heller	hellere; obsolete spelling of hellere; either	adverb	264	core adverb core_500 core_1000 core_2000
+hold	team; class; distance	noun	265	core noun core_500 core_1000 core_2000
+ønske	wish; to wish	verb	266	core verb core_500 core_1000 core_2000
+blot	only; merely; only, merely	adverb	267	core adverb core_500 core_1000 core_2000
+selskab	company; firm; company, firm	noun	268	core noun core_500 core_1000 core_2000
+dermed	thus	adverb	269	core adverb core_500 core_1000 core_2000
+samt	and; also; plus	conjunction	270	core conjunction core_500 core_1000 core_2000
+cirka	circa; approximately; circa, approximately	adverb	271	core adverb core_500 core_1000 core_2000
+fald	fall; decrease; decline	noun	272	core noun core_500 core_1000 core_2000
+stige	rise; ascend; increase	verb	273	core verb core_500 core_1000 core_2000
+gruppe	group; unit; team	noun	274	core noun core_500 core_1000 core_2000
+lov	law; permission; praise	noun	275	core noun core_500 core_1000 core_2000
+kalde	call; to call, to refer to	verb	276	core verb core_500 core_1000 core_2000
+billede	picture; image; picture, image	noun	277	core noun core_500 core_1000 core_2000
+faktisk	actual; real; actual, real	adjective	278	core adjective core_500 core_1000 core_2000
+mål	language; speech; word	noun	279	core noun core_500 core_1000 core_2000
+lyde	sound; to sound, to be realized; to sound	verb	280	core verb core_500 core_1000 core_2000
+især	especially; particularly; especially, particularly	adverb	281	core adverb core_500 core_1000 core_2000
+videre	farther; further; farther, further	adverb	282	core adverb core_500 core_1000 core_2000
+international	foreign	adjective	283	core adjective core_500 core_1000 core_2000
+stille	put; place; stand	verb	284	core verb core_500 core_1000 core_2000
+offentlig	public	adjective	285	core adjective core_500 core_1000 core_2000
+ord	word	noun	286	core noun core_500 core_1000 core_2000
+time	hour; lesson; class	noun	287	core noun core_500 core_1000 core_2000
+forsøge	try; attempt	verb	288	core verb core_500 core_1000 core_2000
+læse	read; to read; study	verb	289	core verb core_500 core_1000 core_2000
+bag	behind	preposition	290	core preposition core_500 core_1000 core_2000
+politiker	politics; politician	noun	291	core noun core_500 core_1000 core_2000
+gælde	hold good; valid; to hold good, be valid	verb	292	core verb core_500 core_1000 core_2000
+føre	lead; guide; to lead, guide	verb	293	core verb core_500 core_1000 core_2000
+alligevel	nonetheless; nevertheless; nonetheless, nevertheless	adverb	294	core adverb core_500 core_1000 core_2000
+ofte	often; frequently; often, frequently	adverb	295	core adverb core_500 core_1000 core_2000
+brug	use; application; use, application	noun	296	core noun core_500 core_1000 core_2000
+kort	short; brief	adjective	297	core adjective core_500 core_1000 core_2000
+bank	only used in certain expressions; knock; beating	noun	298	core noun core_500 core_1000 core_2000
+person	character; figure; people	noun	299	core noun core_500 core_1000 core_2000
+nær	near; close	adjective	300	core adjective core_500 core_1000 core_2000
+udvikling	development; generation; advance	noun	301	core noun core_500 core_1000 core_2000
+resultat	result	noun	302	core noun core_500 core_1000 core_2000
+trække	pull; drag; haul	verb	303	core verb core_500 core_1000 core_2000
+leder	leader; manager; head	noun	304	core noun core_500 core_1000 core_2000
+forbindelse	connection; contact person; chemistry	noun	305	core noun core_500 core_1000 core_2000
+sikre	ensure; make sure; to ensure, make sure	verb	306	core verb core_500 core_1000 core_2000
+navn	name; reputation	noun	307	core noun core_500 core_1000 core_2000
+øvrig	other; remaining; other, remaining	adjective	308	core adjective core_500 core_1000 core_2000
+hvorfor	wherefore; why; wherefore, why	adverb	309	core adverb core_500 core_1000 core_2000
+siden	since	preposition	310	core preposition core_500 core_1000 core_2000
+løb	run; run, the act of running; race	noun	311	core noun core_500 core_1000 core_2000
+form	shape; mould; tin	noun	312	core noun core_500 core_1000 core_2000
+forklare	explain; to explain	verb	313	core verb core_500 core_1000 core_2000
 uden		adverb	314	core adverb core_500 core_1000 core_2000
-fast		adjective	315	core adjective core_500 core_1000 core_2000
-ganske		adverb	316	core adverb core_500 core_1000 core_2000
-ansætte		verb	317	core verb core_500 core_1000 core_2000
-før		preposition	318	core preposition core_500 core_1000 core_2000
-hvem		pronoun	319	core pronoun core_500 core_1000 core_2000
-grad		noun	320	core noun core_500 core_1000 core_2000
-hård		adjective	321	core adjective core_500 core_1000 core_2000
-sikker		adjective	322	core adjective core_500 core_1000 core_2000
-før		conjunction	323	core conjunction core_500 core_1000 core_2000
-føle		verb	324	core verb core_500 core_1000 core_2000
-tæt		adjective	325	core adjective core_500 core_1000 core_2000
-opleve		verb	326	core verb core_500 core_1000 core_2000
-eneste		adjective	327	core adjective core_500 core_1000 core_2000
-projekt		noun	328	core noun core_500 core_1000 core_2000
-tysk		adjective	329	core adjective core_500 core_1000 core_2000
-samfund		noun	330	core noun core_500 core_1000 core_2000
-bo		verb	331	core verb core_500 core_1000 core_2000
-kræve		verb	332	core verb core_500 core_1000 core_2000
-spørge		verb	333	core verb core_500 core_1000 core_2000
-hjælpe		verb	334	core verb core_500 core_1000 core_2000
-forstå		verb	335	core verb core_500 core_1000 core_2000
-møde		noun	336	core noun core_500 core_1000 core_2000
-selvfølgelig		adverb	337	core adverb core_500 core_1000 core_2000
-dårlig		adjective	338	core adjective core_500 core_1000 core_2000
-således		adverb	339	core adverb core_500 core_1000 core_2000
+fast	firm; solid; tight	adjective	315	core adjective core_500 core_1000 core_2000
+ganske	quite	adverb	316	core adverb core_500 core_1000 core_2000
+ansætte	hire; employ; appoint	verb	317	core verb core_500 core_1000 core_2000
+før	before	preposition	318	core preposition core_500 core_1000 core_2000
+hvem	who; that; who, that	pronoun	319	core pronoun core_500 core_1000 core_2000
+grad	degree; academic degree	noun	320	core noun core_500 core_1000 core_2000
+hård	hard; tough; severe	adjective	321	core adjective core_500 core_1000 core_2000
+sikker	safe; secure; safe, secure	adjective	322	core adjective core_500 core_1000 core_2000
+før	before; until; before, until	conjunction	323	core conjunction core_500 core_1000 core_2000
+føle	feel; sense; to feel, sense	verb	324	core verb core_500 core_1000 core_2000
+tæt	close; dense; tight	adjective	325	core adjective core_500 core_1000 core_2000
+opleve	experience; to experience; sense	verb	326	core verb core_500 core_1000 core_2000
+eneste	only; sole; only, sole	adjective	327	core adjective core_500 core_1000 core_2000
+projekt	project	noun	328	core noun core_500 core_1000 core_2000
+tysk	German	adjective	329	core adjective core_500 core_1000 core_2000
+samfund	society; community; society, community	noun	330	core noun core_500 core_1000 core_2000
+bo	live; reside; dwell	verb	331	core verb core_500 core_1000 core_2000
+kræve	demand; to demand; require	verb	332	core verb core_500 core_1000 core_2000
+spørge	ask; inquire; to ask, inquire	verb	333	core verb core_500 core_1000 core_2000
+hjælpe	help; to help; assist	verb	334	core verb core_500 core_1000 core_2000
+forstå	understand; to understand	verb	335	core verb core_500 core_1000 core_2000
+møde	meeting; encounter; appointment	noun	336	core noun core_500 core_1000 core_2000
+selvfølgelig	of course; naturally; sure	adverb	337	core adverb core_500 core_1000 core_2000
+dårlig	bad; unwell; poor	adjective	338	core adjective core_500 core_1000 core_2000
+således	thus	adverb	339	core adverb core_500 core_1000 core_2000
 situation		noun	340	core noun core_500 core_1000 core_2000
-svare		verb	341	core verb core_500 core_1000 core_2000
-fortsætte		verb	342	core verb core_500 core_1000 core_2000
-plan		noun	343	core noun core_500 core_1000 core_2000
-hånd		noun	344	core noun core_500 core_1000 core_2000
-fri		adjective	345	core adjective core_500 core_1000 core_2000
-universitet		noun	346	core noun core_500 core_1000 core_2000
-avis		noun	347	core noun core_500 core_1000 core_2000
-valg		noun	348	core noun core_500 core_1000 core_2000
-opgave		noun	349	core noun core_500 core_1000 core_2000
-tal		noun	350	core noun core_500 core_1000 core_2000
-slags		noun	351	core noun core_500 core_1000 core_2000
-klub		noun	352	core noun core_500 core_1000 core_2000
-stat		noun	353	core noun core_500 core_1000 core_2000
-morgen		noun	354	core noun core_500 core_1000 core_2000
-tekst		noun	355	core noun core_500 core_1000 core_2000
-til		adverb	356	core adverb core_500 core_1000 core_2000
-forælder		noun	357	core noun core_500 core_1000 core_2000
-hvilken		pronoun	358	core pronoun core_500 core_1000 core_2000
-ene		adjective	359	core adjective core_500 core_1000 core_2000
-ret		noun	360	core noun core_500 core_1000 core_2000
-ekstra		adjective	361	core adjective core_500 core_1000 core_2000
-ude		adverb	362	core adverb core_500 core_1000 core_2000
-flytte		verb	363	core verb core_500 core_1000 core_2000
-undersøgelse		noun	364	core noun core_500 core_1000 core_2000
-antal		noun	365	core noun core_500 core_1000 core_2000
-alene		adverb	366	core adverb core_500 core_1000 core_2000
-begge		pronoun	367	core pronoun core_500 core_1000 core_2000
-ret		adverb	368	core adverb core_500 core_1000 core_2000
-vende		verb	369	core verb core_500 core_1000 core_2000
-ren		adjective	370	core adjective core_500 core_1000 core_2000
-lokal		adjective	371	core adjective core_500 core_1000 core_2000
-fremtid		noun	372	core noun core_500 core_1000 core_2000
-ændre		verb	373	core verb core_500 core_1000 core_2000
-aftale		noun	374	core noun core_500 core_1000 core_2000
-væk		adverb	375	core adverb core_500 core_1000 core_2000
-krav		noun	376	core noun core_500 core_1000 core_2000
-øje		noun	377	core noun core_500 core_1000 core_2000
-præsident		noun	378	core noun core_500 core_1000 core_2000
-samarbejde		noun	379	core noun core_500 core_1000 core_2000
-koste		verb	380	core verb core_500 core_1000 core_2000
-forslag		noun	381	core noun core_500 core_1000 core_2000
-musik		noun	382	core noun core_500 core_1000 core_2000
-fylde		verb	383	core verb core_500 core_1000 core_2000
-privat		adjective	384	core adjective core_500 core_1000 core_2000
-oplyse		verb	385	core verb core_500 core_1000 core_2000
-fuld		adjective	386	core adjective core_500 core_1000 core_2000
-søndag		noun	387	core noun core_500 core_1000 core_2000
-ramme		verb	388	core verb core_500 core_1000 core_2000
-medarbejder		noun	389	core noun core_500 core_1000 core_2000
-bygge		verb	390	core verb core_500 core_1000 core_2000
-længe		adverb	391	core adverb core_500 core_1000 core_2000
-imod		preposition	392	core preposition core_500 core_1000 core_2000
-pige		noun	393	core noun core_500 core_1000 core_2000
-tilfælde		noun	394	core noun core_500 core_1000 core_2000
-elev		noun	395	core noun core_500 core_1000 core_2000
-social		adjective	396	core adjective core_500 core_1000 core_2000
-igennem		preposition	397	core preposition core_500 core_1000 core_2000
-marked		noun	398	core noun core_500 core_1000 core_2000
-lære		verb	399	core verb core_500 core_1000 core_2000
-far		noun	400	core noun core_500 core_1000 core_2000
-udvikle		verb	401	core verb core_500 core_1000 core_2000
-lørdag		noun	402	core noun core_500 core_1000 core_2000
-mor		noun	403	core noun core_500 core_1000 core_2000
-kirke		noun	404	core noun core_500 core_1000 core_2000
-kunde		noun	405	core noun core_500 core_1000 core_2000
-åbne		verb	406	core verb core_500 core_1000 core_2000
-prøve		verb	407	core verb core_500 core_1000 core_2000
-halv		adjective	408	core adjective core_500 core_1000 core_2000
-europæisk		adjective	409	core adjective core_500 core_1000 core_2000
-hedde		verb	410	core verb core_500 core_1000 core_2000
-periode		noun	411	core noun core_500 core_1000 core_2000
-borger		noun	412	core noun core_500 core_1000 core_2000
-masse		noun	413	core noun core_500 core_1000 core_2000
-rejse		verb	414	core verb core_500 core_1000 core_2000
-ligne		verb	415	core verb core_500 core_1000 core_2000
-vel		adverb	416	core adverb core_500 core_1000 core_2000
-åben		adjective	417	core adjective core_500 core_1000 core_2000
-mangle		verb	418	core verb core_500 core_1000 core_2000
-hjem		adverb	419	core adverb core_500 core_1000 core_2000
-ligesom		conjunction	420	core conjunction core_500 core_1000 core_2000
+svare	answer; reply; respond	verb	341	core verb core_500 core_1000 core_2000
+fortsætte	continue; to continue	verb	342	core verb core_500 core_1000 core_2000
+plan	a plan; level; plane	noun	343	core noun core_500 core_1000 core_2000
+hånd	anatomy; hand	noun	344	core noun core_500 core_1000 core_2000
+fri	free; vacant; unoccupied	adjective	345	core adjective core_500 core_1000 core_2000
+universitet	university	noun	346	core noun core_500 core_1000 core_2000
+avis	journalism; newspaper	noun	347	core noun core_500 core_1000 core_2000
+valg	choice; election	noun	348	core noun core_500 core_1000 core_2000
+opgave	task	noun	349	core noun core_500 core_1000 core_2000
+tal	number; figure; digit	noun	350	core noun core_500 core_1000 core_2000
+slags	slag; genitive singular of slag	noun	351	core noun core_500 core_1000 core_2000
+klub	club; a club	noun	352	core noun core_500 core_1000 core_2000
+stat	state; polity; A state	noun	353	core noun core_500 core_1000 core_2000
+morgen	morning	noun	354	core noun core_500 core_1000 core_2000
+tekst	text; a text	noun	355	core noun core_500 core_1000 core_2000
+til	more; additional; another	adverb	356	core adverb core_500 core_1000 core_2000
+forælder	parent	noun	357	core noun core_500 core_1000 core_2000
+hvilken	what; which; the	pronoun	358	core pronoun core_500 core_1000 core_2000
+ene	alone; lonely	adjective	359	core adjective core_500 core_1000 core_2000
+ret	justice; law; justice, law	noun	360	core noun core_500 core_1000 core_2000
+ekstra	extra	adjective	361	core adjective core_500 core_1000 core_2000
+ude	out; outside	adverb	362	core adverb core_500 core_1000 core_2000
+flytte	move; remove; move, remove	verb	363	core verb core_500 core_1000 core_2000
+undersøgelse	examination; investigation; test	noun	364	core noun core_500 core_1000 core_2000
+antal	number; quantity; countable	noun	365	core noun core_500 core_1000 core_2000
+alene	only; just	adverb	366	core adverb core_500 core_1000 core_2000
+begge	both	pronoun	367	core pronoun core_500 core_1000 core_2000
+ret	straight; rightly; properly	adverb	368	core adverb core_500 core_1000 core_2000
+vende	turn; to turn; turn over	verb	369	core verb core_500 core_1000 core_2000
+ren	clean; pure; mere	adjective	370	core adjective core_500 core_1000 core_2000
+lokal	local; extension; lok	adjective	371	core adjective core_500 core_1000 core_2000
+fremtid	future; grammar; future tense	noun	372	core noun core_500 core_1000 core_2000
+ændre	change; alter; to change, to alter	verb	373	core verb core_500 core_1000 core_2000
+aftale	arrangement; agreement; deal	noun	374	core noun core_500 core_1000 core_2000
+væk	gone; away	adverb	375	core adverb core_500 core_1000 core_2000
+krav	requirement; a requirement; demand	noun	376	core noun core_500 core_1000 core_2000
+øje	anatomy; eye	noun	377	core noun core_500 core_1000 core_2000
+præsident	president; chairman	noun	378	core noun core_500 core_1000 core_2000
+samarbejde	cooperation; collaboration; partnership	noun	379	core noun core_500 core_1000 core_2000
+koste	cost; price; for sale	verb	380	core verb core_500 core_1000 core_2000
+forslag	proposal; suggestion; proposal, suggestion	noun	381	core noun core_500 core_1000 core_2000
+musik	music	noun	382	core noun core_500 core_1000 core_2000
+fylde	fill; to fill; fill up	verb	383	core verb core_500 core_1000 core_2000
+privat	private; owned; privately held	adjective	384	core adjective core_500 core_1000 core_2000
+oplyse	light up; illuminate; to light up, illuminate	verb	385	core verb core_500 core_1000 core_2000
+fuld	full; complete; drunk	adjective	386	core adjective core_500 core_1000 core_2000
+søndag	Sunday	noun	387	core noun core_500 core_1000 core_2000
+ramme	affect; to affect; hit	verb	388	core verb core_500 core_1000 core_2000
+medarbejder	employee	noun	389	core noun core_500 core_1000 core_2000
+bygge	build; construct; to build, construct	verb	390	core verb core_500 core_1000 core_2000
+længe	long	adverb	391	core adverb core_500 core_1000 core_2000
+imod	mod; a variant of mod	preposition	392	core preposition core_500 core_1000 core_2000
+pige	girl; woman; girl, woman	noun	393	core noun core_500 core_1000 core_2000
+tilfælde	case; occurrence; case, occurrence	noun	394	core noun core_500 core_1000 core_2000
+elev	pupil; student; trainee	noun	395	core noun core_500 core_1000 core_2000
+social	sociable	adjective	396	core adjective core_500 core_1000 core_2000
+igennem	gennem; alternative form of gennem	preposition	397	core preposition core_500 core_1000 core_2000
+marked	market; fair; emporium	noun	398	core noun core_500 core_1000 core_2000
+lære	teach; to teach; learn	verb	399	core verb core_500 core_1000 core_2000
+far	father; dad; father, dad	noun	400	core noun core_500 core_1000 core_2000
+udvikle	develop; to develop; evolve	verb	401	core verb core_500 core_1000 core_2000
+lørdag	Saturday	noun	402	core noun core_500 core_1000 core_2000
+mor	mother; geology; humus	noun	403	core noun core_500 core_1000 core_2000
+kirke	Christianity; church	noun	404	core noun core_500 core_1000 core_2000
+kunde	customer; shopper; client	noun	405	core noun core_500 core_1000 core_2000
+åbne	open; to open	verb	406	core verb core_500 core_1000 core_2000
+prøve	try; to try; test	verb	407	core verb core_500 core_1000 core_2000
+halv	half	adjective	408	core adjective core_500 core_1000 core_2000
+europæisk	European	adjective	409	core adjective core_500 core_1000 core_2000
+hedde	be called; to be called; be named	verb	410	core verb core_500 core_1000 core_2000
+periode	period; era; term	noun	411	core noun core_500 core_1000 core_2000
+borger	citizen; a citizen	noun	412	core noun core_500 core_1000 core_2000
+masse	mass; pulp; mass, pulp	noun	413	core noun core_500 core_1000 core_2000
+rejse	rise; raise; put up	verb	414	core verb core_500 core_1000 core_2000
+ligne	resemble; look like; resemble, look like	verb	415	core verb core_500 core_1000 core_2000
+vel	well; suppose; maybe	adverb	416	core adverb core_500 core_1000 core_2000
+åben	open; frank; candid	adjective	417	core adjective core_500 core_1000 core_2000
+mangle	lack; to lack; want	verb	418	core verb core_500 core_1000 core_2000
+hjem	home	adverb	419	core adverb core_500 core_1000 core_2000
+ligesom	as; like; as, like	conjunction	420	core conjunction core_500 core_1000 core_2000
 hen		adverb	421	core adverb core_500 core_1000 core_2000
-ja		noun	422	core noun core_500 core_1000 core_2000
-sælge		verb	423	core verb core_500 core_1000 core_2000
-uddannelse		noun	424	core noun core_500 core_1000 core_2000
-desuden		adverb	425	core adverb core_500 core_1000 core_2000
-forvente		verb	426	core verb core_500 core_1000 core_2000
-direkte		adjective	427	core adjective core_500 core_1000 core_2000
-fredag		noun	428	core noun core_500 core_1000 core_2000
-for		adverb	429	core adverb core_500 core_1000 core_2000
-søge		verb	430	core verb core_500 core_1000 core_2000
-lukke		verb	431	core verb core_500 core_1000 core_2000
-lav		adjective	432	core adjective core_500 core_1000 core_2000
-der		adverb	433	core adverb core_500 core_1000 core_2000
-ven		noun	434	core noun core_500 core_1000 core_2000
-ende		verb	435	core verb core_500 core_1000 core_2000
-job		noun	436	core noun core_500 core_1000 core_2000
-fin		adjective	437	core adjective core_500 core_1000 core_2000
-krig		noun	438	core noun core_500 core_1000 core_2000
-vand		noun	439	core noun core_500 core_1000 core_2000
-slet		adverb	440	core adverb core_500 core_1000 core_2000
-fortsat		adverb	441	core adverb core_500 core_1000 core_2000
-nummer		noun	442	core noun core_500 core_1000 core_2000
-interesse		noun	443	core noun core_500 core_1000 core_2000
-hinanden		pronoun	444	core pronoun core_500 core_1000 core_2000
-økonomi		noun	445	core noun core_500 core_1000 core_2000
-end		adverb	446	core adverb core_500 core_1000 core_2000
-spil		noun	447	core noun core_500 core_1000 core_2000
-såkaldt		adjective	448	core adjective core_500 core_1000 core_2000
-hjælp		noun	449	core noun core_500 core_1000 core_2000
-deltage		verb	450	core verb core_500 core_1000 core_2000
-starte		verb	451	core verb core_500 core_1000 core_2000
+ja	yes	noun	422	core noun core_500 core_1000 core_2000
+sælge	sell; to sell	verb	423	core verb core_500 core_1000 core_2000
+uddannelse	education	noun	424	core noun core_500 core_1000 core_2000
+desuden	furthermore; moreover; furthermore, moreover	adverb	425	core adverb core_500 core_1000 core_2000
+forvente	expect; to expect; demand	verb	426	core verb core_500 core_1000 core_2000
+direkte	direct; immediate; straightforward	adjective	427	core adjective core_500 core_1000 core_2000
+fredag	Friday	noun	428	core noun core_500 core_1000 core_2000
+for	too; in front; forward	adverb	429	core adverb core_500 core_1000 core_2000
+søge	search; look; to search, look	verb	430	core verb core_500 core_1000 core_2000
+lukke	close; to close; shut	verb	431	core verb core_500 core_1000 core_2000
+lav	low	adjective	432	core adjective core_500 core_1000 core_2000
+der	there	adverb	433	core adverb core_500 core_1000 core_2000
+ven	friend; boyfriend	noun	434	core noun core_500 core_1000 core_2000
+ende	end; finish; to end, finish	verb	435	core verb core_500 core_1000 core_2000
+job	task; a task	noun	436	core noun core_500 core_1000 core_2000
+fin	fine; choice; classy	adjective	437	core adjective core_500 core_1000 core_2000
+krig	war	noun	438	core noun core_500 core_1000 core_2000
+vand	water; sea; soft drink	noun	439	core noun core_500 core_1000 core_2000
+slet	at all; slet ikke; slet ingen	adverb	440	core adverb core_500 core_1000 core_2000
+fortsat	constantly	adverb	441	core adverb core_500 core_1000 core_2000
+nummer	number; track	noun	442	core noun core_500 core_1000 core_2000
+interesse	interest	noun	443	core noun core_500 core_1000 core_2000
+hinanden	each other	pronoun	444	core pronoun core_500 core_1000 core_2000
+økonomi	economy; economics; financial	noun	445	core noun core_500 core_1000 core_2000
+end	still; no matter, ever; even	adverb	446	core adverb core_500 core_1000 core_2000
+spil	game; A game; box	noun	447	core noun core_500 core_1000 core_2000
+såkaldt	so-called	adjective	448	core adjective core_500 core_1000 core_2000
+hjælp	help; assistance; rescue	noun	449	core noun core_500 core_1000 core_2000
+deltage	participate; take part; to participate, take part	verb	450	core verb core_500 core_1000 core_2000
+starte	start; to start	verb	451	core verb core_500 core_1000 core_2000
 tv		noun	452	core noun core_500 core_1000 core_2000
-ad		preposition	453	core preposition core_500 core_1000 core_2000
-kilometer		noun	454	core noun core_500 core_1000 core_2000
-virke		verb	455	core verb core_500 core_1000 core_2000
-rolle		noun	456	core noun core_500 core_1000 core_2000
-øjeblik		noun	457	core noun core_500 core_1000 core_2000
-håbe		verb	458	core verb core_500 core_1000 core_2000
-løbe		verb	459	core verb core_500 core_1000 core_2000
-almindelig		adjective	460	core adjective core_500 core_1000 core_2000
-bringe		verb	461	core verb core_500 core_1000 core_2000
-gengæld		noun	462	core noun core_500 core_1000 core_2000
-tur		noun	463	core noun core_500 core_1000 core_2000
-sort		adjective	464	core adjective core_500 core_1000 core_2000
-politik		noun	465	core noun core_500 core_1000 core_2000
-tidspunkt		noun	466	core noun core_500 core_1000 core_2000
-hvid		adjective	467	core adjective core_500 core_1000 core_2000
-debat		noun	468	core noun core_500 core_1000 core_2000
-nødvendig		adjective	469	core adjective core_500 core_1000 core_2000
-meter		noun	470	core noun core_500 core_1000 core_2000
-lykkes		verb	471	core verb core_500 core_1000 core_2000
-glad		adjective	472	core adjective core_500 core_1000 core_2000
-ansvar		noun	473	core noun core_500 core_1000 core_2000
-stykke		noun	474	core noun core_500 core_1000 core_2000
-modtage		verb	475	core verb core_500 core_1000 core_2000
-vokse		verb	476	core verb core_500 core_1000 core_2000
-forfatter		noun	477	core noun core_500 core_1000 core_2000
-tale		noun	478	core noun core_500 core_1000 core_2000
-vurdere		verb	479	core verb core_500 core_1000 core_2000
-inden		conjunction	480	core conjunction core_500 core_1000 core_2000
+ad	by; at	preposition	453	core preposition core_500 core_1000 core_2000
+kilometer	kilometre	noun	454	core noun core_500 core_1000 core_2000
+virke	function; properly; function properly	verb	455	core verb core_500 core_1000 core_2000
+rolle	drama; cinematography; role	noun	456	core noun core_500 core_1000 core_2000
+øjeblik	blink of an eye; moment; blink of an eye, moment	noun	457	core noun core_500 core_1000 core_2000
+håbe	hope; to hope	verb	458	core verb core_500 core_1000 core_2000
+løbe	run; to run; curdle	verb	459	core verb core_500 core_1000 core_2000
+almindelig	ordinary; usual; common	adjective	460	core adjective core_500 core_1000 core_2000
+bringe	bring; to bring; publish	verb	461	core verb core_500 core_1000 core_2000
+gengæld	return; reciprocation; return, reciprocation	noun	462	core noun core_500 core_1000 core_2000
+tur	turn; graph theory; trail	noun	463	core noun core_500 core_1000 core_2000
+sort	black; under the table; secret	adjective	464	core adjective core_500 core_1000 core_2000
+politik	politics; policy; a policy	noun	465	core noun core_500 core_1000 core_2000
+tidspunkt	time; moment; date	noun	466	core noun core_500 core_1000 core_2000
+hvid	white; blank	adjective	467	core adjective core_500 core_1000 core_2000
+debat	debate	noun	468	core noun core_500 core_1000 core_2000
+nødvendig	necessary; essential; necessary, essential	adjective	469	core adjective core_500 core_1000 core_2000
+meter	metre; a metre, or meter	noun	470	core noun core_500 core_1000 core_2000
+lykkes	success; successful; succeed	verb	471	core verb core_500 core_1000 core_2000
+glad	happy; happy, glad	adjective	472	core adjective core_500 core_1000 core_2000
+ansvar	responsibility; liability; blame	noun	473	core noun core_500 core_1000 core_2000
+stykke	piece	noun	474	core noun core_500 core_1000 core_2000
+modtage	receive; get; accept	verb	475	core verb core_500 core_1000 core_2000
+vokse	grow; to grow; become	verb	476	core verb core_500 core_1000 core_2000
+forfatter	writer; author	noun	477	core noun core_500 core_1000 core_2000
+tale	speech; talk; address	noun	478	core noun core_500 core_1000 core_2000
+vurdere	assess; evaluate; assess, evaluate	verb	479	core verb core_500 core_1000 core_2000
+inden	before	conjunction	480	core conjunction core_500 core_1000 core_2000
 system		noun	481	core noun core_500 core_1000 core_2000
-miste		verb	482	core verb core_500 core_1000 core_2000
-positiv		adjective	483	core adjective core_500 core_1000 core_2000
-fælles		adjective	484	core adjective core_500 core_1000 core_2000
-dreng		noun	485	core noun core_500 core_1000 core_2000
+miste	lose; to lose	verb	482	core verb core_500 core_1000 core_2000
+positiv	positive; mathematics; sciences	adjective	483	core adjective core_500 core_1000 core_2000
+fælles	common; communal; common, communal	adjective	484	core adjective core_500 core_1000 core_2000
+dreng	boy; lad; boy, lad	noun	485	core noun core_500 core_1000 core_2000
 huskeregel		noun	486	core noun core_500 core_1000 core_2000
-løsning		noun	487	core noun core_500 core_1000 core_2000
-mandag		noun	488	core noun core_500 core_1000 core_2000
-torsdag		noun	489	core noun core_500 core_1000 core_2000
+løsning	answer; an answer; solution	noun	487	core noun core_500 core_1000 core_2000
+mandag	Monday	noun	488	core noun core_500 core_1000 core_2000
+torsdag	Thursday	noun	489	core noun core_500 core_1000 core_2000
 efter		conjunction	490	core conjunction core_500 core_1000 core_2000
-tvivl		noun	491	core noun core_500 core_1000 core_2000
-øge		verb	492	core verb core_500 core_1000 core_2000
-passe		verb	493	core verb core_500 core_1000 core_2000
-rød		adjective	494	core adjective core_500 core_1000 core_2000
-ledelse		noun	495	core noun core_500 core_1000 core_2000
-skylde		verb	496	core verb core_500 core_1000 core_2000
-til		conjunction	497	core conjunction core_500 core_1000 core_2000
-sæson		noun	498	core noun core_500 core_1000 core_2000
-virkelighed		noun	499	core noun core_500 core_1000 core_2000
-fransk		adjective	500	core adjective core_500 core_1000 core_2000
-teater		noun	501	core noun core_1000 core_2000
-alvorlig		adjective	502	core adjective core_1000 core_2000
-beslutning		noun	503	core noun core_1000 core_2000
-spiller		noun	504	core noun core_1000 core_2000
-læge		noun	505	core noun core_1000 core_2000
-bryde		verb	506	core verb core_1000 core_2000
-skat		noun	507	core noun core_1000 core_2000
-rest		noun	508	core noun core_1000 core_2000
-imidlertid		adverb	509	core adverb core_1000 core_2000
-kraft		noun	510	core noun core_1000 core_2000
-på		adverb	511	core adverb core_1000 core_2000
-lejlighed		noun	512	core noun core_1000 core_2000
-aktie		noun	513	core noun core_1000 core_2000
-hænge		verb	514	core verb core_1000 core_2000
-medie		noun	515	core noun core_1000 core_2000
-per		preposition	516	core preposition core_1000 core_2000
-sejr		noun	517	core noun core_1000 core_2000
-baggrund		noun	518	core noun core_1000 core_2000
-dyb		adjective	519	core adjective core_1000 core_2000
+tvivl	doubt	noun	491	core noun core_500 core_1000 core_2000
+øge	increase; enhance; to increase, enhance	verb	492	core verb core_500 core_1000 core_2000
+passe	look after; to look after; true	verb	493	core verb core_500 core_1000 core_2000
+rød	red	adjective	494	core adjective core_500 core_1000 core_2000
+ledelse	leadership; management; leadership, management	noun	495	core noun core_500 core_1000 core_2000
+skylde	owe; to owe	verb	496	core verb core_500 core_1000 core_2000
+til	till; until; till, until	conjunction	497	core conjunction core_500 core_1000 core_2000
+sæson	the time in which something is done	noun	498	core noun core_500 core_1000 core_2000
+virkelighed	reality	noun	499	core noun core_500 core_1000 core_2000
+fransk	French	adjective	500	core adjective core_500 core_1000 core_2000
+teater	theater; theatre; theater, theatre	noun	501	core noun core_1000 core_2000
+alvorlig	serious; grave; earnest	adjective	502	core adjective core_1000 core_2000
+beslutning	decision	noun	503	core noun core_1000 core_2000
+spiller	player; gambler; gamer	noun	504	core noun core_1000 core_2000
+læge	doctor; physician; surgeon	noun	505	core noun core_1000 core_2000
+bryde	break; to break; violate	verb	506	core verb core_1000 core_2000
+skat	treasure; honey; sweetie	noun	507	core noun core_1000 core_2000
+rest	remnant; remainder; remnant, remainder, rest	noun	508	core noun core_1000 core_2000
+imidlertid	however; though	adverb	509	core adverb core_1000 core_2000
+kraft	strength; physics; force	noun	510	core noun core_1000 core_2000
+på	on	adverb	511	core adverb core_1000 core_2000
+lejlighed	apartment; flat; apartment, flat	noun	512	core noun core_1000 core_2000
+aktie	share; stock; share, stock	noun	513	core noun core_1000 core_2000
+hænge	hang; to hang	verb	514	core verb core_1000 core_2000
+medie	medium	noun	515	core noun core_1000 core_2000
+per	for; each; every	preposition	516	core preposition core_1000 core_2000
+sejr	victory; triumph; win	noun	517	core noun core_1000 core_2000
+baggrund	background	noun	518	core noun core_1000 core_2000
+dyb	deep; profound	adjective	519	core adjective core_1000 core_2000
 program		noun	520	core noun core_1000 core_2000
-personlig		adjective	521	core adjective core_1000 core_2000
-enig		adjective	522	core adjective core_1000 core_2000
-sommer		noun	523	core noun core_1000 core_2000
-afvise		verb	524	core verb core_1000 core_2000
-grænse		noun	525	core noun core_1000 core_2000
-beslutte		verb	526	core verb core_1000 core_2000
-længere		adverb	527	core adverb core_1000 core_2000
-svar		noun	528	core noun core_1000 core_2000
-nuværende		adjective	529	core adjective core_1000 core_2000
-onsdag		noun	530	core noun core_1000 core_2000
-råd		noun	531	core noun core_1000 core_2000
-foran		preposition	532	core preposition core_1000 core_2000
-naturligvis		adverb	533	core adverb core_1000 core_2000
-indsats		noun	534	core noun core_1000 core_2000
-huske		verb	535	core verb core_1000 core_2000
-regne		verb	536	core verb core_1000 core_2000
-tabe		verb	537	core verb core_1000 core_2000
-firma		noun	538	core noun core_1000 core_2000
-slem		adjective	539	core adjective core_1000 core_2000
-bestyrelse		noun	540	core noun core_1000 core_2000
-grøn		adjective	541	core adjective core_1000 core_2000
-klare		verb	542	core verb core_1000 core_2000
-hoved		noun	543	core noun core_1000 core_2000
-bede		verb	544	core verb core_1000 core_2000
-søn		noun	545	core noun core_1000 core_2000
-befolkning		noun	546	core noun core_1000 core_2000
-januar		noun	547	core noun core_1000 core_2000
-hverken		adverb	548	core adverb core_1000 core_2000
-gennemføre		verb	549	core verb core_1000 core_2000
-dø		verb	550	core verb core_1000 core_2000
-virkelig		adverb	551	core adverb core_1000 core_2000
-forsøg		noun	552	core noun core_1000 core_2000
+personlig	personal	adjective	521	core adjective core_1000 core_2000
+enig	united; unanimous	adjective	522	core adjective core_1000 core_2000
+sommer	summer	noun	523	core noun core_1000 core_2000
+afvise	reject; to reject; deny	verb	524	core verb core_1000 core_2000
+grænse	border; boundary; limit	noun	525	core noun core_1000 core_2000
+beslutte	decide; to decide	verb	526	core verb core_1000 core_2000
+længere	længe; comparative degree of længe; anymore	adverb	527	core adverb core_1000 core_2000
+svar	answer; reply; response	noun	528	core noun core_1000 core_2000
+nuværende	current; present; current, present	adjective	529	core adjective core_1000 core_2000
+onsdag	Wednesday	noun	530	core noun core_1000 core_2000
+råd	council; advice; piece of advice	noun	531	core noun core_1000 core_2000
+foran	in front of	preposition	532	core preposition core_1000 core_2000
+naturligvis	of course; naturally; obviously	adverb	533	core adverb core_1000 core_2000
+indsats	effort; exertion; effort, exertion	noun	534	core noun core_1000 core_2000
+huske	remember; to remember	verb	535	core verb core_1000 core_2000
+regne	rain; to rain; solve	verb	536	core verb core_1000 core_2000
+tabe	lose; to lose	verb	537	core verb core_1000 core_2000
+firma	business; company; firm	noun	538	core noun core_1000 core_2000
+slem	bad; ill-behaved; mean	adjective	539	core adjective core_1000 core_2000
+bestyrelse	management	noun	540	core noun core_1000 core_2000
+grøn	green; inexperienced; environmentally friendly	adjective	541	core adjective core_1000 core_2000
+klare	manage; handle; cope	verb	542	core verb core_1000 core_2000
+hoved	head; mind; person	noun	543	core noun core_1000 core_2000
+bede	ask; request; om	verb	544	core verb core_1000 core_2000
+søn	son	noun	545	core noun core_1000 core_2000
+befolkning	population; people	noun	546	core noun core_1000 core_2000
+januar	January	noun	547	core noun core_1000 core_2000
+hverken	neither	adverb	548	core adverb core_1000 core_2000
+gennemføre	process; fulfill; put	verb	549	core verb core_1000 core_2000
+dø	die	verb	550	core verb core_1000 core_2000
+virkelig	really; truly; really, truly	adverb	551	core adverb core_1000 core_2000
+forsøg	attempt; try; effort	noun	552	core noun core_1000 core_2000
 patient		noun	553	core noun core_1000 core_2000
-bestå		verb	554	core verb core_1000 core_2000
-trods		preposition	555	core preposition core_1000 core_2000
-mening		noun	556	core noun core_1000 core_2000
-folketing		noun	557	core noun core_1000 core_2000
-svensk		adjective	558	core adjective core_1000 core_2000
-forening		noun	559	core noun core_1000 core_2000
-nat		noun	560	core noun core_1000 core_2000
-konservativ		adjective	561	core adjective core_1000 core_2000
+bestå	af; consist; to consist	verb	554	core verb core_1000 core_2000
+trods	despite	preposition	555	core preposition core_1000 core_2000
+mening	opinion; an opinion; meaning	noun	556	core noun core_1000 core_2000
+folketing	parliament	noun	557	core noun core_1000 core_2000
+svensk	Swedish	adjective	558	core adjective core_1000 core_2000
+forening	union; association; society	noun	559	core noun core_1000 core_2000
+nat	night	noun	560	core noun core_1000 core_2000
+konservativ	conservative	adjective	561	core adjective core_1000 core_2000
 start		noun	562	core noun core_1000 core_2000
-salg		noun	563	core noun core_1000 core_2000
-yderlig		adjective	564	core adjective core_1000 core_2000
-tirsdag		noun	565	core noun core_1000 core_2000
-inde		adverb	566	core adverb core_1000 core_2000
-lys		noun	567	core noun core_1000 core_2000
-støtte		verb	568	core verb core_1000 core_2000
-smuk		adjective	569	core adjective core_1000 core_2000
+salg	sale	noun	563	core noun core_1000 core_2000
+yderlig	extreme; outer; far	adjective	564	core adjective core_1000 core_2000
+tirsdag	Tuesday	noun	565	core noun core_1000 core_2000
+inde	inside; indoors; inside, indoors	adverb	566	core adverb core_1000 core_2000
+lys	light; candle	noun	567	core noun core_1000 core_2000
+støtte	support; to support; stand	verb	568	core verb core_1000 core_2000
+smuk	beautiful; handsome; good-looking	adjective	569	core adjective core_1000 core_2000
 pause		noun	570	core noun core_1000 core_2000
 museum		noun	571	core noun core_1000 core_2000
-normal		adjective	572	core adjective core_1000 core_2000
-organisation		noun	573	core noun core_1000 core_2000
-stilling		noun	574	core noun core_1000 core_2000
-via		preposition	575	core preposition core_1000 core_2000
-understrege		verb	576	core verb core_1000 core_2000
-hente		verb	577	core verb core_1000 core_2000
-værdi		noun	578	core noun core_1000 core_2000
-vis		adjective	579	core adjective core_1000 core_2000
-stemme		noun	580	core noun core_1000 core_2000
-oplysning		noun	581	core noun core_1000 core_2000
-før		adverb	582	core adverb core_1000 core_2000
-hjem		noun	583	core noun core_1000 core_2000
-egentlig		adverb	584	core adverb core_1000 core_2000
-engang		adverb	585	core adverb core_1000 core_2000
-dengang		adverb	586	core adverb core_1000 core_2000
-minister		noun	587	core noun core_1000 core_2000
-skifte		verb	588	core verb core_1000 core_2000
-afgørende		adjective	589	core adjective core_1000 core_2000
-mærke		verb	590	core verb core_1000 core_2000
-forskel		noun	591	core noun core_1000 core_2000
-forlade		verb	592	core verb core_1000 core_2000
-let		adjective	593	core adjective core_1000 core_2000
-scene		noun	594	core noun core_1000 core_2000
-mad		noun	595	core noun core_1000 core_2000
-indgå		verb	596	core verb core_1000 core_2000
-nej		noun	597	core noun core_1000 core_2000
-unge		noun	598	core noun core_1000 core_2000
-september		noun	599	core noun core_1000 core_2000
-journalist		noun	600	core noun core_1000 core_2000
-kunst		noun	601	core noun core_1000 core_2000
-død		noun	602	core noun core_1000 core_2000
-behandling		noun	603	core noun core_1000 core_2000
-udtryk		noun	604	core noun core_1000 core_2000
-føde		verb	605	core verb core_1000 core_2000
-nævne		verb	606	core verb core_1000 core_2000
-jord		noun	607	core noun core_1000 core_2000
-dyr		adjective	608	core adjective core_1000 core_2000
-kigge		verb	609	core verb core_1000 core_2000
-midt		adverb	610	core adverb core_1000 core_2000
-fungere		verb	611	core verb core_1000 core_2000
-dele		verb	612	core verb core_1000 core_2000
+normal	ordinary; usual; typical	adjective	572	core adjective core_1000 core_2000
+organisation	organization	noun	573	core noun core_1000 core_2000
+stilling	position; post	noun	574	core noun core_1000 core_2000
+via	by way of; by means of; using	preposition	575	core preposition core_1000 core_2000
+understrege	underline; to underline; emphasize	verb	576	core verb core_1000 core_2000
+hente	fetch; retrieve; to fetch, retrieve	verb	577	core verb core_1000 core_2000
+værdi	value; worth; merit	noun	578	core noun core_1000 core_2000
+vis	wise; sure; certain	adjective	579	core adjective core_1000 core_2000
+stemme	voice; vote	noun	580	core noun core_1000 core_2000
+oplysning	information; Enlightenment; Aufklärung	noun	581	core noun core_1000 core_2000
+før	before; prior; sooner	adverb	582	core adverb core_1000 core_2000
+hjem	home	noun	583	core noun core_1000 core_2000
+egentlig	really; actually; really, actually	adverb	584	core adverb core_1000 core_2000
+engang	once; one day; at one time	adverb	585	core adverb core_1000 core_2000
+dengang	back; then; time	adverb	586	core adverb core_1000 core_2000
+minister	government; ministry	noun	587	core noun core_1000 core_2000
+skifte	change; to change; exchange	verb	588	core verb core_1000 core_2000
+afgørende	decisive; critical; crucial	adjective	589	core adjective core_1000 core_2000
+mærke	mark; to mark; feel	verb	590	core verb core_1000 core_2000
+forskel	difference	noun	591	core noun core_1000 core_2000
+forlade	leave; to leave; give up	verb	592	core verb core_1000 core_2000
+let	light; easy; slight	adjective	593	core adjective core_1000 core_2000
+scene	stage	noun	594	core noun core_1000 core_2000
+mad	food; a slice of bread with something on top	noun	595	core noun core_1000 core_2000
+indgå	be; become; part	verb	596	core verb core_1000 core_2000
+nej	no	noun	597	core noun core_1000 core_2000
+unge	young; young one; kid	noun	598	core noun core_1000 core_2000
+september	sept; September , abbreviated sept	noun	599	core noun core_1000 core_2000
+journalist	journalism; reporter; a journalist, a reporter	noun	600	core noun core_1000 core_2000
+kunst	art; artistry; skill	noun	601	core noun core_1000 core_2000
+død	death; decease; demise	noun	602	core noun core_1000 core_2000
+behandling	treatment; processing; management	noun	603	core noun core_1000 core_2000
+udtryk	expression; token; expression, token	noun	604	core noun core_1000 core_2000
+føde	bear; give birth; to bear, give birth	verb	605	core verb core_1000 core_2000
+nævne	mention; to mention; name	verb	606	core verb core_1000 core_2000
+jord	earth; Earth; Jorden	noun	607	core noun core_1000 core_2000
+dyr	expensive; dear; prized	adjective	608	core adjective core_1000 core_2000
+kigge	look; to look; glance	verb	609	core verb core_1000 core_2000
+midt	middle; centre; in the middle/centre	adverb	610	core adverb core_1000 core_2000
+fungere	function; to function	verb	611	core verb core_1000 core_2000
+dele	divide; share; split	verb	612	core verb core_1000 core_2000
 professor		noun	613	core noun core_1000 core_2000
-pludselig		adverb	614	core adverb core_1000 core_2000
-maj		noun	615	core noun core_1000 core_2000
-bane		noun	616	core noun core_1000 core_2000
-milliard		noun	617	core noun core_1000 core_2000
-klasse		noun	618	core noun core_1000 core_2000
-enhver		pronoun	619	core pronoun core_1000 core_2000
-melde		verb	620	core verb core_1000 core_2000
-niveau		noun	621	core noun core_1000 core_2000
+pludselig	suddenly; all of a sudden; suddenly, all of a sudden	adverb	614	core adverb core_1000 core_2000
+maj	May	noun	615	core noun core_1000 core_2000
+bane	kill; track; trajectory	noun	616	core noun core_1000 core_2000
+milliard	10⁹	noun	617	core noun core_1000 core_2000
+klasse	class; taxonomy	noun	618	core noun core_1000 core_2000
+enhver	any; every; each	pronoun	619	core pronoun core_1000 core_2000
+melde	announce; declare; announce, declare	verb	620	core verb core_1000 core_2000
+niveau	level	noun	621	core noun core_1000 core_2000
 udstilling		noun	622	core noun core_1000 core_2000
-værk		noun	623	core noun core_1000 core_2000
-moderne		adjective	624	core adjective core_1000 core_2000
-vækst		noun	625	core noun core_1000 core_2000
-afdeling		noun	626	core noun core_1000 core_2000
-snart		adverb	627	core adverb core_1000 core_2000
-succes		noun	628	core noun core_1000 core_2000
-ende		noun	629	core noun core_1000 core_2000
-myndighed		noun	630	core noun core_1000 core_2000
-britisk		adjective	631	core adjective core_1000 core_2000
-rapport		noun	632	core noun core_1000 core_2000
-telefon		noun	633	core noun core_1000 core_2000
-bord		noun	634	core noun core_1000 core_2000
-magt		noun	635	core noun core_1000 core_2000
-sådan		adjective	636	core adjective core_1000 core_2000
-chef		noun	637	core noun core_1000 core_2000
-marts		noun	638	core noun core_1000 core_2000
+værk	work; product; cultural	noun	623	core noun core_1000 core_2000
+moderne	modern; fashionable	adjective	624	core adjective core_1000 core_2000
+vækst	growth; increase; growth, increase	noun	625	core noun core_1000 core_2000
+afdeling	part; section; division	noun	626	core noun core_1000 core_2000
+snart	soon; shortly; presently	adverb	627	core adverb core_1000 core_2000
+succes	success	noun	628	core noun core_1000 core_2000
+ende	end; point; prong	noun	629	core noun core_1000 core_2000
+myndighed	authority; authority, whether real or perceived; authority, governing organization	noun	630	core noun core_1000 core_2000
+britisk	British	adjective	631	core adjective core_1000 core_2000
+rapport	report; a report	noun	632	core noun core_1000 core_2000
+telefon	telephone; phone number; telephone number	noun	633	core noun core_1000 core_2000
+bord	table; desk; table, desk	noun	634	core noun core_1000 core_2000
+magt	power; force	noun	635	core noun core_1000 core_2000
+sådan	such; like that	adjective	636	core adjective core_1000 core_2000
+chef	boss; A boss	noun	637	core noun core_1000 core_2000
+marts	March	noun	638	core noun core_1000 core_2000
 region		noun	639	core noun core_1000 core_2000
-fortale		verb	640	core verb core_1000 core_2000
+fortale	Freudian slip; to make a Freudian slip; say	verb	640	core verb core_1000 core_2000
 chance		noun	641	core noun core_1000 core_2000
-butik		noun	642	core noun core_1000 core_2000
-derefter		adverb	643	core adverb core_1000 core_2000
+butik	store; shop; store, shop	noun	642	core noun core_1000 core_2000
+derefter	after; that; thereafter	adverb	643	core adverb core_1000 core_2000
 sidst		adverb	644	core adverb core_1000 core_2000
-levere		verb	645	core verb core_1000 core_2000
-pege		verb	646	core verb core_1000 core_2000
-bære		verb	647	core verb core_1000 core_2000
+levere	supply; furnish; supply, furnish	verb	645	core verb core_1000 core_2000
+pege	point; to point	verb	646	core verb core_1000 core_2000
+bære	carry; to carry; bear	verb	647	core verb core_1000 core_2000
 november		noun	648	core noun core_1000 core_2000
-stoppe		verb	649	core verb core_1000 core_2000
+stoppe	stop; halt; to stop, halt	verb	649	core verb core_1000 core_2000
 serie		noun	650	core noun core_1000 core_2000
-kritik		noun	651	core noun core_1000 core_2000
-generel		adjective	652	core adjective core_1000 core_2000
-voldsom		adjective	653	core adjective core_1000 core_2000
-gæst		noun	654	core noun core_1000 core_2000
-speciel		adjective	655	core adjective core_1000 core_2000
+kritik	criticism; critique	noun	651	core noun core_1000 core_2000
+generel	general	adjective	652	core adjective core_1000 core_2000
+voldsom	forceful; violent; forceful, violent	adjective	653	core adjective core_1000 core_2000
+gæst	visitor; guest; visitor, guest	noun	654	core noun core_1000 core_2000
+speciel	special; specially	adjective	655	core adjective core_1000 core_2000
 fokus		noun	656	core noun core_1000 core_2000
 december		noun	657	core noun core_1000 core_2000
-oplevelse		noun	658	core noun core_1000 core_2000
-foregå		verb	659	core verb core_1000 core_2000
-aktiv		adjective	660	core adjective core_1000 core_2000
-dør		noun	661	core noun core_1000 core_2000
-kultur		noun	662	core noun core_1000 core_2000
-post		noun	663	core noun core_1000 core_2000
-konsekvens		noun	664	core noun core_1000 core_2000
-drive		verb	665	core verb core_1000 core_2000
-hjemme		adverb	666	core adverb core_1000 core_2000
-undgå		verb	667	core verb core_1000 core_2000
-bestemme		verb	668	core verb core_1000 core_2000
-soldat		noun	669	core noun core_1000 core_2000
-årsag		noun	670	core noun core_1000 core_2000
-juni		noun	671	core noun core_1000 core_2000
+oplevelse	experience; adventure; sensation	noun	658	core noun core_1000 core_2000
+foregå	happen; transpire; to happen, to transpire	verb	659	core verb core_1000 core_2000
+aktiv	active; grammar; active voice	adjective	660	core adjective core_1000 core_2000
+dør	door	noun	661	core noun core_1000 core_2000
+kultur	culture	noun	662	core noun core_1000 core_2000
+post	mail; post, mail; postman	noun	663	core noun core_1000 core_2000
+konsekvens	consequence; consistency	noun	664	core noun core_1000 core_2000
+drive	force; impel; to force, drive, impel	verb	665	core verb core_1000 core_2000
+hjemme	at home; home; at home, home	adverb	666	core adverb core_1000 core_2000
+undgå	avoid; evade; escape	verb	667	core verb core_1000 core_2000
+bestemme	determine; ascertain; to determine, to ascertain	verb	668	core verb core_1000 core_2000
+soldat	soldier	noun	669	core noun core_1000 core_2000
+årsag	cause; reason; cause, reason	noun	670	core noun core_1000 core_2000
+juni	June	noun	671	core noun core_1000 core_2000
 flot		adjective	672	core adjective core_1000 core_2000
-erfaring		noun	673	core noun core_1000 core_2000
-ide		noun	674	core noun core_1000 core_2000
+erfaring	experience	noun	673	core noun core_1000 core_2000
+ide	idé; alternative form of idé	noun	674	core noun core_1000 core_2000
 april		noun	675	core noun core_1000 core_2000
-blad		noun	676	core noun core_1000 core_2000
-daglig		adjective	677	core adjective core_1000 core_2000
-betydning		noun	678	core noun core_1000 core_2000
-fodbold		noun	679	core noun core_1000 core_2000
-nødt		adjective	680	core adjective core_1000 core_2000
-statsminister		noun	681	core noun core_1000 core_2000
-besøg		noun	682	core noun core_1000 core_2000
-fordel		noun	683	core noun core_1000 core_2000
-indtil		preposition	684	core preposition core_1000 core_2000
-oktober		noun	685	core noun core_1000 core_2000
-indtil		conjunction	686	core conjunction core_1000 core_2000
-væsentlig		adjective	687	core adjective core_1000 core_2000
-lide		verb	688	core verb core_1000 core_2000
-dræbe		verb	689	core verb core_1000 core_2000
-kunstner		noun	690	core noun core_1000 core_2000
-dreje		verb	691	core verb core_1000 core_2000
-dels		adverb	692	core adverb core_1000 core_2000
-forsvinde		verb	693	core verb core_1000 core_2000
-ønske		noun	694	core noun core_1000 core_2000
-løse		verb	695	core verb core_1000 core_2000
-tjene		verb	696	core verb core_1000 core_2000
-støtte		noun	697	core noun core_1000 core_2000
-begyndelse		noun	698	core noun core_1000 core_2000
-konstatere		verb	699	core verb core_1000 core_2000
-tilbyde		verb	700	core verb core_1000 core_2000
+blad	leaf; petal; blade	noun	676	core noun core_1000 core_2000
+daglig	daily	adjective	677	core adjective core_1000 core_2000
+betydning	meaning; significance; importance	noun	678	core noun core_1000 core_2000
+fodbold	sports; soccer; football	noun	679	core noun core_1000 core_2000
+nødt	nødt til; see nødt til	adjective	680	core adjective core_1000 core_2000
+statsminister	prime minister; a prime minister	noun	681	core noun core_1000 core_2000
+besøg	visit; a visit	noun	682	core noun core_1000 core_2000
+fordel	advantage; merit; advantage, merit	noun	683	core noun core_1000 core_2000
+indtil	until; up to; till	preposition	684	core preposition core_1000 core_2000
+oktober	October	noun	685	core noun core_1000 core_2000
+indtil	until; till; until, till	conjunction	686	core conjunction core_1000 core_2000
+væsentlig	essential; important; considerable	adjective	687	core adjective core_1000 core_2000
+lide	suffer; To have some disease or similar condition; kunne lide	verb	688	core verb core_1000 core_2000
+dræbe	kill; to kill	verb	689	core verb core_1000 core_2000
+kunstner	artist; An artist	noun	690	core noun core_1000 core_2000
+dreje	turn; to turn; twist	verb	691	core verb core_1000 core_2000
+dels	partly	adverb	692	core adverb core_1000 core_2000
+forsvinde	vanish; disappear; to vanish, to disappear	verb	693	core verb core_1000 core_2000
+ønske	wish	noun	694	core noun core_1000 core_2000
+løse	solve; to solve; untie	verb	695	core verb core_1000 core_2000
+tjene	serve; to serve; earn	verb	696	core verb core_1000 core_2000
+støtte	support; grant; support, grant	noun	697	core noun core_1000 core_2000
+begyndelse	beginning; start; commencement	noun	698	core noun core_1000 core_2000
+konstatere	ascertain; establish; determine	verb	699	core verb core_1000 core_2000
+tilbyde	offer	verb	700	core verb core_1000 core_2000
 model		noun	701	core noun core_1000 core_2000
 frasælge		verb	702	core verb core_1000 core_2000
-kurs		noun	703	core noun core_1000 core_2000
-fejl		noun	704	core noun core_1000 core_2000
-byde		verb	705	core verb core_1000 core_2000
-engelsk		adjective	706	core adjective core_1000 core_2000
-nem		adjective	707	core adjective core_1000 core_2000
-billig		adjective	708	core adjective core_1000 core_2000
-endelig		adverb	709	core adverb core_1000 core_2000
-gade		noun	710	core noun core_1000 core_2000
-risiko		noun	711	core noun core_1000 core_2000
-spise		verb	712	core verb core_1000 core_2000
+kurs	course; price; quotation	noun	703	core noun core_1000 core_2000
+fejl	mistake; error; mistake, error	noun	704	core noun core_1000 core_2000
+byde	order; command; bid	verb	705	core verb core_1000 core_2000
+engelsk	English; British	adjective	706	core adjective core_1000 core_2000
+nem	easy	adjective	707	core adjective core_1000 core_2000
+billig	cheap; derogatory; slutty	adjective	708	core adjective core_1000 core_2000
+endelig	finally; eventually; finally, eventually	adverb	709	core adverb core_1000 core_2000
+gade	street	noun	710	core noun core_1000 core_2000
+risiko	risk; A risk	noun	711	core noun core_1000 core_2000
+spise	eat; to eat	verb	712	core verb core_1000 core_2000
 folkeparti		noun	713	core noun core_1000 core_2000
-holdning		noun	714	core noun core_1000 core_2000
-helst		adverb	715	core adverb core_1000 core_2000
-natur		noun	716	core noun core_1000 core_2000
-besøge		verb	717	core verb core_1000 core_2000
-beskrive		verb	718	core verb core_1000 core_2000
-derimod		adverb	719	core adverb core_1000 core_2000
-slippe		verb	720	core verb core_1000 core_2000
-foretage		verb	721	core verb core_1000 core_2000
-træde		verb	722	core verb core_1000 core_2000
-venstre		adjective	723	core adjective core_1000 core_2000
-produkt		noun	724	core noun core_1000 core_2000
-voksen		adjective	725	core adjective core_1000 core_2000
-lede		verb	726	core verb core_1000 core_2000
-glæde		verb	727	core verb core_1000 core_2000
-bygning		noun	728	core noun core_1000 core_2000
-datter		noun	729	core noun core_1000 core_2000
-koncert		noun	730	core noun core_1000 core_2000
-kvalitet		noun	731	core noun core_1000 core_2000
-borgmester		noun	732	core noun core_1000 core_2000
-konkret		adjective	733	core adjective core_1000 core_2000
-radikal		adjective	734	core adjective core_1000 core_2000
-artikel		noun	735	core noun core_1000 core_2000
-kontakt		noun	736	core noun core_1000 core_2000
+holdning	posture; posture, positioning of body; opinion	noun	714	core noun core_1000 core_2000
+helst	gerne; superlative degree of gerne	adverb	715	core adverb core_1000 core_2000
+natur	nature; disposition; temper	noun	716	core noun core_1000 core_2000
+besøge	visit; to visit	verb	717	core verb core_1000 core_2000
+beskrive	describe; to describe	verb	718	core verb core_1000 core_2000
+derimod	however; in opposition hereto	adverb	719	core adverb core_1000 core_2000
+slippe	let go; release; drop	verb	720	core verb core_1000 core_2000
+foretage	undertake; perform; to undertake, perform	verb	721	core verb core_1000 core_2000
+træde	step; to step; tread	verb	722	core verb core_1000 core_2000
+venstre	left	adjective	723	core adjective core_1000 core_2000
+produkt	product	noun	724	core noun core_1000 core_2000
+voksen	adult; grown-up; adult, grown-up	adjective	725	core adjective core_1000 core_2000
+lede	manage; run; to manage, run	verb	726	core verb core_1000 core_2000
+glæde	look forward to; please; delight	verb	727	core verb core_1000 core_2000
+bygning	building; a building; body shape	noun	728	core noun core_1000 core_2000
+datter	daughter	noun	729	core noun core_1000 core_2000
+koncert	concert; recital; concerto	noun	730	core noun core_1000 core_2000
+kvalitet	quality; property; a quality, a property	noun	731	core noun core_1000 core_2000
+borgmester	mayor; city	noun	732	core noun core_1000 core_2000
+konkret	concrete; art; concretism	adjective	733	core adjective core_1000 core_2000
+radikal	"radical; of or belonging to ""Radikale Venstre"""	adjective	734	core adjective core_1000 core_2000
+artikel	article; story; report	noun	735	core noun core_1000 core_2000
+kontakt	communication; contact; A contact person	noun	736	core noun core_1000 core_2000
 formentlig		adjective	737	core adjective core_1000 core_2000
-point		noun	738	core noun core_1000 core_2000
-undersøge		verb	739	core verb core_1000 core_2000
-konkurrence		noun	740	core noun core_1000 core_2000
-kollega		noun	741	core noun core_1000 core_2000
-anderledes		adjective	742	core adjective core_1000 core_2000
-kaste		verb	743	core verb core_1000 core_2000
-flertal		noun	744	core noun core_1000 core_2000
-dollar		noun	745	core noun core_1000 core_2000
-lyst		noun	746	core noun core_1000 core_2000
+point	a point	noun	738	core noun core_1000 core_2000
+undersøge	examine; go over; look over	verb	739	core verb core_1000 core_2000
+konkurrence	competition	noun	740	core noun core_1000 core_2000
+kollega	colleague	noun	741	core noun core_1000 core_2000
+anderledes	different	adjective	742	core adjective core_1000 core_2000
+kaste	throw; chuck; to throw, to chuck	verb	743	core verb core_1000 core_2000
+flertal	majority; grammar; number	noun	744	core noun core_1000 core_2000
+dollar	a dollar	noun	745	core noun core_1000 core_2000
+lyst	inclination; desire; wish	noun	746	core noun core_1000 core_2000
 center		noun	747	core noun core_1000 core_2000
-desværre		adverb	748	core adverb core_1000 core_2000
-sprog		noun	749	core noun core_1000 core_2000
-stand		noun	750	core noun core_1000 core_2000
-knap		adverb	751	core adverb core_1000 core_2000
-sang		noun	752	core noun core_1000 core_2000
+desværre	regrettably; unfortunately; regrettably, unfortunately	adverb	748	core adverb core_1000 core_2000
+sprog	language	noun	749	core noun core_1000 core_2000
+stand	position; social status; station	noun	750	core noun core_1000 core_2000
+knap	hardly; scarcely; hardly, scarcely	adverb	751	core adverb core_1000 core_2000
+sang	song; singing	noun	752	core noun core_1000 core_2000
 weekend		noun	753	core noun core_1000 core_2000
-slutte		verb	754	core verb core_1000 core_2000
-spændende		adjective	755	core adjective core_1000 core_2000
-kæmpe		verb	756	core verb core_1000 core_2000
-aktivitet		noun	757	core noun core_1000 core_2000
-dyr		noun	758	core noun core_1000 core_2000
-efterhånden		adverb	759	core adverb core_1000 core_2000
-stemme		verb	760	core verb core_1000 core_2000
-fængsel		noun	761	core noun core_1000 core_2000
-rette		verb	762	core verb core_1000 core_2000
-sygdom		noun	763	core noun core_1000 core_2000
-tilbud		noun	764	core noun core_1000 core_2000
-krop		noun	765	core noun core_1000 core_2000
-hensyn		noun	766	core noun core_1000 core_2000
-publikum		noun	767	core noun core_1000 core_2000
-russisk		adjective	768	core adjective core_1000 core_2000
-omgang		noun	769	core noun core_1000 core_2000
-interessere		verb	770	core verb core_1000 core_2000
-adgang		noun	771	core noun core_1000 core_2000
-overraske		verb	772	core verb core_1000 core_2000
-umiddelbar		adjective	773	core adjective core_1000 core_2000
-skyld		noun	774	core noun core_1000 core_2000
-forsker		noun	775	core noun core_1000 core_2000
-synge		verb	776	core verb core_1000 core_2000
-herre		noun	777	core noun core_1000 core_2000
-udfordring		noun	778	core noun core_1000 core_2000
-februar		noun	779	core noun core_1000 core_2000
-elske		verb	780	core verb core_1000 core_2000
-reel		adjective	781	core adjective core_1000 core_2000
+slutte	end; finish; to end, to finish	verb	754	core verb core_1000 core_2000
+spændende	exciting; thrilling; exciting, thrilling	adjective	755	core adjective core_1000 core_2000
+kæmpe	fight; struggle; battle	verb	756	core verb core_1000 core_2000
+aktivitet	activity	noun	757	core noun core_1000 core_2000
+dyr	animal; beast; animal, beast	noun	758	core noun core_1000 core_2000
+efterhånden	over time	adverb	759	core adverb core_1000 core_2000
+stemme	voice; tune; vote	verb	760	core verb core_1000 core_2000
+fængsel	prison	noun	761	core noun core_1000 core_2000
+rette	straighten; adjust; to straighten, adjust	verb	762	core verb core_1000 core_2000
+sygdom	illness; disease; ailment	noun	763	core noun core_1000 core_2000
+tilbud	offer; an offer; an offer where a ware has a reduced price	noun	764	core noun core_1000 core_2000
+krop	body; trunk; torso	noun	765	core noun core_1000 core_2000
+hensyn	care; concern; consideration	noun	766	core noun core_1000 core_2000
+publikum	audience; public; the public	noun	767	core noun core_1000 core_2000
+russisk	Russian	adjective	768	core adjective core_1000 core_2000
+omgang	turn; round; dealings	noun	769	core noun core_1000 core_2000
+interessere	interest; to hold someone's interest; be interested	verb	770	core verb core_1000 core_2000
+adgang	access; permission; entry	noun	771	core noun core_1000 core_2000
+overraske	surprise; surprise  to feel surprise)	verb	772	core verb core_1000 core_2000
+umiddelbar	immediate; adjacent	adjective	773	core adjective core_1000 core_2000
+skyld	blame; guilt; blame, guilt	noun	774	core noun core_1000 core_2000
+forsker	researcher; scientist; research	noun	775	core noun core_1000 core_2000
+synge	sing	verb	776	core verb core_1000 core_2000
+herre	gentleman; mister; lord	noun	777	core noun core_1000 core_2000
+udfordring	challenge; a challenge	noun	778	core noun core_1000 core_2000
+februar	February	noun	779	core noun core_1000 core_2000
+elske	love; to love; make love	verb	780	core verb core_1000 core_2000
+reel	real; proper; real, proper	adjective	781	core adjective core_1000 core_2000
 karriere		noun	782	core noun core_1000 core_2000
-bolig		noun	783	core noun core_1000 core_2000
-behandle		verb	784	core verb core_1000 core_2000
-selvom		conjunction	785	core conjunction core_1000 core_2000
-opnå		verb	786	core verb core_1000 core_2000
-skære		verb	787	core verb core_1000 core_2000
-top		noun	788	core noun core_1000 core_2000
-årlig		adjective	789	core adjective core_1000 core_2000
-overhovedet		adverb	790	core adverb core_1000 core_2000
-stjerne		noun	791	core noun core_1000 core_2000
-præsentere		verb	792	core verb core_1000 core_2000
-forklaring		noun	793	core noun core_1000 core_2000
-sjælden		adjective	794	core adjective core_1000 core_2000
+bolig	home; residence; dwelling	noun	783	core noun core_1000 core_2000
+behandle	treat	verb	784	core verb core_1000 core_2000
+selvom	selv om; alternative form of selv om	conjunction	785	core conjunction core_1000 core_2000
+opnå	achieve; obtain; accomplish	verb	786	core verb core_1000 core_2000
+skære	cut; shine; to shine	verb	787	core verb core_1000 core_2000
+top	summit; peak; summit, peak	noun	788	core noun core_1000 core_2000
+årlig	yearly; annual; yearly, annual	adjective	789	core adjective core_1000 core_2000
+overhovedet	at all; whatsoever; at all, whatsoever	adverb	790	core adverb core_1000 core_2000
+stjerne	astronomy; star; celebrity	noun	791	core noun core_1000 core_2000
+præsentere	present; to present	verb	792	core verb core_1000 core_2000
+forklaring	explanation	noun	793	core noun core_1000 core_2000
+sjælden	rare; infrequent; rare, infrequent	adjective	794	core adjective core_1000 core_2000
 august		noun	795	core noun core_1000 core_2000
-ringe		verb	796	core verb core_1000 core_2000
-socialdemokrat		noun	797	core noun core_1000 core_2000
-I		pronoun	798	core pronoun core_1000 core_2000
-tilføje		verb	799	core verb core_1000 core_2000
-kraftig		adjective	800	core adjective core_1000 core_2000
-opstå		verb	801	core verb core_1000 core_2000
-bred		adjective	802	core adjective core_1000 core_2000
-roman		noun	803	core noun core_1000 core_2000
-tilsyneladende		adjective	804	core adjective core_1000 core_2000
-historisk		adjective	805	core adjective core_1000 core_2000
-alvor		noun	806	core noun core_1000 core_2000
-halvdel		noun	807	core noun core_1000 core_2000
-eksempelvis		adverb	808	core adverb core_1000 core_2000
-forhandling		noun	809	core noun core_1000 core_2000
-true		verb	810	core verb core_1000 core_2000
-kone		noun	811	core noun core_1000 core_2000
-om		adverb	812	core adverb core_1000 core_2000
-spille		noun	813	core noun core_1000 core_2000
-selve		adjective	814	core adjective core_1000 core_2000
-indføre		verb	815	core verb core_1000 core_2000
-forkert		adjective	816	core adjective core_1000 core_2000
-rejse		noun	817	core noun core_1000 core_2000
-vild		adjective	818	core adjective core_1000 core_2000
-titel		noun	819	core noun core_1000 core_2000
-tanke		noun	820	core noun core_1000 core_2000
-placere		verb	821	core verb core_1000 core_2000
-træne		verb	822	core verb core_1000 core_2000
-viden		noun	823	core noun core_1000 core_2000
-sørge		verb	824	core verb core_1000 core_2000
-interessant		adjective	825	core adjective core_1000 core_2000
-central		adjective	826	core adjective core_1000 core_2000
-love		verb	827	core verb core_1000 core_2000
-spare		verb	828	core verb core_1000 core_2000
-udenlandsk		adjective	829	core adjective core_1000 core_2000
-forestilling		noun	830	core noun core_1000 core_2000
-produktion		noun	831	core noun core_1000 core_2000
+ringe	call; telephone; To call, to telephone	verb	796	core verb core_1000 core_2000
+socialdemokrat	social democrat; a social democrat	noun	797	core noun core_1000 core_2000
+I	you; you all; you, you all	pronoun	798	core pronoun core_1000 core_2000
+tilføje	add; append; to add, append	verb	799	core verb core_1000 core_2000
+kraftig	powerful; strong; robust	adjective	800	core adjective core_1000 core_2000
+opstå	arise; to arise; emerge	verb	801	core verb core_1000 core_2000
+bred	broad; wide; broad, wide	adjective	802	core adjective core_1000 core_2000
+roman	novel; A novel	noun	803	core noun core_1000 core_2000
+tilsyneladende	apparent	adjective	804	core adjective core_1000 core_2000
+historisk	historic; historical	adjective	805	core adjective core_1000 core_2000
+alvor	seriousness; gravity; earnestness	noun	806	core noun core_1000 core_2000
+halvdel	half	noun	807	core noun core_1000 core_2000
+eksempelvis	for example	adverb	808	core adverb core_1000 core_2000
+forhandling	negotiation; a negotiation; product	noun	809	core noun core_1000 core_2000
+true	threaten; to threaten	verb	810	core verb core_1000 core_2000
+kone	wife; woman	noun	811	core noun core_1000 core_2000
+om	such that something is surrounded; goal; in changing, goalless directions	adverb	812	core adverb core_1000 core_2000
+spille	music; player; device	noun	813	core noun core_1000 core_2000
+selve	very; itself; herself	adjective	814	core adjective core_1000 core_2000
+indføre	introduce; import; insert	verb	815	core verb core_1000 core_2000
+forkert	wrong	adjective	816	core adjective core_1000 core_2000
+rejse	journey; trip; voyage	noun	817	core noun core_1000 core_2000
+vild	wild; fierce; ferocious	adjective	818	core adjective core_1000 core_2000
+titel	title; A title	noun	819	core noun core_1000 core_2000
+tanke	thought; idea; intention	noun	820	core noun core_1000 core_2000
+placere	place; invest; site	verb	821	core verb core_1000 core_2000
+træne	train; coach; to train, coach	verb	822	core verb core_1000 core_2000
+viden	knowledge	noun	823	core noun core_1000 core_2000
+sørge	grieve; mourn; lament	verb	824	core verb core_1000 core_2000
+interessant	interesting; interest; of interest	adjective	825	core adjective core_1000 core_2000
+central	central, being in the centre	adjective	826	core adjective core_1000 core_2000
+love	promise; to promise; praise	verb	827	core verb core_1000 core_2000
+spare	save; to save; to spare	verb	828	core verb core_1000 core_2000
+udenlandsk	foreign; countries	adjective	829	core adjective core_1000 core_2000
+forestilling	conception; image; idea	noun	830	core noun core_1000 core_2000
+produktion	production	noun	831	core noun core_1000 core_2000
 juli		noun	832	core noun core_1000 core_2000
-erkende		verb	833	core verb core_1000 core_2000
-national		adjective	834	core adjective core_1000 core_2000
-fjerne		verb	835	core verb core_1000 core_2000
-idé		noun	836	core noun core_1000 core_2000
-sikkerhed		noun	837	core noun core_1000 core_2000
-hidtil		adverb	838	core adverb core_1000 core_2000
-uddanne		verb	839	core verb core_1000 core_2000
-miljø		noun	840	core noun core_1000 core_2000
-færdig		adjective	841	core adjective core_1000 core_2000
-forår		noun	842	core noun core_1000 core_2000
-forventning		noun	843	core noun core_1000 core_2000
-naturlig		adjective	844	core adjective core_1000 core_2000
-formål		noun	845	core noun core_1000 core_2000
-udgøre		verb	846	core verb core_1000 core_2000
-tydelig		adjective	847	core adjective core_1000 core_2000
-mine		noun	848	core noun core_1000 core_2000
-rum		noun	849	core noun core_1000 core_2000
-overveje		verb	850	core verb core_1000 core_2000
-skade		noun	851	core noun core_1000 core_2000
-eje		verb	852	core verb core_1000 core_2000
-ben		noun	853	core noun core_1000 core_2000
-dække		verb	854	core verb core_1000 core_2000
-varm		adjective	855	core adjective core_1000 core_2000
-udsætte		verb	856	core verb core_1000 core_2000
-etablere		verb	857	core verb core_1000 core_2000
-efterår		noun	858	core noun core_1000 core_2000
-styrke		noun	859	core noun core_1000 core_2000
-type		noun	860	core noun core_1000 core_2000
-næppe		adverb	861	core adverb core_1000 core_2000
-hovedstad		noun	862	core noun core_1000 core_2000
-nyde		verb	863	core verb core_1000 core_2000
-ryge		verb	864	core verb core_1000 core_2000
-teknisk		adjective	865	core adjective core_1000 core_2000
-tvinge		verb	866	core verb core_1000 core_2000
+erkende	acknowledge; admit; concede	verb	833	core verb core_1000 core_2000
+national	patriotic	adjective	834	core adjective core_1000 core_2000
+fjerne	remove; take away; eliminate	verb	835	core verb core_1000 core_2000
+idé	idea	noun	836	core noun core_1000 core_2000
+sikkerhed	safety; security; safety, security	noun	837	core noun core_1000 core_2000
+hidtil	So far; hitherto; So far, hitherto	adverb	838	core adverb core_1000 core_2000
+uddanne	educate; to educate; pursue	verb	839	core verb core_1000 core_2000
+miljø	environment; background; milieu	noun	840	core noun core_1000 core_2000
+færdig	finished; completed; finished, completed	adjective	841	core adjective core_1000 core_2000
+forår	spring	noun	842	core noun core_1000 core_2000
+forventning	expectation; expectant; the state of being expectant	noun	843	core noun core_1000 core_2000
+naturlig	natural	adjective	844	core adjective core_1000 core_2000
+formål	purpose; cause; purpose, cause	noun	845	core noun core_1000 core_2000
+udgøre	form; make up; constitute	verb	846	core verb core_1000 core_2000
+tydelig	clear; evident; obvious	adjective	847	core adjective core_1000 core_2000
+mine	look; air; mien	noun	848	core noun core_1000 core_2000
+rum	room; compartment; space	noun	849	core noun core_1000 core_2000
+overveje	consider; think about; contemplate	verb	850	core verb core_1000 core_2000
+skade	damage; harm; damage, harm	noun	851	core noun core_1000 core_2000
+eje	own; have; possess	verb	852	core verb core_1000 core_2000
+ben	leg; bone; sinecure	noun	853	core noun core_1000 core_2000
+dække	cover; to cover; veil	verb	854	core verb core_1000 core_2000
+varm	warm; hot; warm, hot	adjective	855	core adjective core_1000 core_2000
+udsætte	subject; subject to; postpone	verb	856	core verb core_1000 core_2000
+etablere	establish; to establish	verb	857	core verb core_1000 core_2000
+efterår	autumn; fall; autumn, fall	noun	858	core noun core_1000 core_2000
+styrke	strength; optical; prescription	noun	859	core noun core_1000 core_2000
+type	a type	noun	860	core noun core_1000 core_2000
+næppe	probably; not; probably not	adverb	861	core adverb core_1000 core_2000
+hovedstad	capital city	noun	862	core noun core_1000 core_2000
+nyde	enjoy; relish; enjoy, relish	verb	863	core verb core_1000 core_2000
+ryge	smoke; to smoke; go	verb	864	core verb core_1000 core_2000
+teknisk	technical	adjective	865	core adjective core_1000 core_2000
+tvinge	force; to force; compel	verb	866	core verb core_1000 core_2000
 institution		noun	867	core noun core_1000 core_2000
-sammenhæng		noun	868	core noun core_1000 core_2000
-dens		pronoun	869	core pronoun core_1000 core_2000
-benytte		verb	870	core verb core_1000 core_2000
-stof		noun	871	core noun core_1000 core_2000
-optage		verb	872	core verb core_1000 core_2000
-udvalg		noun	873	core noun core_1000 core_2000
-nylig		adjective	874	core adjective core_1000 core_2000
-tegne		verb	875	core verb core_1000 core_2000
-afsløre		verb	876	core verb core_1000 core_2000
-retning		noun	877	core noun core_1000 core_2000
-fantastisk		adjective	878	core adjective core_1000 core_2000
-udland		noun	879	core noun core_1000 core_2000
-forretning		noun	880	core noun core_1000 core_2000
-alder		noun	881	core noun core_1000 core_2000
-vælger		noun	882	core noun core_1000 core_2000
-emne		noun	883	core noun core_1000 core_2000
-dommer		noun	884	core noun core_1000 core_2000
-efter		adverb	885	core adverb core_1000 core_2000
-presse		verb	886	core verb core_1000 core_2000
-behov		noun	887	core noun core_1000 core_2000
-kilde		noun	888	core noun core_1000 core_2000
-død		adjective	889	core adjective core_1000 core_2000
-sjov		adjective	890	core adjective core_1000 core_2000
-optræde		verb	891	core verb core_1000 core_2000
+sammenhæng	connection; context	noun	868	core noun core_1000 core_2000
+dens	its; den; its, possessive form of den	pronoun	869	core pronoun core_1000 core_2000
+benytte	use; to use	verb	870	core verb core_1000 core_2000
+stof	cloth; fabric; cloth, fabric	noun	871	core noun core_1000 core_2000
+optage	record; recording; integrate	verb	872	core verb core_1000 core_2000
+udvalg	committee; selection	noun	873	core noun core_1000 core_2000
+nylig	recent	adjective	874	core adjective core_1000 core_2000
+tegne	draw; design; represent	verb	875	core verb core_1000 core_2000
+afsløre	reveal; expose; unveil	verb	876	core verb core_1000 core_2000
+retning	direction; movement; school	noun	877	core noun core_1000 core_2000
+fantastisk	incredible; amazing; fantastic	adjective	878	core adjective core_1000 core_2000
+udland	abroad; foreign; countries	noun	879	core noun core_1000 core_2000
+forretning	business; firm; enterprise	noun	880	core noun core_1000 core_2000
+alder	age	noun	881	core noun core_1000 core_2000
+vælger	voter	noun	882	core noun core_1000 core_2000
+emne	subject; topic; theme	noun	883	core noun core_1000 core_2000
+dommer	judge; magistrate; justice	noun	884	core noun core_1000 core_2000
+efter	later; afterwards; later, afterwards	adverb	885	core adverb core_1000 core_2000
+presse	press; squeeze; to press, squeeze	verb	886	core verb core_1000 core_2000
+behov	need; requirement; need, requirement	noun	887	core noun core_1000 core_2000
+kilde	spring; fountain; source	noun	888	core noun core_1000 core_2000
+død	dead; inanimate; dead, inanimate	adjective	889	core adjective core_1000 core_2000
+sjov	funny; fun	adjective	890	core adjective core_1000 core_2000
+optræde	perform; act; to perform, act	verb	891	core verb core_1000 core_2000
 pres		noun	892	core noun core_1000 core_2000
 information		noun	893	core noun core_1000 core_2000
-danne		verb	894	core verb core_1000 core_2000
-diskutere		verb	895	core verb core_1000 core_2000
+danne	shape; form; to shape, to form	verb	894	core verb core_1000 core_2000
+diskutere	discuss; to discuss	verb	895	core verb core_1000 core_2000
 global		adjective	896	core adjective core_1000 core_2000
-sygehus		noun	897	core noun core_1000 core_2000
-gal		adjective	898	core adjective core_1000 core_2000
-læser		noun	899	core noun core_1000 core_2000
-brev		noun	900	core noun core_1000 core_2000
-markant		adjective	901	core adjective core_1000 core_2000
-skuespiller		noun	902	core noun core_1000 core_2000
-foreslå		verb	903	core verb core_1000 core_2000
-udtale		verb	904	core verb core_1000 core_2000
-klassisk		adjective	905	core adjective core_1000 core_2000
-studerende		noun	906	core noun core_1000 core_2000
+sygehus	hospital	noun	897	core noun core_1000 core_2000
+gal	crazy; mad; insane	adjective	898	core adjective core_1000 core_2000
+læser	reader	noun	899	core noun core_1000 core_2000
+brev	letter; note; epistle	noun	900	core noun core_1000 core_2000
+markant	significant; prominent; notable	adjective	901	core adjective core_1000 core_2000
+skuespiller	actor	noun	902	core noun core_1000 core_2000
+foreslå	suggest; propose; move	verb	903	core verb core_1000 core_2000
+udtale	say; declare; state	verb	904	core verb core_1000 core_2000
+klassisk	classic; exemplary; simple	adjective	905	core adjective core_1000 core_2000
+studerende	student	noun	906	core noun core_1000 core_2000
 indlede		verb	907	core verb core_1000 core_2000
-arbejdsplads		noun	908	core noun core_1000 core_2000
-luft		noun	909	core noun core_1000 core_2000
-tag		noun	910	core noun core_1000 core_2000
-fuldstændig		adjective	911	core adjective core_1000 core_2000
-gratis		adjective	912	core adjective core_1000 core_2000
-typisk		adjective	913	core adjective core_1000 core_2000
-traditionel		adjective	914	core adjective core_1000 core_2000
-pæn		adjective	915	core adjective core_1000 core_2000
-opfordre		verb	916	core verb core_1000 core_2000
-eftermiddag		noun	917	core noun core_1000 core_2000
-evne		noun	918	core noun core_1000 core_2000
-gud		noun	919	core noun core_1000 core_2000
-konflikt		noun	920	core noun core_1000 core_2000
-investering		noun	921	core noun core_1000 core_2000
-kendt		adjective	922	core adjective core_1000 core_2000
-enorm		adjective	923	core adjective core_1000 core_2000
-frygte		verb	924	core verb core_1000 core_2000
-norsk		adjective	925	core adjective core_1000 core_2000
+arbejdsplads	workplace; a workplace; job	noun	908	core noun core_1000 core_2000
+luft	air	noun	909	core noun core_1000 core_2000
+tag	roof; hold; grasp	noun	910	core noun core_1000 core_2000
+fuldstændig	complete; utter; complete, utter	adjective	911	core adjective core_1000 core_2000
+gratis	free; gratis, free	adjective	912	core adjective core_1000 core_2000
+typisk	typical	adjective	913	core adjective core_1000 core_2000
+traditionel	traditional	adjective	914	core adjective core_1000 core_2000
+pæn	nice; decent; nice, decent	adjective	915	core adjective core_1000 core_2000
+opfordre	encourage	verb	916	core verb core_1000 core_2000
+eftermiddag	afternoon	noun	917	core noun core_1000 core_2000
+evne	ability; power; capacity	noun	918	core noun core_1000 core_2000
+gud	religion; god; God	noun	919	core noun core_1000 core_2000
+konflikt	conflict	noun	920	core noun core_1000 core_2000
+investering	investment	noun	921	core noun core_1000 core_2000
+kendt	known; famous	adjective	922	core adjective core_1000 core_2000
+enorm	enormous	adjective	923	core adjective core_1000 core_2000
+frygte	fear; afraid; to fear, to be afraid	verb	924	core verb core_1000 core_2000
+norsk	Norwegian; Norway	adjective	925	core adjective core_1000 core_2000
 venstre		noun	926	core noun core_1000 core_2000
-energi		noun	927	core noun core_1000 core_2000
-anvende		verb	928	core verb core_1000 core_2000
-advokat		noun	929	core noun core_1000 core_2000
-populær		adjective	930	core adjective core_1000 core_2000
-forskning		noun	931	core noun core_1000 core_2000
-ekspert		noun	932	core noun core_1000 core_2000
-officiel		adjective	933	core adjective core_1000 core_2000
-demokrati		noun	934	core noun core_1000 core_2000
-behøve		verb	935	core verb core_1000 core_2000
+energi	energy	noun	927	core noun core_1000 core_2000
+anvende	use; apply; utilize	verb	928	core verb core_1000 core_2000
+advokat	lawyer; attorney; lawyer, attorney	noun	929	core noun core_1000 core_2000
+populær	popular; popular, liked by many people; prevalent	adjective	930	core adjective core_1000 core_2000
+forskning	research	noun	931	core noun core_1000 core_2000
+ekspert	expert	noun	932	core noun core_1000 core_2000
+officiel	official	adjective	933	core adjective core_1000 core_2000
+demokrati	democracy	noun	934	core noun core_1000 core_2000
+behøve	need; to need	verb	935	core verb core_1000 core_2000
 efterfølgende		adjective	936	core adjective core_1000 core_2000
-slutning		noun	937	core noun core_1000 core_2000
-betragte		verb	938	core verb core_1000 core_2000
-udgangspunkt		noun	939	core noun core_1000 core_2000
-gribe		verb	940	core verb core_1000 core_2000
-endda		adverb	941	core adverb core_1000 core_2000
-udsigt		noun	942	core noun core_1000 core_2000
-oprindelig		adjective	943	core adjective core_1000 core_2000
-middel		noun	944	core noun core_1000 core_2000
-kommission		noun	945	core noun core_1000 core_2000
-dom		noun	946	core noun core_1000 core_2000
+slutning	end; finale; end, finale	noun	937	core noun core_1000 core_2000
+betragte	regard; look; regard, look at	verb	938	core verb core_1000 core_2000
+udgangspunkt	starting point	noun	939	core noun core_1000 core_2000
+gribe	catch; seize; grab	verb	940	core verb core_1000 core_2000
+endda	even	adverb	941	core adverb core_1000 core_2000
+udsigt	view; vista; view, vista	noun	942	core noun core_1000 core_2000
+oprindelig	original	adjective	943	core adjective core_1000 core_2000
+middel	means; remedy	noun	944	core noun core_1000 core_2000
+kommission	commission; a commission	noun	945	core noun core_1000 core_2000
+dom	sentence; conviction; judgement	noun	946	core noun core_1000 core_2000
 restaurant		noun	947	core noun core_1000 core_2000
-effekt		noun	948	core noun core_1000 core_2000
-producere		verb	949	core verb core_1000 core_2000
-amt		noun	950	core noun core_1000 core_2000
-overskud		noun	951	core noun core_1000 core_2000
-vare		noun	952	core noun core_1000 core_2000
-vin		noun	953	core noun core_1000 core_2000
-kærlighed		noun	954	core noun core_1000 core_2000
-foto		noun	955	core noun core_1000 core_2000
-bestemt		adjective	956	core adjective core_1000 core_2000
+effekt	physics; power; effect	noun	948	core noun core_1000 core_2000
+producere	produce; To produce; manufacture	verb	949	core verb core_1000 core_2000
+amt	county	noun	950	core noun core_1000 core_2000
+overskud	surplus; profit	noun	951	core noun core_1000 core_2000
+vare	article; commodity; item	noun	952	core noun core_1000 core_2000
+vin	wine; vine	noun	953	core noun core_1000 core_2000
+kærlighed	love; affection; love, affection	noun	954	core noun core_1000 core_2000
+foto	photo	noun	955	core noun core_1000 core_2000
+bestemt	specific; determinate; specific, determinate	adjective	956	core adjective core_1000 core_2000
 fastslå		verb	957	core verb core_1000 core_2000
-hjerte		noun	958	core noun core_1000 core_2000
+hjerte	heart	noun	958	core noun core_1000 core_2000
 indeholde		verb	959	core verb core_1000 core_2000
-ond		adjective	960	core adjective core_1000 core_2000
-idet		conjunction	961	core conjunction core_1000 core_2000
-følelse		noun	962	core noun core_1000 core_2000
-ejer		noun	963	core noun core_1000 core_2000
-rykke		verb	964	core verb core_1000 core_2000
-træ		noun	965	core noun core_1000 core_2000
-forsvar		noun	966	core noun core_1000 core_2000
-effektiv		adjective	967	core adjective core_1000 core_2000
-angreb		noun	968	core noun core_1000 core_2000
-forbi		preposition	969	core preposition core_1000 core_2000
-bidrage		verb	970	core verb core_1000 core_2000
-følge		noun	971	core noun core_1000 core_2000
-blå		adjective	972	core adjective core_1000 core_2000
-fysisk		adjective	973	core adjective core_1000 core_2000
-blande		verb	974	core verb core_1000 core_2000
-deltager		noun	975	core noun core_1000 core_2000
-styre		verb	976	core verb core_1000 core_2000
-have		noun	977	core noun core_1000 core_2000
-acceptere		verb	978	core verb core_1000 core_2000
-arrangement		noun	979	core noun core_1000 core_2000
-stigning		noun	980	core noun core_1000 core_2000
+ond	evil	adjective	960	core adjective core_1000 core_2000
+idet	as; since; because	conjunction	961	core conjunction core_1000 core_2000
+følelse	feeling	noun	962	core noun core_1000 core_2000
+ejer	owner	noun	963	core noun core_1000 core_2000
+rykke	jerk; pull; tug	verb	964	core verb core_1000 core_2000
+træ	tree; wood; timber	noun	965	core noun core_1000 core_2000
+forsvar	defence	noun	966	core noun core_1000 core_2000
+effektiv	effective; effective, producing a large effect; efficient	adjective	967	core adjective core_1000 core_2000
+angreb	attack; assault; raid	noun	968	core noun core_1000 core_2000
+forbi	Visit	preposition	969	core preposition core_1000 core_2000
+bidrage	contribute; to contribute; to contribute to	verb	970	core verb core_1000 core_2000
+følge	consequence; succession; mathematics	noun	971	core noun core_1000 core_2000
+blå	blue; n blue	adjective	972	core adjective core_1000 core_2000
+fysisk	physical	adjective	973	core adjective core_1000 core_2000
+blande	mix; to mix	verb	974	core verb core_1000 core_2000
+deltager	participant; a participant	noun	975	core noun core_1000 core_2000
+styre	head; govern; rule	verb	976	core verb core_1000 core_2000
+have	garden; orchard; allotment	noun	977	core noun core_1000 core_2000
+acceptere	accept; to accept; recognize	verb	978	core verb core_1000 core_2000
+arrangement	event; party; event, party	noun	979	core noun core_1000 core_2000
+stigning	ascent; rise; increase	noun	980	core noun core_1000 core_2000
 fremmest		adjective	981	core adjective core_1000 core_2000
-opdage		verb	982	core verb core_1000 core_2000
-kold		adjective	983	core adjective core_1000 core_2000
-vold		noun	984	core noun core_1000 core_2000
-forestille		verb	985	core verb core_1000 core_2000
-simpelthen		adverb	986	core adverb core_1000 core_2000
-turde		verb	987	core verb core_1000 core_2000
+opdage	discover; detect; to discover, detect	verb	982	core verb core_1000 core_2000
+kold	cold	adjective	983	core adjective core_1000 core_2000
+vold	violence; force; assault and battery	noun	984	core noun core_1000 core_2000
+forestille	depict; represent; to depict, represent	verb	985	core verb core_1000 core_2000
+simpelthen	simply	adverb	986	core adverb core_1000 core_2000
+turde	dare; to dare; ought to	verb	987	core verb core_1000 core_2000
 overbevise		verb	988	core verb core_1000 core_2000
 professionel		adjective	989	core adjective core_1000 core_2000
-trods		noun	990	core noun core_1000 core_2000
-foreløbig		adjective	991	core adjective core_1000 core_2000
+trods	defiance; trodse; imperative of trodse	noun	990	core noun core_1000 core_2000
+foreløbig	so far; preliminary; so far, preliminary	adjective	991	core adjective core_1000 core_2000
 tradition		noun	992	core noun core_1000 core_2000
-ændring		noun	993	core noun core_1000 core_2000
-kinesisk		adjective	994	core adjective core_1000 core_2000
-ejendom		noun	995	core noun core_1000 core_2000
-tilfreds		adjective	996	core adjective core_1000 core_2000
+ændring	change	noun	993	core noun core_1000 core_2000
+kinesisk	Chinese	adjective	994	core adjective core_1000 core_2000
+ejendom	property	noun	995	core noun core_1000 core_2000
+tilfreds	satisfied	adjective	996	core adjective core_1000 core_2000
 generation		noun	997	core noun core_1000 core_2000
-udgift		noun	998	core noun core_1000 core_2000
-frivillig		adjective	999	core adjective core_1000 core_2000
-farve		noun	1000	core noun core_1000 core_2000
+udgift	expense; spending; expenditure	noun	998	core noun core_1000 core_2000
+frivillig	voluntary	adjective	999	core adjective core_1000 core_2000
+farve	color; colour; color , colour	noun	1000	core noun core_1000 core_2000

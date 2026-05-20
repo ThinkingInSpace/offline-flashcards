@@ -16,6 +16,8 @@ def record_for_json(row: pd.Series) -> dict:
         "pos": row["pos"],
         "frequency_rank": int(row["frequency_rank"]),
         "normalized_frequency": float(row["normalized_frequency"]),
+        "example_da": row.get("example_da", ""),
+        "example_en": row.get("example_en", ""),
         "cefr_estimate": row["cefr_estimate"],
         "tags": row["tags"],
     }
@@ -33,12 +35,13 @@ def export_json(deck_name: str, deck: pd.DataFrame, export_dir: Path) -> None:
 def export_csv(deck_name: str, deck: pd.DataFrame, export_dir: Path) -> None:
     output = deck.copy()
     output["tags"] = output["tags"].apply(lambda values: " ".join(values))
+    output["english"] = output["english"].apply(lambda values: "; ".join(values) if isinstance(values, list) else values)
     output.to_csv(export_dir / f"{deck_name}.csv", index=False, encoding=BOM_UTF8)
 
 
 def export_tsv(deck_name: str, deck: pd.DataFrame, export_dir: Path) -> None:
     output = deck[["lemma", "english", "pos", "frequency_rank", "tags"]].copy()
-    output["english"] = output["english"].fillna("")
+    output["english"] = output["english"].apply(lambda values: "; ".join(values) if isinstance(values, list) else (values or ""))
     output["tags"] = output["tags"].apply(lambda values: " ".join(values))
     output.to_csv(
         export_dir / f"anki_{deck_name}.tsv",

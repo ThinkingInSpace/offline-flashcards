@@ -7,6 +7,10 @@ The source frequency list comes from Det Danske Sprog- og Litteraturselskab (DSL
 - Primary resource: https://korpus.dsl.dk/resources/details/freq-lemmas.html
 - Dataset metadata: https://sprogteknologi.dk/dataset/10-000-mest-frekvente-lemmaer
 
+English glosses come from Kaikki/Wiktextract's structured Danish JSONL dump:
+
+- https://kaikki.org/dictionary/Danish/index.html
+
 The DSL resource is a ZIP file containing a plain-text tab-separated lemma list. Each source row has:
 
 ```text
@@ -28,10 +32,12 @@ Each record has this shape:
 ```json
 {
   "lemma": "være",
-  "english": null,
+  "english": ["be"],
   "pos": "verb",
   "frequency_rank": 2,
   "normalized_frequency": 0.0309,
+  "example_da": "",
+  "example_en": "",
   "cefr_estimate": "A1",
   "tags": ["core", "verb", "core_500", "core_1000", "core_2000"]
 }
@@ -83,7 +89,7 @@ TSV columns:
 lemma<TAB>english<TAB>pos<TAB>frequency_rank<TAB>tags
 ```
 
-The `english` field is intentionally blank. The frequency list is a Danish source list, not a translation dictionary. Add translations manually or through a separate reviewed translation workflow.
+The `english` field contains one to three short glosses from Kaikki/Wiktionary when a lemma+POS match is found. Unmatched entries are left blank.
 
 In Anki:
 
@@ -109,6 +115,8 @@ The pipeline maps DSL POS tags as follows:
 | V | verb |
 
 Proper nouns, numerals, part-word artifacts, punctuation fragments, and malformed tokens are filtered out.
+
+Translations are joined by lemma plus POS. This matters because Danish words are often ambiguous across parts of speech. The enrichment step prefers short linked glosses and concise sense glosses over long dictionary definitions.
 
 Critical Danish comprehension words are explicitly kept, including:
 

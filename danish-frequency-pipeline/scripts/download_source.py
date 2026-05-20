@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 DETAILS_URL = "https://korpus.dsl.dk/resources/details/freq-lemmas.html"
 DEFAULT_ZIP_URL = "https://korpus.dsl.dk/download/lemma-10k.zip"
+KAIKKI_DANISH_URL = "https://kaikki.org/dictionary/Danish/kaikki.org-dictionary-Danish.jsonl"
 
 
 def discover_download_url(details_url: str = DETAILS_URL) -> str:
@@ -44,3 +45,12 @@ def download_and_extract(data_dir: Path) -> Path:
         source_path.write_bytes(archive.read(source_name))
 
     return source_path
+
+
+def download_kaikki(data_dir: Path) -> Path:
+    data_dir.mkdir(parents=True, exist_ok=True)
+    kaikki_path = data_dir / "kaikki-danish.jsonl"
+    response = requests.get(KAIKKI_DANISH_URL, timeout=120)
+    response.raise_for_status()
+    kaikki_path.write_bytes(response.content)
+    return kaikki_path

@@ -79,12 +79,14 @@ def parse_frequency_file(source_path: Path) -> pd.DataFrame:
         pos = row["pos"]
         records.append({
             "lemma": row["lemma"],
-            "english": None,
+            "english": [],
             "pos": pos,
             "frequency_rank": rank,
             "normalized_frequency": row["normalized_frequency"],
             "cefr_estimate": cefr_for_rank(rank),
             "tags": tags_for(pos, rank),
+            "example_da": "",
+            "example_en": "",
         })
 
     return pd.DataFrame.from_records(records)
