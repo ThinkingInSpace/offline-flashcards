@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danish Flashcards</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f6f3;
+      --panel: #ffffff;
+      --text: #221f1f;
+      --muted: #68615d;
+      --line: #ddd6d1;
+      --red: #d81f26;
+      --red-dark: #a9151b;
+      --green: #247046;
+      --shadow: 0 16px 38px rgba(39, 30, 26, 0.12);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #171717;
+        --panel: #242424;
+        --text: #f5f0ec;
+        --muted: #b9b0ab;
+        --line: #424242;
+        --red: #ff5a60;
+        --red-dark: #ff7b80;
+        --green: #7bd39d;
+        --shadow: 0 16px 38px rgba(0, 0, 0, 0.34);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: 0;
+    }
+
+    button,
+    select {
+      font: inherit;
+    }
+
+    button,
+    select {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 0.66rem 0.82rem;
+    }
+
+    button {
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+
+    button:hover:not(:disabled),
+    button:focus-visible,
+    select:focus-visible,
+    .card:focus-visible {
+      border-color: var(--red);
+      outline: 2px solid color-mix(in srgb, var(--red) 28%, transparent);
+      outline-offset: 2px;
+    }
+
+    .primary {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .primary:hover:not(:disabled),
+    .primary:focus-visible {
+      background: var(--red-dark);
+      border-color: var(--red-dark);
+    }
+
+    .app {
+      width: min(1040px, calc(100vw - 32px));
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 16px;
+      padding: 18px 0 max(18px, env(safe-area-inset-bottom));
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .logo {
+      width: 52px;
+      height: 52px;
+      object-fit: contain;
+      border-radius: 6px;
+      background: #fff;
+      padding: 4px;
+      border: 1px solid color-mix(in srgb, var(--red) 22%, var(--line));
+      flex: 0 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .tagline {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(160px, 0.8fr) minmax(160px, 0.8fr) minmax(170px, 0.8fr) auto;
+      gap: 10px;
+      align-items: end;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    select {
+      width: 100%;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(110px, 1fr));
+      gap: 10px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: color-mix(in srgb, var(--panel) 84%, transparent);
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .stat strong {
+      display: block;
+      margin-top: 2px;
+      font-size: 1.18rem;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 250px;
+      gap: 16px;
+      min-height: 420px;
+    }
+
+    .study {
+      display: grid;
+      grid-template-rows: minmax(0, 1fr) auto auto;
+      gap: 12px;
+    }
+
+    .card {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 350px;
+      padding: clamp(24px, 5vw, 54px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .side-label {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .card-text {
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      font-size: clamp(2rem, 6vw, 4.6rem);
+      line-height: 1.08;
+      font-weight: 780;
+    }
+
+    .card-extra {
+      display: block;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.35rem);
+      font-weight: 650;
+      line-height: 1.25;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: clamp(1.05rem, 3vw, 1.5rem);
+      font-weight: 650;
+    }
+
+    .controls,
+    .answer-controls {
+      display: grid;
+      gap: 10px;
+    }
+
+    .controls {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .answer-controls {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .again {
+      color: var(--red);
+      border-color: color-mix(in srgb, var(--red) 55%, var(--line));
+    }
+
+    .known {
+      color: var(--green);
+      border-color: color-mix(in srgb, var(--green) 55%, var(--line));
+    }
+
+    aside {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: color-mix(in srgb, var(--panel) 82%, transparent);
+    }
+
+    aside h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .note,
+    footer {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.4;
+    }
+
+    .error {
+      color: var(--red);
+      font-weight: 800;
+    }
+
+    @media (max-width: 820px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .toolbar,
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .card {
+        min-height: clamp(290px, 47dvh, 450px);
+      }
+    }
+
+    @media (max-width: 520px) {
+      .app {
+        width: min(100vw - 16px, 1040px);
+        gap: 11px;
+        padding-top: 10px;
+      }
+
+      .logo {
+        width: 42px;
+        height: 42px;
+      }
+
+      .tagline,
+      footer {
+        font-size: 0.8rem;
+      }
+
+      .toolbar,
+      aside {
+        padding: 10px;
+      }
+
+      .stat {
+        padding: 8px 9px;
+      }
+
+      main {
+        gap: 10px;
+        min-height: auto;
+      }
+
+      .card {
+        min-height: clamp(250px, 43dvh, 370px);
+        padding: 38px 14px 22px;
+      }
+
+      .side-label {
+        top: 11px;
+        left: 11px;
+        font-size: 0.68rem;
+      }
+
+      .card-text {
+        font-size: clamp(1.75rem, 11vw, 3.2rem);
+      }
+
+      .controls {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .answer-controls {
+        position: sticky;
+        bottom: 0;
+        z-index: 5;
+        grid-template-columns: 1fr 1fr;
+        padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+        background: linear-gradient(to top, var(--bg) 78%, transparent);
+      }
+
+      button,
+      select {
+        min-height: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <img class="logo" src="assets/copenhagen-coding-logo.png" alt="Copenhagen Coding Club">
+        <div>
+          <h1>Danish Flashcards</h1>
+          <p class="tagline">Copenhagen Coding Club vocabulary practice</p>
+        </div>
+      </div>
+      <button id="resetButton" type="button">Reset progress</button>
+    </header>
+
+    <section class="toolbar" aria-label="Study settings">
+      <label>
+        Deck
+        <select id="deckSelect">
+          <option value="beginner">Beginner - first 60 words</option>
+          <option value="medium" selected>Medium - full current list</option>
+        </select>
+      </label>
+      <label>
+        Direction
+        <select id="directionSelect">
+          <option value="da-en" selected>Danish to English</option>
+          <option value="en-da">English to Danish</option>
+        </select>
+      </label>
+      <label>
+        Order
+        <select id="orderSelect">
+          <option value="shuffle" selected>Shuffle</option>
+          <option value="list">List order</option>
+        </select>
+      </label>
+      <button id="startButton" class="primary" type="button">Start</button>
+    </section>
+
+    <section class="stats" aria-label="Session stats">
+      <div class="stat"><span>Card</span><strong id="positionStat">0 / 0</strong></div>
+      <div class="stat"><span>Known</span><strong id="knownStat">0</strong></div>
+      <div class="stat"><span>Again</span><strong id="againStat">0</strong></div>
+      <div class="stat"><span>Loaded</span><strong id="loadedStat">0</strong></div>
+    </section>
+
+    <main>
+      <section class="study" aria-label="Flashcard study area">
+        <div id="card" class="card" role="button" tabindex="0" aria-live="polite">
+          <span id="sideLabel" class="side-label">Loading</span>
+          <div id="cardText" class="empty">Loading Danish vocabulary...</div>
+        </div>
+        <div class="controls">
+          <button id="prevButton" type="button" disabled>Previous</button>
+          <button id="flipButton" type="button" disabled>Flip</button>
+          <button id="nextButton" type="button" disabled>Next</button>
+          <button id="shuffleButton" type="button" disabled>Shuffle</button>
+        </div>
+        <div class="answer-controls">
+          <button id="againButton" class="again" type="button" disabled>Again</button>
+          <button id="knownButton" class="known" type="button" disabled>Known</button>
+        </div>
+      </section>
+
+      <aside>
+        <h2>Practice Notes</h2>
+        <p class="note">The medium deck is loaded from the bundled CSV. The beginner deck uses the first 60 entries from that list.</p>
+        <p class="note">Progress is saved in this browser for each deck and direction. The source CSV stays unchanged.</p>
+        <p id="statusNote" class="note">Preparing vocabulary...</p>
+      </aside>
+    </main>
+
+    <footer>Keyboard: Space flips, Left/Right changes cards, 1 marks Again, 2 marks Known.</footer>
+  </div>
+
+  <script>
+    const DATA_URL = "danish_vocabulary_master_list.csv";
+    const BEGINNER_COUNT = 60;
+
+    const state = {
+      rows: [],
+      deck: [],
+      index: 0,
+      showingAnswer: false,
+      results: {}
+    };
+
+    const elements = {
+      deckSelect: document.getElementById("deckSelect"),
+      directionSelect: document.getElementById("directionSelect"),
+      orderSelect: document.getElementById("orderSelect"),
+      startButton: document.getElementById("startButton"),
+      resetButton: document.getElementById("resetButton"),
+      card: document.getElementById("card"),
+      cardText: document.getElementById("cardText"),
+      sideLabel: document.getElementById("sideLabel"),
+      positionStat: document.getElementById("positionStat"),
+      knownStat: document.getElementById("knownStat"),
+      againStat: document.getElementById("againStat"),
+      loadedStat: document.getElementById("loadedStat"),
+      prevButton: document.getElementById("prevButton"),
+      flipButton: document.getElementById("flipButton"),
+      nextButton: document.getElementById("nextButton"),
+      shuffleButton: document.getElementById("shuffleButton"),
+      againButton: document.getElementById("againButton"),
+      knownButton: document.getElementById("knownButton"),
+      statusNote: document.getElementById("statusNote")
+    };
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let field = "";
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === "\"") {
+          if (inQuotes && next === "\"") {
+            field += "\"";
+            i += 1;
+          } else {
+            inQuotes = !inQuotes;
+          }
+        } else if (char === "," && !inQuotes) {
+          row.push(field);
+          field = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") {
+            i += 1;
+          }
+          row.push(field);
+          if (row.some((value) => value.trim() !== "")) {
+            rows.push(row);
+          }
+          row = [];
+          field = "";
+        } else {
+          field += char;
+        }
+      }
+
+      row.push(field);
+      if (row.some((value) => value.trim() !== "")) {
+        rows.push(row);
+      }
+
+      if (inQuotes) {
+        throw new Error("The CSV has an unmatched quote.");
+      }
+
+      return rows;
+    }
+
+    function normalizeRows(rawRows) {
+      const headers = rawRows[0].map((header) => header.trim());
+      return rawRows.slice(1).map((rawRow) => {
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = (rawRow[index] || "").trim();
+        });
+        return row;
+      }).filter((row) => row.Danish && row.English);
+    }
+
+    async function loadVocabulary() {
+      const response = await fetch(DATA_URL);
+      if (!response.ok) {
+        throw new Error("Could not load the bundled Danish vocabulary CSV.");
+      }
+      state.rows = normalizeRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
+      elements.statusNote.textContent = `Loaded ${state.rows.length} Danish vocabulary cards.`;
+      buildDeck();
+      render();
+    }
+
+    function storageKey() {
+      return [
+        "danish-flashcards",
+        elements.deckSelect.value,
+        elements.directionSelect.value
+      ].join("|");
+    }
+
+    function loadProgress() {
+      try {
+        state.results = JSON.parse(localStorage.getItem(storageKey()) || "{}");
+      } catch (error) {
+        state.results = {};
+      }
+    }
+
+    function saveProgress() {
+      try {
+        localStorage.setItem(storageKey(), JSON.stringify(state.results));
+      } catch (error) {
+        elements.statusNote.textContent = "Progress could not be saved by this browser.";
+      }
+    }
+
+    function buildDeck() {
+      const limit = elements.deckSelect.value === "beginner" ? BEGINNER_COUNT : state.rows.length;
+      const source = state.rows.slice(0, limit);
+      const direction = elements.directionSelect.value;
+
+      state.deck = source.map((row, originalIndex) => {
+        const prompt = direction === "da-en" ? row.Danish : row.English;
+        const response = direction === "da-en" ? row.English : row.Danish;
+        return {
+          id: `${originalIndex}:${row.Danish}:${row.English}`,
+          prompt,
+          response,
+          partOfSpeech: row.PartOfSpeech || "",
+          example: row.Example || ""
+        };
+      });
+
+      if (elements.orderSelect.value === "shuffle") {
+        shuffle(state.deck);
+      }
+
+      state.index = 0;
+      state.showingAnswer = false;
+      loadProgress();
+    }
+
+    function shuffle(items) {
+      for (let i = items.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+    }
+
+    function currentCard() {
+      return state.deck[state.index] || null;
+    }
+
+    function stats() {
+      const values = Object.values(state.results);
+      return {
+        known: values.filter((value) => value === "known").length,
+        again: values.filter((value) => value === "again").length
+      };
+    }
+
+    function render() {
+      const card = currentCard();
+      const hasDeck = state.deck.length > 0;
+      const currentStats = stats();
+
+      elements.positionStat.textContent = hasDeck ? `${state.index + 1} / ${state.deck.length}` : "0 / 0";
+      elements.knownStat.textContent = String(currentStats.known);
+      elements.againStat.textContent = String(currentStats.again);
+      elements.loadedStat.textContent = String(state.deck.length);
+
+      elements.prevButton.disabled = !hasDeck || state.index === 0;
+      elements.nextButton.disabled = !hasDeck || state.index >= state.deck.length - 1;
+      elements.flipButton.disabled = !hasDeck;
+      elements.shuffleButton.disabled = !hasDeck;
+      elements.againButton.disabled = !hasDeck;
+      elements.knownButton.disabled = !hasDeck;
+
+      if (!hasDeck) {
+        elements.sideLabel.textContent = "Ready";
+        elements.cardText.className = "empty";
+        elements.cardText.textContent = state.rows.length ? "Start a deck." : "Loading Danish vocabulary...";
+        return;
+      }
+
+      const status = state.results[card.id];
+      const statusText = status ? ` - ${status === "known" ? "Known" : "Again"}` : "";
+      elements.sideLabel.textContent = `${state.showingAnswer ? "Svar" : "Spørgsmål"}${statusText}`;
+
+      if (state.showingAnswer) {
+        const details = [card.partOfSpeech, card.example].filter(Boolean).join(" · ");
+        elements.cardText.className = "card-text";
+        elements.cardText.innerHTML = `${escapeHtml(card.response)}${details ? `<span class="card-extra">${escapeHtml(details)}</span>` : ""}`;
+      } else {
+        elements.cardText.className = "card-text";
+        elements.cardText.textContent = card.prompt;
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll("\"", "&quot;");
+    }
+
+    function flipCard() {
+      if (!state.deck.length) {
+        return;
+      }
+      state.showingAnswer = !state.showingAnswer;
+      render();
+    }
+
+    function move(delta) {
+      if (!state.deck.length) {
+        return;
+      }
+      state.index = Math.max(0, Math.min(state.deck.length - 1, state.index + delta));
+      state.showingAnswer = false;
+      render();
+    }
+
+    function mark(value) {
+      const card = currentCard();
+      if (!card) {
+        return;
+      }
+      state.results[card.id] = value;
+      saveProgress();
+      if (state.index < state.deck.length - 1) {
+        move(1);
+      } else {
+        state.showingAnswer = false;
+        render();
+      }
+    }
+
+    function restartDeck() {
+      buildDeck();
+      render();
+    }
+
+    elements.startButton.addEventListener("click", restartDeck);
+    elements.deckSelect.addEventListener("change", restartDeck);
+    elements.directionSelect.addEventListener("change", restartDeck);
+    elements.orderSelect.addEventListener("change", restartDeck);
+    elements.resetButton.addEventListener("click", () => {
+      state.results = {};
+      try {
+        localStorage.removeItem(storageKey());
+      } catch (error) {
+        // Some browsers block local storage in strict file contexts.
+      }
+      elements.statusNote.textContent = "Progress reset for this deck and direction.";
+      render();
+    });
+
+    elements.card.addEventListener("click", flipCard);
+    elements.card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        flipCard();
+      }
+    });
+    elements.flipButton.addEventListener("click", flipCard);
+    elements.prevButton.addEventListener("click", () => move(-1));
+    elements.nextButton.addEventListener("click", () => move(1));
+    elements.shuffleButton.addEventListener("click", () => {
+      shuffle(state.deck);
+      state.index = 0;
+      state.showingAnswer = false;
+      render();
+    });
+    elements.againButton.addEventListener("click", () => mark("again"));
+    elements.knownButton.addEventListener("click", () => mark("known"));
+
+    document.addEventListener("keydown", (event) => {
+      if (event.target.matches("button, select")) {
+        return;
+      }
+      if (event.code === "Space") {
+        event.preventDefault();
+        flipCard();
+      } else if (event.key === "ArrowLeft") {
+        move(-1);
+      } else if (event.key === "ArrowRight") {
+        move(1);
+      } else if (event.key === "1") {
+        mark("again");
+      } else if (event.key === "2") {
+        mark("known");
+      }
+    });
+
+    loadVocabulary().catch((error) => {
+      elements.sideLabel.textContent = "Error";
+      elements.cardText.className = "empty";
+      elements.cardText.textContent = error.message;
+      elements.statusNote.classList.add("error");
+      elements.statusNote.textContent = error.message;
+    });
+  </script>
+</body>
+</html>
