@@ -445,6 +445,7 @@
         <select id="deckSelect">
           <option value="beginner">Beginner - 100 common words</option>
           <option value="medium" selected>Medium - 260-word list</option>
+          <option value="custom">Custom CSV</option>
         </select>
       </label>
       <label>
@@ -492,12 +493,16 @@
       <aside>
         <h2>Practice Notes</h2>
         <p class="note">The beginner deck is a separate 100-word common vocabulary list. The medium deck keeps the current 260-word CSV.</p>
-        <p class="note">Progress is saved only when you download a progress file. The source CSV and GitHub repo stay unchanged.</p>
+        <p class="note">Progress auto-saves in this browser. Use progress files if you want to move that data elsewhere.</p>
         <div class="progress-actions">
           <button id="saveProgressButton" type="button" disabled>Save Progress</button>
           <label class="import-label">
             Load Progress
             <input id="loadProgressFile" type="file" accept=".json,application/json">
+          </label>
+          <label class="import-label">
+            Custom CSV
+            <input id="customCsvFile" type="file" accept=".csv,text/csv">
           </label>
         </div>
         <p id="statusNote" class="note">Preparing vocabulary...</p>
@@ -527,7 +532,9 @@
       index: 0,
       showingAnswer: false,
       results: {},
-      loadedDeckKey: ""
+      loadedDeckKey: "",
+      customRows: [],
+      customName: ""
     };
 
     const elements = {
@@ -551,6 +558,7 @@
       knownButton: document.getElementById("knownButton"),
       saveProgressButton: document.getElementById("saveProgressButton"),
       loadProgressFile: document.getElementById("loadProgressFile"),
+      customCsvFile: document.getElementById("customCsvFile"),
       statusNote: document.getElementById("statusNote")
     };
 
@@ -614,6 +622,21 @@
 
     async function loadVocabulary() {
       const deckConfig = DECKS[elements.deckSelect.value] || DECKS.medium;
+      if (elements.deckSelect.value === "custom") {
+        if (!state.customRows.length) {
+          throw new Error("Choose a custom CSV file first.");
+        }
+        state.rows = state.customRows;
+        state.loadedDeckKey = "custom";
+        state.results = {};
+        elements.statusNote.classList.remove("error");
+        elements.statusNote.textContent = `Loaded custom CSV: ${state.customName || "custom deck"} (${state.rows.length} cards).`;
+        buildDeck();
+        loadLocalProgress();
+        render();
+        return;
+      }
+
       const response = await fetch(deckConfig.url);
       if (!response.ok) {
         throw new Error("Could not load the bundled Danish vocabulary CSV.");
@@ -624,7 +647,20 @@
       elements.statusNote.classList.remove("error");
       elements.statusNote.textContent = deckConfig.description;
       buildDeck();
+      loadLocalProgress();
       render();
+    }
+
+    async function loadCustomCsv(file) {
+      const rows = normalizeRows(parseCsv((await file.text()).replace(/^\uFEFF/, "")));
+      if (!rows.length) {
+        throw new Error("The custom CSV needs Danish and English columns with at least one card.");
+      }
+
+      state.customRows = rows;
+      state.customName = file.name;
+      elements.deckSelect.value = "custom";
+      await loadVocabulary();
     }
 
     function buildDeck() {
@@ -670,12 +706,40 @@
       };
     }
 
+    function progressKey() {
+      const deckKey = elements.deckSelect.value === "custom"
+        ? `custom:${state.customName || "unnamed"}:${state.rows.length}`
+        : elements.deckSelect.value;
+      return ["danish-flashcards", deckKey, elements.directionSelect.value].join("|");
+    }
+
+    function loadLocalProgress() {
+      try {
+        state.results = JSON.parse(localStorage.getItem(progressKey()) || "{}");
+        if (Object.keys(state.results).length) {
+          elements.statusNote.textContent += ` Restored ${Object.keys(state.results).length} saved card status(es).`;
+        }
+      } catch (error) {
+        state.results = {};
+      }
+    }
+
+    function saveLocalProgress() {
+      try {
+        localStorage.setItem(progressKey(), JSON.stringify(state.results));
+      } catch (error) {
+        elements.statusNote.textContent = "This browser could not save progress locally.";
+      }
+    }
+
     function makeProgressPayload() {
       return {
         app: "Danish Flashcards",
         version: 1,
         savedAt: new Date().toISOString(),
         deck: elements.deckSelect.value,
+        customDeckName: elements.deckSelect.value === "custom" ? state.customName : "",
+        rowCount: state.rows.length,
         direction: elements.directionSelect.value,
         currentCardId: currentCard() ? currentCard().id : null,
         results: state.results
@@ -705,7 +769,12 @@
         throw new Error("That is not a valid Danish Flashcards progress file.");
       }
 
-      if (payload.deck && DECKS[payload.deck]) {
+      if (payload.deck === "custom") {
+        if (!state.customRows.length) {
+          throw new Error("Load the matching custom CSV before loading this progress file.");
+        }
+        elements.deckSelect.value = "custom";
+      } else if (payload.deck && DECKS[payload.deck]) {
         elements.deckSelect.value = payload.deck;
       }
       if (payload.direction === "da-en" || payload.direction === "en-da") {
@@ -805,6 +874,7 @@
         return;
       }
       state.results[card.id] = value;
+      saveLocalProgress();
       if (state.index < state.deck.length - 1) {
         move(1);
       } else {
@@ -828,7 +898,12 @@
     elements.orderSelect.addEventListener("change", restartDeck);
     elements.resetButton.addEventListener("click", () => {
       state.results = {};
-      elements.statusNote.textContent = "Progress reset for this session. Saved progress files were not changed.";
+      try {
+        localStorage.removeItem(progressKey());
+      } catch (error) {
+        // Some browser privacy settings can block local storage.
+      }
+      elements.statusNote.textContent = "Progress reset in this browser. Saved progress files were not changed.";
       render();
     });
     elements.saveProgressButton.addEventListener("click", exportProgress);
@@ -841,6 +916,21 @@
       try {
         const payload = JSON.parse(await file.text());
         await applyProgressPayload(payload);
+      } catch (error) {
+        elements.statusNote.classList.add("error");
+        elements.statusNote.textContent = error.message;
+      } finally {
+        event.target.value = "";
+      }
+    });
+    elements.customCsvFile.addEventListener("change", async (event) => {
+      const file = event.target.files[0];
+      if (!file) {
+        return;
+      }
+
+      try {
+        await loadCustomCsv(file);
       } catch (error) {
         elements.statusNote.classList.add("error");
         elements.statusNote.textContent = error.message;
