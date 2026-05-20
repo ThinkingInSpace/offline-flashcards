@@ -279,6 +279,35 @@
       border-color: color-mix(in srgb, var(--green) 55%, var(--line));
     }
 
+    .progress-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .import-label {
+      display: grid;
+      place-items: center;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 0.66rem 0.82rem;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .import-label input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+      pointer-events: none;
+    }
+
     aside {
       display: grid;
       align-content: start;
@@ -315,7 +344,8 @@
       }
 
       .toolbar,
-      main {
+      main,
+      .progress-actions {
         grid-template-columns: 1fr;
       }
 
@@ -389,6 +419,7 @@
       }
 
       button,
+      .import-label,
       select {
         min-height: 48px;
       }
@@ -412,8 +443,8 @@
       <label>
         Deck
         <select id="deckSelect">
-          <option value="beginner">Beginner - first 60 words</option>
-          <option value="medium" selected>Medium - full current list</option>
+          <option value="beginner">Beginner - 100 common words</option>
+          <option value="medium" selected>Medium - 260-word list</option>
         </select>
       </label>
       <label>
@@ -460,8 +491,15 @@
 
       <aside>
         <h2>Practice Notes</h2>
-        <p class="note">The medium deck is loaded from the bundled CSV. The beginner deck uses the first 60 entries from that list.</p>
-        <p class="note">Progress is saved in this browser for each deck and direction. The source CSV stays unchanged.</p>
+        <p class="note">The beginner deck is a separate 100-word common vocabulary list. The medium deck keeps the current 260-word CSV.</p>
+        <p class="note">Progress is saved only when you download a progress file. The source CSV and GitHub repo stay unchanged.</p>
+        <div class="progress-actions">
+          <button id="saveProgressButton" type="button" disabled>Save Progress</button>
+          <label class="import-label">
+            Load Progress
+            <input id="loadProgressFile" type="file" accept=".json,application/json">
+          </label>
+        </div>
         <p id="statusNote" class="note">Preparing vocabulary...</p>
       </aside>
     </main>
@@ -470,15 +508,26 @@
   </div>
 
   <script>
-    const DATA_URL = "danish_vocabulary_master_list.csv";
-    const BEGINNER_COUNT = 60;
+    const DECKS = {
+      beginner: {
+        url: "danish_vocabulary_beginner_100.csv",
+        name: "Beginner",
+        description: "Loaded 100 beginner Danish vocabulary cards."
+      },
+      medium: {
+        url: "danish_vocabulary_master_list.csv",
+        name: "Medium",
+        description: "Loaded the 260-card medium Danish vocabulary deck."
+      }
+    };
 
     const state = {
       rows: [],
       deck: [],
       index: 0,
       showingAnswer: false,
-      results: {}
+      results: {},
+      loadedDeckKey: ""
     };
 
     const elements = {
@@ -500,6 +549,8 @@
       shuffleButton: document.getElementById("shuffleButton"),
       againButton: document.getElementById("againButton"),
       knownButton: document.getElementById("knownButton"),
+      saveProgressButton: document.getElementById("saveProgressButton"),
+      loadProgressFile: document.getElementById("loadProgressFile"),
       statusNote: document.getElementById("statusNote")
     };
 
@@ -562,43 +613,22 @@
     }
 
     async function loadVocabulary() {
-      const response = await fetch(DATA_URL);
+      const deckConfig = DECKS[elements.deckSelect.value] || DECKS.medium;
+      const response = await fetch(deckConfig.url);
       if (!response.ok) {
         throw new Error("Could not load the bundled Danish vocabulary CSV.");
       }
       state.rows = normalizeRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
-      elements.statusNote.textContent = `Loaded ${state.rows.length} Danish vocabulary cards.`;
+      state.loadedDeckKey = elements.deckSelect.value;
+      state.results = {};
+      elements.statusNote.classList.remove("error");
+      elements.statusNote.textContent = deckConfig.description;
       buildDeck();
       render();
     }
 
-    function storageKey() {
-      return [
-        "danish-flashcards",
-        elements.deckSelect.value,
-        elements.directionSelect.value
-      ].join("|");
-    }
-
-    function loadProgress() {
-      try {
-        state.results = JSON.parse(localStorage.getItem(storageKey()) || "{}");
-      } catch (error) {
-        state.results = {};
-      }
-    }
-
-    function saveProgress() {
-      try {
-        localStorage.setItem(storageKey(), JSON.stringify(state.results));
-      } catch (error) {
-        elements.statusNote.textContent = "Progress could not be saved by this browser.";
-      }
-    }
-
     function buildDeck() {
-      const limit = elements.deckSelect.value === "beginner" ? BEGINNER_COUNT : state.rows.length;
-      const source = state.rows.slice(0, limit);
+      const source = state.rows;
       const direction = elements.directionSelect.value;
 
       state.deck = source.map((row, originalIndex) => {
@@ -619,7 +649,6 @@
 
       state.index = 0;
       state.showingAnswer = false;
-      loadProgress();
     }
 
     function shuffle(items) {
@@ -641,6 +670,71 @@
       };
     }
 
+    function makeProgressPayload() {
+      return {
+        app: "Danish Flashcards",
+        version: 1,
+        savedAt: new Date().toISOString(),
+        deck: elements.deckSelect.value,
+        direction: elements.directionSelect.value,
+        currentCardId: currentCard() ? currentCard().id : null,
+        results: state.results
+      };
+    }
+
+    function exportProgress() {
+      if (!state.deck.length) {
+        return;
+      }
+
+      const payload = JSON.stringify(makeProgressPayload(), null, 2);
+      const blob = new Blob([payload], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `danish-flashcards-${elements.deckSelect.value}-${elements.directionSelect.value}-progress.json`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      elements.statusNote.textContent = "Progress file downloaded. The CSV and GitHub repo were not changed.";
+    }
+
+    async function applyProgressPayload(payload) {
+      if (!payload || payload.version !== 1 || !payload.results) {
+        throw new Error("That is not a valid Danish Flashcards progress file.");
+      }
+
+      if (payload.deck && DECKS[payload.deck]) {
+        elements.deckSelect.value = payload.deck;
+      }
+      if (payload.direction === "da-en" || payload.direction === "en-da") {
+        elements.directionSelect.value = payload.direction;
+      }
+
+      await loadVocabulary();
+
+      const validIds = new Set(state.deck.map((card) => card.id));
+      state.results = {};
+      Object.entries(payload.results).forEach(([id, value]) => {
+        if (validIds.has(id) && (value === "known" || value === "again")) {
+          state.results[id] = value;
+        }
+      });
+
+      if (payload.currentCardId) {
+        const nextIndex = state.deck.findIndex((card) => card.id === payload.currentCardId);
+        if (nextIndex >= 0) {
+          state.index = nextIndex;
+        }
+      }
+
+      state.showingAnswer = false;
+      elements.statusNote.classList.remove("error");
+      elements.statusNote.textContent = `Loaded progress for ${Object.keys(state.results).length} card(s).`;
+      render();
+    }
+
     function render() {
       const card = currentCard();
       const hasDeck = state.deck.length > 0;
@@ -657,6 +751,7 @@
       elements.shuffleButton.disabled = !hasDeck;
       elements.againButton.disabled = !hasDeck;
       elements.knownButton.disabled = !hasDeck;
+      elements.saveProgressButton.disabled = !hasDeck;
 
       if (!hasDeck) {
         elements.sideLabel.textContent = "Ready";
@@ -667,10 +762,10 @@
 
       const status = state.results[card.id];
       const statusText = status ? ` - ${status === "known" ? "Known" : "Again"}` : "";
-      elements.sideLabel.textContent = `${state.showingAnswer ? "Svar" : "Spørgsmål"}${statusText}`;
+      elements.sideLabel.textContent = `${state.showingAnswer ? "Answer" : "Prompt"}${statusText}`;
 
       if (state.showingAnswer) {
-        const details = [card.partOfSpeech, card.example].filter(Boolean).join(" · ");
+        const details = [card.partOfSpeech, card.example].filter(Boolean).join(" - ");
         elements.cardText.className = "card-text";
         elements.cardText.innerHTML = `${escapeHtml(card.response)}${details ? `<span class="card-extra">${escapeHtml(details)}</span>` : ""}`;
       } else {
@@ -710,7 +805,6 @@
         return;
       }
       state.results[card.id] = value;
-      saveProgress();
       if (state.index < state.deck.length - 1) {
         move(1);
       } else {
@@ -719,9 +813,13 @@
       }
     }
 
-    function restartDeck() {
-      buildDeck();
-      render();
+    async function restartDeck() {
+      try {
+        await loadVocabulary();
+      } catch (error) {
+        elements.statusNote.classList.add("error");
+        elements.statusNote.textContent = error.message;
+      }
     }
 
     elements.startButton.addEventListener("click", restartDeck);
@@ -730,13 +828,25 @@
     elements.orderSelect.addEventListener("change", restartDeck);
     elements.resetButton.addEventListener("click", () => {
       state.results = {};
-      try {
-        localStorage.removeItem(storageKey());
-      } catch (error) {
-        // Some browsers block local storage in strict file contexts.
-      }
-      elements.statusNote.textContent = "Progress reset for this deck and direction.";
+      elements.statusNote.textContent = "Progress reset for this session. Saved progress files were not changed.";
       render();
+    });
+    elements.saveProgressButton.addEventListener("click", exportProgress);
+    elements.loadProgressFile.addEventListener("change", async (event) => {
+      const file = event.target.files[0];
+      if (!file) {
+        return;
+      }
+
+      try {
+        const payload = JSON.parse(await file.text());
+        await applyProgressPayload(payload);
+      } catch (error) {
+        elements.statusNote.classList.add("error");
+        elements.statusNote.textContent = error.message;
+      } finally {
+        event.target.value = "";
+      }
     });
 
     elements.card.addEventListener("click", flipCard);

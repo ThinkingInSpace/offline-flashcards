@@ -1,0 +1,101 @@
+Danish,English,PartOfSpeech,Example,Tags
+jeg,I,pronoun,,danish::beginner
+du,you,pronoun,,danish::beginner
+han,he,pronoun,,danish::beginner
+hun,she,pronoun,,danish::beginner
+vi,we,pronoun,,danish::beginner
+I,you plural,pronoun,,danish::beginner
+de,they,pronoun,,danish::beginner
+mig,me,pronoun,,danish::beginner
+dig,you object,pronoun,,danish::beginner
+os,us,pronoun,,danish::beginner
+min,my,pronoun,,danish::beginner
+din,your,pronoun,,danish::beginner
+vores,our,pronoun,,danish::beginner
+og,and,conjunction,,danish::beginner
+eller,or,conjunction,,danish::beginner
+men,but,conjunction,,danish::beginner
+fordi,because,conjunction,,danish::beginner
+at,that,conjunction,,danish::beginner
+i,in,preposition,,danish::beginner
+på,on,preposition,,danish::beginner
+til,to,preposition,,danish::beginner
+fra,from,preposition,,danish::beginner
+med,with,preposition,,danish::beginner
+uden,without,preposition,,danish::beginner
+for,for,preposition,,danish::beginner
+om,about,preposition,,danish::beginner
+her,here,adverb,,danish::beginner
+der,there,adverb,,danish::beginner
+nu,now,adverb,,danish::beginner
+så,so,adverb,,danish::beginner
+ikke,not,adverb,,danish::beginner
+ja,yes,interjection,,danish::beginner
+nej,no,interjection,,danish::beginner
+tak,thanks,noun,,danish::beginner
+hej,hello,interjection,,danish::beginner
+farvel,goodbye,interjection,,danish::beginner
+undskyld,sorry,interjection,,danish::beginner
+god,good,adjective,,danish::beginner
+dårlig,bad,adjective,,danish::beginner
+stor,big,adjective,,danish::beginner
+lille,small,adjective,,danish::beginner
+ny,new,adjective,,danish::beginner
+gammel,old,adjective,,danish::beginner
+varm,warm,adjective,,danish::beginner
+kold,cold,adjective,,danish::beginner
+let,easy,adjective,,danish::beginner
+svær,difficult,adjective,,danish::beginner
+meget,very,adverb,,danish::beginner
+lidt,a little,adverb,,danish::beginner
+mere,more,adverb,,danish::beginner
+mest,most,adverb,,danish::beginner
+en,a common gender,article,,danish::beginner
+et,a neuter,article,,danish::beginner
+den,the common gender,article,,danish::beginner
+det,the neuter,article,,danish::beginner
+er,is,verb,,danish::beginner
+var,was,verb,,danish::beginner
+har,has,verb,,danish::beginner
+havde,had,verb,,danish::beginner
+kan,can,verb,,danish::beginner
+skal,must,verb,,danish::beginner
+vil,wants to,verb,,danish::beginner
+må,may,verb,,danish::beginner
+gør,does,verb,,danish::beginner
+siger,says,verb,,danish::beginner
+kommer,comes,verb,,danish::beginner
+går,goes,verb,,danish::beginner
+ser,sees,verb,,danish::beginner
+ved,knows,verb,,danish::beginner
+tror,thinks,verb,,danish::beginner
+får,gets,verb,,danish::beginner
+tager,takes,verb,,danish::beginner
+giver,gives,verb,,danish::beginner
+bruger,uses,verb,,danish::beginner
+laver,makes,verb,,danish::beginner
+bor,lives,verb,,danish::beginner
+spiser,eats,verb,,danish::beginner
+drikker,drinks,verb,,danish::beginner
+arbejder,works,verb,,danish::beginner
+læser,reads,verb,,danish::beginner
+skriver,writes,verb,,danish::beginner
+taler,speaks,verb,,danish::beginner
+forstår,understands,verb,,danish::beginner
+dag,day,noun,,danish::beginner
+nat,night,noun,,danish::beginner
+morgen,morning,noun,,danish::beginner
+aften,evening,noun,,danish::beginner
+tid,time,noun,,danish::beginner
+år,year,noun,,danish::beginner
+uge,week,noun,,danish::beginner
+i dag,today,adverb,,danish::beginner
+mand,man,noun,,danish::beginner
+kvinde,woman,noun,,danish::beginner
+barn,child,noun,,danish::beginner
+ven,friend,noun,,danish::beginner
+familie,family,noun,,danish::beginner
+hus,house,noun,,danish::beginner
+mad,food,noun,,danish::beginner
+vand,water,noun,,danish::beginner
+penge,money,noun,,danish::beginner
