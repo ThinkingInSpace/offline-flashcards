@@ -786,7 +786,7 @@
         const response = isFrequencyDeck
           ? row.English || "No English gloss found"
           : isNewsDeck
-            ? `Rank ${row.frequency_rank}`
+            ? row.English || "No English translation yet"
           : direction === "da-en" ? row.English : row.Danish;
         const frequencyDetails = isFrequencyDeck
           ? `Rank ${row.frequencyRank} - ${row.PartOfSpeech} - ${row.cefrEstimate} - Frequency ${Number(row.normalizedFrequency).toPrecision(4)}`

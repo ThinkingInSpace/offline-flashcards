@@ -1,74 +1,74 @@
-﻿og			1	danish::news_top_500
-i			2	danish::news_top_500
-til			3	danish::news_top_500
-for			4	danish::news_top_500
-på			5	danish::news_top_500
-at			6	danish::news_top_500
-af			7	danish::news_top_500
-med			8	danish::news_top_500
-er			9	danish::news_top_500
-en			10	danish::news_top_500
-om			11	danish::news_top_500
-det			12	danish::news_top_500
-skal			13	danish::news_top_500
-der			14	danish::news_top_500
-den			15	danish::news_top_500
-ny			16	danish::news_top_500
-har			17	danish::news_top_500
-fra			18	danish::news_top_500
-de			19	danish::news_top_500
-som			20	danish::news_top_500
-et			21	danish::news_top_500
-nu			22	danish::news_top_500
-kan			23	danish::news_top_500
-nye			24	danish::news_top_500
+﻿og	and		1	danish::news_top_500
+i	in		2	danish::news_top_500
+til	to; for		3	danish::news_top_500
+for	for; to; because		4	danish::news_top_500
+på	on; at		5	danish::news_top_500
+at	to; that		6	danish::news_top_500
+af	of; by; from		7	danish::news_top_500
+med	with		8	danish::news_top_500
+er	is; are		9	danish::news_top_500
+en	a; one		10	danish::news_top_500
+om	about; if; around		11	danish::news_top_500
+det	it; that; the		12	danish::news_top_500
+skal	shall; must; going to		13	danish::news_top_500
+der	there; who; that		14	danish::news_top_500
+den	it; that; the		15	danish::news_top_500
+ny	new		16	danish::news_top_500
+har	has; have		17	danish::news_top_500
+fra	from		18	danish::news_top_500
+de	they; the		19	danish::news_top_500
+som	as; who; which		20	danish::news_top_500
+et	a; one		21	danish::news_top_500
+nu	now		22	danish::news_top_500
+kan	can		23	danish::news_top_500
+nye	new		24	danish::news_top_500
 elever			25	danish::news_top_500
 regeringen			26	danish::news_top_500
-skoler			27	danish::news_top_500
-børn			28	danish::news_top_500
-viser			29	danish::news_top_500
-flere			30	danish::news_top_500
+skoler	schools		27	danish::news_top_500
+børn	children		28	danish::news_top_500
+viser	shows		29	danish::news_top_500
+flere	more; several		30	danish::news_top_500
 år			31	danish::news_top_500
 unge			32	danish::news_top_500
 dagtilbud			33	danish::news_top_500
 undervisningsministeriet			34	danish::news_top_500
-ikke			35	danish::news_top_500
-vil			36	danish::news_top_500
+ikke	not		35	danish::news_top_500
+vil	will; wants to		36	danish::news_top_500
 blandt			37	danish::news_top_500
 nyt			38	danish::news_top_500
 aftale			39	danish::news_top_500
 folkeskolen			40	danish::news_top_500
 undervisning			41	danish::news_top_500
-mere			42	danish::news_top_500
-over			43	danish::news_top_500
+mere	more		42	danish::news_top_500
+over	over; across		43	danish::news_top_500
 anbefalinger			44	danish::news_top_500
 kommuner			45	danish::news_top_500
 deres			46	danish::news_top_500
-efter			47	danish::news_top_500
-får			48	danish::news_top_500
+efter	after		47	danish::news_top_500
+får	gets; receives		48	danish::news_top_500
 erhvervsuddannelserne			49	danish::news_top_500
 styrke			50	danish::news_top_500
-alle			51	danish::news_top_500
+alle	all; everyone		51	danish::news_top_500
 kroner			52	danish::news_top_500
 undervisningsområdet			53	danish::news_top_500
 række			54	danish::news_top_500
-få			55	danish::news_top_500
+få	few; get		55	danish::news_top_500
 klar			56	danish::news_top_500
 kvalitet			57	danish::news_top_500
 millioner			58	danish::news_top_500
 styrelsen			59	danish::news_top_500
 tiltag			60	danish::news_top_500
 undervisningsministeren			61	danish::news_top_500
-ved			62	danish::news_top_500
+ved	by; at; knows		62	danish::news_top_500
 landets			63	danish::news_top_500
 klasse			64	danish::news_top_500
-end			65	danish::news_top_500
+end	than		65	danish::news_top_500
 andet			66	danish::news_top_500
-være			67	danish::news_top_500
-bliver			68	danish::news_top_500
+være	be		67	danish::news_top_500
+bliver	becomes; will be		68	danish::news_top_500
 hvordan			69	danish::news_top_500
 bedre			70	danish::news_top_500
-eller			71	danish::news_top_500
+eller	or		71	danish::news_top_500
 gang			72	danish::news_top_500
 institutioner			73	danish::news_top_500
 dansk			74	danish::news_top_500
@@ -77,62 +77,62 @@ flertal			76	danish::news_top_500
 danmark			77	danish::news_top_500
 marts			78	danish::news_top_500
 mulighed			79	danish::news_top_500
-mod			80	danish::news_top_500
-arbejde			81	danish::news_top_500
-hvor			82	danish::news_top_500
+mod	against; toward		80	danish::news_top_500
+arbejde	work		81	danish::news_top_500
+hvor	where		82	danish::news_top_500
 sikre			83	danish::news_top_500
-op			84	danish::news_top_500
+op	up		84	danish::news_top_500
 uddannelsesinstitutioner			85	danish::news_top_500
 derfor			86	danish::news_top_500
 blevet			87	danish::news_top_500
 trivsel			88	danish::news_top_500
 folkeskolens			89	danish::news_top_500
-sig			90	danish::news_top_500
-blev			91	danish::news_top_500
+sig	himself; herself; itself		90	danish::news_top_500
+blev	became; was		91	danish::news_top_500
 tal			92	danish::news_top_500
 fortsat			93	danish::news_top_500
-to			94	danish::news_top_500
+to	two		94	danish::news_top_500
 enige			95	danish::news_top_500
 komme			96	danish::news_top_500
 danske			97	danish::news_top_500
-mange			98	danish::news_top_500
+mange	many		98	danish::news_top_500
 tidligere			99	danish::news_top_500
 pædagogiske			100	danish::news_top_500
-andre			101	danish::news_top_500
-men			102	danish::news_top_500
+andre	others; other		101	danish::news_top_500
+men	but		102	danish::news_top_500
 tilbage			103	danish::news_top_500
 erhvervsuddannelser			104	danish::news_top_500
-se			105	danish::news_top_500
-her			106	danish::news_top_500
+se	see		105	danish::news_top_500
+her	here		106	danish::news_top_500
 besluttet			107	danish::news_top_500
 undersøgelse			108	danish::news_top_500
-også			109	danish::news_top_500
+også	also		109	danish::news_top_500
 giver			110	danish::news_top_500
 indgået			111	danish::news_top_500
 rapport			112	danish::news_top_500
 eleverne			113	danish::news_top_500
 bredt			114	danish::news_top_500
-første			115	danish::news_top_500
+første	first		115	danish::news_top_500
 opdateret			116	danish::news_top_500
 ungdomsuddannelser			117	danish::news_top_500
 fgu			118	danish::news_top_500
 folkeparti			119	danish::news_top_500
 kl			120	danish::news_top_500
-så			121	danish::news_top_500
+så	so; then; saw		121	danish::news_top_500
 frem			122	danish::news_top_500
-du			123	danish::news_top_500
+du	you		123	danish::news_top_500
 grundskoler			124	danish::news_top_500
 forsøg			125	danish::news_top_500
 undervisningsministeriets			126	danish::news_top_500
 genåbning			127	danish::news_top_500
-dag			128	danish::news_top_500
+dag	day		128	danish::news_top_500
 give			129	danish::news_top_500
-hele			130	danish::news_top_500
+hele	whole; entire		130	danish::news_top_500
 kommune			131	danish::news_top_500
 prøver			132	danish::news_top_500
 elevernes			133	danish::news_top_500
 tre			134	danish::news_top_500
-når			135	danish::news_top_500
+når	when		135	danish::news_top_500
 danmarks			136	danish::news_top_500
 ekspertgruppe			137	danish::news_top_500
 undervisningen			138	danish::news_top_500
@@ -141,7 +141,7 @@ fokus			140	danish::news_top_500
 januar			141	danish::news_top_500
 grundskolen			142	danish::news_top_500
 ordblindhed			143	danish::news_top_500
-skole			144	danish::news_top_500
+skole	school		144	danish::news_top_500
 restriktioner			145	danish::news_top_500
 faglige			146	danish::news_top_500
 nationale			147	danish::news_top_500
@@ -149,18 +149,18 @@ folketinget			148	danish::news_top_500
 uddannelser			149	danish::news_top_500
 regler			150	danish::news_top_500
 læring			151	danish::news_top_500
-ud			152	danish::news_top_500
+ud	out		152	danish::news_top_500
 have			153	danish::news_top_500
 både			154	danish::news_top_500
 forlænges			155	danish::news_top_500
 brug			156	danish::news_top_500
-mellem			157	danish::news_top_500
+mellem	between		157	danish::news_top_500
 procent			158	danish::news_top_500
 ungdomsuddannelserne			159	danish::news_top_500
-blive			160	danish::news_top_500
+blive	become; remain		160	danish::news_top_500
 digitale			161	danish::news_top_500
 kommunerne			162	danish::news_top_500
-sidste			163	danish::news_top_500
+sidste	last		163	danish::news_top_500
 partier			164	danish::news_top_500
 støtte			165	danish::news_top_500
 folkeskoler			166	danish::news_top_500
@@ -172,12 +172,12 @@ frie			171	danish::news_top_500
 skoleåret			172	danish::news_top_500
 folketingets			173	danish::news_top_500
 høj			174	danish::news_top_500
-går			175	danish::news_top_500
-hvis			176	danish::news_top_500
+går	goes; yesterday		175	danish::news_top_500
+hvis	if; whose		176	danish::news_top_500
 resultater			177	danish::news_top_500
 offentliggjort			178	danish::news_top_500
-del			179	danish::news_top_500
-samtidig			180	danish::news_top_500
+del	part		179	danish::news_top_500
+samtidig	at the same time		180	danish::news_top_500
 evaluering			181	danish::news_top_500
 årets			182	danish::news_top_500
 indsats			183	danish::news_top_500
@@ -189,7 +189,7 @@ mandag			188	danish::news_top_500
 midler			189	danish::news_top_500
 retningslinjer			190	danish::news_top_500
 indsatser			191	danish::news_top_500
-kommer			192	danish::news_top_500
+kommer	comes		192	danish::news_top_500
 inden			193	danish::news_top_500
 december			194	danish::news_top_500
 aftalen			195	danish::news_top_500
@@ -205,7 +205,7 @@ samt			204	danish::news_top_500
 arbejdet			205	danish::news_top_500
 landet			206	danish::news_top_500
 matematik			207	danish::news_top_500
-sin			208	danish::news_top_500
+sin	his; her; its own		208	danish::news_top_500
 fravær			209	danish::news_top_500
 endnu			210	danish::news_top_500
 søge			211	danish::news_top_500
@@ -214,7 +214,7 @@ erhvervsskoler			213	danish::news_top_500
 styrket			214	danish::news_top_500
 afsætte			215	danish::news_top_500
 uden			216	danish::news_top_500
-under			217	danish::news_top_500
+under	under; during		217	danish::news_top_500
 længere			218	danish::news_top_500
 vejledning			219	danish::news_top_500
 hjælpe			220	danish::news_top_500
@@ -236,10 +236,10 @@ pulje			235	danish::news_top_500
 skolerne			236	danish::news_top_500
 børnehaver			237	danish::news_top_500
 eud			238	danish::news_top_500
-store			239	danish::news_top_500
+store	large; big		239	danish::news_top_500
 kommende			240	danish::news_top_500
 set			241	danish::news_top_500
-man			242	danish::news_top_500
+man	one; you; people		242	danish::news_top_500
 kvaliteten			243	danish::news_top_500
 viden			244	danish::news_top_500
 test			245	danish::news_top_500
@@ -251,7 +251,7 @@ område			250	danish::news_top_500
 måneden			251	danish::news_top_500
 nr			252	danish::news_top_500
 vej			253	danish::news_top_500
-stor			254	danish::news_top_500
+stor	large; big		254	danish::news_top_500
 markant			255	danish::news_top_500
 mindre			256	danish::news_top_500
 forældre			257	danish::news_top_500
@@ -309,7 +309,7 @@ nødundervisning			308	danish::news_top_500
 smitten			309	danish::news_top_500
 inviterer			310	danish::news_top_500
 hjælp			311	danish::news_top_500
-ind			312	danish::news_top_500
+ind	in; into		312	danish::news_top_500
 hvad			313	danish::news_top_500
 maj			314	danish::news_top_500
 penge			315	danish::news_top_500
@@ -343,7 +343,7 @@ står			342	danish::news_top_500
 fem			343	danish::news_top_500
 større			344	danish::news_top_500
 stemme			345	danish::news_top_500
-været			346	danish::news_top_500
+været	been		346	danish::news_top_500
 gennem			347	danish::news_top_500
 folketingsvalget			348	danish::news_top_500
 stigning			349	danish::news_top_500
@@ -356,13 +356,13 @@ september			355	danish::news_top_500
 tilsynsberetning			356	danish::news_top_500
 gælder			357	danish::news_top_500
 andetsprog			358	danish::news_top_500
-kunne			359	danish::news_top_500
-havde			360	danish::news_top_500
+kunne	could		359	danish::news_top_500
+havde	had		360	danish::news_top_500
 gøre			361	danish::news_top_500
 allerede			362	danish::news_top_500
 hverdag			363	danish::news_top_500
 virksomheder			364	danish::news_top_500
-seneste			365	danish::news_top_500
+seneste	latest; most recent		365	danish::news_top_500
 lokale			366	danish::news_top_500
 året			367	danish::news_top_500
 minister			368	danish::news_top_500
@@ -378,12 +378,12 @@ da			377	danish::news_top_500
 mener			378	danish::news_top_500
 udvikle			379	danish::news_top_500
 ekstra			380	danish::news_top_500
-hos			381	danish::news_top_500
+hos	at; with		381	danish::news_top_500
 næsten			382	danish::news_top_500
 bruges			383	danish::news_top_500
 andelen			384	danish::news_top_500
 problemer			385	danish::news_top_500
-før			386	danish::news_top_500
+før	before		386	danish::news_top_500
 hjem			387	danish::news_top_500
 ukraine			388	danish::news_top_500
 sendt			389	danish::news_top_500
@@ -416,7 +416,7 @@ videre			415	danish::news_top_500
 foreslår			416	danish::news_top_500
 møde			417	danish::news_top_500
 tid			418	danish::news_top_500
-må			419	danish::news_top_500
+må	may; must		419	danish::news_top_500
 rammer			420	danish::news_top_500
 lettere			421	danish::news_top_500
 fået			422	danish::news_top_500
@@ -443,7 +443,7 @@ formand			442	danish::news_top_500
 uge			443	danish::news_top_500
 tager			444	danish::news_top_500
 overblik			445	danish::news_top_500
-stadig			446	danish::news_top_500
+stadig	still		446	danish::news_top_500
 fremtiden			447	danish::news_top_500
 lancerer			448	danish::news_top_500
 fald			449	danish::news_top_500
@@ -469,7 +469,7 @@ sprogvurdering			468	danish::news_top_500
 retningslinjerne			469	danish::news_top_500
 vende			470	danish::news_top_500
 prosa			471	danish::news_top_500
-selv			472	danish::news_top_500
+selv	self; even		472	danish::news_top_500
 borgere			473	danish::news_top_500
 fleste			474	danish::news_top_500
 dermed			475	danish::news_top_500

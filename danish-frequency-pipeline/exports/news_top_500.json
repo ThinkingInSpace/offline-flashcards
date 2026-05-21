@@ -1,7 +1,7 @@
 [
   {
     "Danish":"og",
-    "English":"",
+    "English":"and",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -11,7 +11,7 @@
   },
   {
     "Danish":"i",
-    "English":"",
+    "English":"in",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -21,7 +21,7 @@
   },
   {
     "Danish":"til",
-    "English":"",
+    "English":"to; for",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -31,7 +31,7 @@
   },
   {
     "Danish":"for",
-    "English":"",
+    "English":"for; to; because",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -41,7 +41,7 @@
   },
   {
     "Danish":"på",
-    "English":"",
+    "English":"on; at",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -51,7 +51,7 @@
   },
   {
     "Danish":"at",
-    "English":"",
+    "English":"to; that",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -61,7 +61,7 @@
   },
   {
     "Danish":"af",
-    "English":"",
+    "English":"of; by; from",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -71,7 +71,7 @@
   },
   {
     "Danish":"med",
-    "English":"",
+    "English":"with",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -81,7 +81,7 @@
   },
   {
     "Danish":"er",
-    "English":"",
+    "English":"is; are",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -91,7 +91,7 @@
   },
   {
     "Danish":"en",
-    "English":"",
+    "English":"a; one",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -101,7 +101,7 @@
   },
   {
     "Danish":"om",
-    "English":"",
+    "English":"about; if; around",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -111,7 +111,7 @@
   },
   {
     "Danish":"det",
-    "English":"",
+    "English":"it; that; the",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -121,7 +121,7 @@
   },
   {
     "Danish":"skal",
-    "English":"",
+    "English":"shall; must; going to",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -131,7 +131,7 @@
   },
   {
     "Danish":"der",
-    "English":"",
+    "English":"there; who; that",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -141,7 +141,7 @@
   },
   {
     "Danish":"den",
-    "English":"",
+    "English":"it; that; the",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -151,7 +151,7 @@
   },
   {
     "Danish":"ny",
-    "English":"",
+    "English":"new",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -161,7 +161,7 @@
   },
   {
     "Danish":"har",
-    "English":"",
+    "English":"has; have",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -171,7 +171,7 @@
   },
   {
     "Danish":"fra",
-    "English":"",
+    "English":"from",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -181,7 +181,7 @@
   },
   {
     "Danish":"de",
-    "English":"",
+    "English":"they; the",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -191,7 +191,7 @@
   },
   {
     "Danish":"som",
-    "English":"",
+    "English":"as; who; which",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -201,7 +201,7 @@
   },
   {
     "Danish":"et",
-    "English":"",
+    "English":"a; one",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -211,7 +211,7 @@
   },
   {
     "Danish":"nu",
-    "English":"",
+    "English":"now",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -221,7 +221,7 @@
   },
   {
     "Danish":"kan",
-    "English":"",
+    "English":"can",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -231,7 +231,7 @@
   },
   {
     "Danish":"nye",
-    "English":"",
+    "English":"new",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -261,7 +261,7 @@
   },
   {
     "Danish":"skoler",
-    "English":"",
+    "English":"schools",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -271,7 +271,7 @@
   },
   {
     "Danish":"børn",
-    "English":"",
+    "English":"children",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -281,7 +281,7 @@
   },
   {
     "Danish":"viser",
-    "English":"",
+    "English":"shows",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -291,7 +291,7 @@
   },
   {
     "Danish":"flere",
-    "English":"",
+    "English":"more; several",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -341,7 +341,7 @@
   },
   {
     "Danish":"ikke",
-    "English":"",
+    "English":"not",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -351,7 +351,7 @@
   },
   {
     "Danish":"vil",
-    "English":"",
+    "English":"will; wants to",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -411,7 +411,7 @@
   },
   {
     "Danish":"mere",
-    "English":"",
+    "English":"more",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -421,7 +421,7 @@
   },
   {
     "Danish":"over",
-    "English":"",
+    "English":"over; across",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -461,7 +461,7 @@
   },
   {
     "Danish":"efter",
-    "English":"",
+    "English":"after",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -471,7 +471,7 @@
   },
   {
     "Danish":"får",
-    "English":"",
+    "English":"gets; receives",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -501,7 +501,7 @@
   },
   {
     "Danish":"alle",
-    "English":"",
+    "English":"all; everyone",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -541,7 +541,7 @@
   },
   {
     "Danish":"få",
-    "English":"",
+    "English":"few; get",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -611,7 +611,7 @@
   },
   {
     "Danish":"ved",
-    "English":"",
+    "English":"by; at; knows",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -641,7 +641,7 @@
   },
   {
     "Danish":"end",
-    "English":"",
+    "English":"than",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -661,7 +661,7 @@
   },
   {
     "Danish":"være",
-    "English":"",
+    "English":"be",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -671,7 +671,7 @@
   },
   {
     "Danish":"bliver",
-    "English":"",
+    "English":"becomes; will be",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -701,7 +701,7 @@
   },
   {
     "Danish":"eller",
-    "English":"",
+    "English":"or",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -791,7 +791,7 @@
   },
   {
     "Danish":"mod",
-    "English":"",
+    "English":"against; toward",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -801,7 +801,7 @@
   },
   {
     "Danish":"arbejde",
-    "English":"",
+    "English":"work",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -811,7 +811,7 @@
   },
   {
     "Danish":"hvor",
-    "English":"",
+    "English":"where",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -831,7 +831,7 @@
   },
   {
     "Danish":"op",
-    "English":"",
+    "English":"up",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -891,7 +891,7 @@
   },
   {
     "Danish":"sig",
-    "English":"",
+    "English":"himself; herself; itself",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -901,7 +901,7 @@
   },
   {
     "Danish":"blev",
-    "English":"",
+    "English":"became; was",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -931,7 +931,7 @@
   },
   {
     "Danish":"to",
-    "English":"",
+    "English":"two",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -971,7 +971,7 @@
   },
   {
     "Danish":"mange",
-    "English":"",
+    "English":"many",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1001,7 +1001,7 @@
   },
   {
     "Danish":"andre",
-    "English":"",
+    "English":"others; other",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1011,7 +1011,7 @@
   },
   {
     "Danish":"men",
-    "English":"",
+    "English":"but",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1041,7 +1041,7 @@
   },
   {
     "Danish":"se",
-    "English":"",
+    "English":"see",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1051,7 +1051,7 @@
   },
   {
     "Danish":"her",
-    "English":"",
+    "English":"here",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1081,7 +1081,7 @@
   },
   {
     "Danish":"også",
-    "English":"",
+    "English":"also",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1141,7 +1141,7 @@
   },
   {
     "Danish":"første",
-    "English":"",
+    "English":"first",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1201,7 +1201,7 @@
   },
   {
     "Danish":"så",
-    "English":"",
+    "English":"so; then; saw",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1221,7 +1221,7 @@
   },
   {
     "Danish":"du",
-    "English":"",
+    "English":"you",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1271,7 +1271,7 @@
   },
   {
     "Danish":"dag",
-    "English":"",
+    "English":"day",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1291,7 +1291,7 @@
   },
   {
     "Danish":"hele",
-    "English":"",
+    "English":"whole; entire",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1341,7 +1341,7 @@
   },
   {
     "Danish":"når",
-    "English":"",
+    "English":"when",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1431,7 +1431,7 @@
   },
   {
     "Danish":"skole",
-    "English":"",
+    "English":"school",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1511,7 +1511,7 @@
   },
   {
     "Danish":"ud",
-    "English":"",
+    "English":"out",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1561,7 +1561,7 @@
   },
   {
     "Danish":"mellem",
-    "English":"",
+    "English":"between",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1591,7 +1591,7 @@
   },
   {
     "Danish":"blive",
-    "English":"",
+    "English":"become; remain",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1621,7 +1621,7 @@
   },
   {
     "Danish":"sidste",
-    "English":"",
+    "English":"last",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1741,7 +1741,7 @@
   },
   {
     "Danish":"går",
-    "English":"",
+    "English":"goes; yesterday",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1751,7 +1751,7 @@
   },
   {
     "Danish":"hvis",
-    "English":"",
+    "English":"if; whose",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1781,7 +1781,7 @@
   },
   {
     "Danish":"del",
-    "English":"",
+    "English":"part",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1791,7 +1791,7 @@
   },
   {
     "Danish":"samtidig",
-    "English":"",
+    "English":"at the same time",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -1911,7 +1911,7 @@
   },
   {
     "Danish":"kommer",
-    "English":"",
+    "English":"comes",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -2071,7 +2071,7 @@
   },
   {
     "Danish":"sin",
-    "English":"",
+    "English":"his; her; its own",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -2161,7 +2161,7 @@
   },
   {
     "Danish":"under",
-    "English":"",
+    "English":"under; during",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -2381,7 +2381,7 @@
   },
   {
     "Danish":"store",
-    "English":"",
+    "English":"large; big",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -2411,7 +2411,7 @@
   },
   {
     "Danish":"man",
-    "English":"",
+    "English":"one; you; people",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -2531,7 +2531,7 @@
   },
   {
     "Danish":"stor",
-    "English":"",
+    "English":"large; big",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3111,7 +3111,7 @@
   },
   {
     "Danish":"ind",
-    "English":"",
+    "English":"in; into",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3451,7 +3451,7 @@
   },
   {
     "Danish":"været",
-    "English":"",
+    "English":"been",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3581,7 +3581,7 @@
   },
   {
     "Danish":"kunne",
-    "English":"",
+    "English":"could",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3591,7 +3591,7 @@
   },
   {
     "Danish":"havde",
-    "English":"",
+    "English":"had",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3641,7 +3641,7 @@
   },
   {
     "Danish":"seneste",
-    "English":"",
+    "English":"latest; most recent",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3801,7 +3801,7 @@
   },
   {
     "Danish":"hos",
-    "English":"",
+    "English":"at; with",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -3851,7 +3851,7 @@
   },
   {
     "Danish":"før",
-    "English":"",
+    "English":"before",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -4181,7 +4181,7 @@
   },
   {
     "Danish":"må",
-    "English":"",
+    "English":"may; must",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -4451,7 +4451,7 @@
   },
   {
     "Danish":"stadig",
-    "English":"",
+    "English":"still",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",
@@ -4711,7 +4711,7 @@
   },
   {
     "Danish":"selv",
-    "English":"",
+    "English":"self; even",
     "PartOfSpeech":"",
     "Example":"",
     "Tags":"danish::news_top_500",

@@ -1,75 +1,75 @@
 ﻿Danish,English,PartOfSpeech,Example,Tags,frequency_rank,count,normalized_frequency
-og,,,,danish::news_top_500,1,2274,0.048320265187735065
-i,,,,danish::news_top_500,2,1728,0.03671830177854274
-til,,,,danish::news_top_500,3,1112,0.023628907163043708
-for,,,,danish::news_top_500,4,1090,0.023161428783918744
-på,,,,danish::news_top_500,5,973,0.020675293767663246
-at,,,,danish::news_top_500,6,927,0.01969783897494741
-af,,,,danish::news_top_500,7,903,0.019187862561356538
-med,,,,danish::news_top_500,8,815,0.017317949044856677
-er,,,,danish::news_top_500,9,797,0.01693546673466352
-en,,,,danish::news_top_500,10,765,0.016255498183209028
-om,,,,danish::news_top_500,11,587,0.012473173115743396
-det,,,,danish::news_top_500,12,499,0.010603259599243535
-skal,,,,danish::news_top_500,13,487,0.0103482713924481
-der,,,,danish::news_top_500,14,471,0.010008287116720851
-den,,,,danish::news_top_500,15,430,0.00913707741016978
-ny,,,,danish::news_top_500,16,425,0.009030832324005015
-har,,,,danish::news_top_500,17,425,0.009030832324005015
-fra,,,,danish::news_top_500,18,425,0.009030832324005015
-de,,,,danish::news_top_500,19,411,0.008733346082743672
-som,,,,danish::news_top_500,20,336,0.0071396697902722
-et,,,,danish::news_top_500,21,312,0.006629693376681328
-nu,,,,danish::news_top_500,22,308,0.006544697307749516
-kan,,,,danish::news_top_500,23,307,0.006523448290516563
-nye,,,,danish::news_top_500,24,305,0.006480950256050657
+og,and,,,danish::news_top_500,1,2274,0.048320265187735065
+i,in,,,danish::news_top_500,2,1728,0.03671830177854274
+til,to; for,,,danish::news_top_500,3,1112,0.023628907163043708
+for,for; to; because,,,danish::news_top_500,4,1090,0.023161428783918744
+på,on; at,,,danish::news_top_500,5,973,0.020675293767663246
+at,to; that,,,danish::news_top_500,6,927,0.01969783897494741
+af,of; by; from,,,danish::news_top_500,7,903,0.019187862561356538
+med,with,,,danish::news_top_500,8,815,0.017317949044856677
+er,is; are,,,danish::news_top_500,9,797,0.01693546673466352
+en,a; one,,,danish::news_top_500,10,765,0.016255498183209028
+om,about; if; around,,,danish::news_top_500,11,587,0.012473173115743396
+det,it; that; the,,,danish::news_top_500,12,499,0.010603259599243535
+skal,shall; must; going to,,,danish::news_top_500,13,487,0.0103482713924481
+der,there; who; that,,,danish::news_top_500,14,471,0.010008287116720851
+den,it; that; the,,,danish::news_top_500,15,430,0.00913707741016978
+ny,new,,,danish::news_top_500,16,425,0.009030832324005015
+har,has; have,,,danish::news_top_500,17,425,0.009030832324005015
+fra,from,,,danish::news_top_500,18,425,0.009030832324005015
+de,they; the,,,danish::news_top_500,19,411,0.008733346082743672
+som,as; who; which,,,danish::news_top_500,20,336,0.0071396697902722
+et,a; one,,,danish::news_top_500,21,312,0.006629693376681328
+nu,now,,,danish::news_top_500,22,308,0.006544697307749516
+kan,can,,,danish::news_top_500,23,307,0.006523448290516563
+nye,new,,,danish::news_top_500,24,305,0.006480950256050657
 elever,,,,danish::news_top_500,25,281,0.005970973842459786
 regeringen,,,,danish::news_top_500,26,262,0.00556724251503368
-skoler,,,,danish::news_top_500,27,199,0.004228554429357642
-børn,,,,danish::news_top_500,28,198,0.004207305412124689
-viser,,,,danish::news_top_500,29,192,0.004079811308726971
-flere,,,,danish::news_top_500,30,187,0.003973566222562206
+skoler,schools,,,danish::news_top_500,27,199,0.004228554429357642
+børn,children,,,danish::news_top_500,28,198,0.004207305412124689
+viser,shows,,,danish::news_top_500,29,192,0.004079811308726971
+flere,more; several,,,danish::news_top_500,30,187,0.003973566222562206
 år,,,,danish::news_top_500,31,177,0.003761076050232677
 unge,,,,danish::news_top_500,32,169,0.003591083912369053
 dagtilbud,,,,danish::news_top_500,33,156,0.003314846688340664
 undervisningsministeriet,,,,danish::news_top_500,34,138,0.0029323643781475105
-ikke,,,,danish::news_top_500,35,131,0.00278362125751684
-vil,,,,danish::news_top_500,36,130,0.002762372240283887
+ikke,not,,,danish::news_top_500,35,131,0.00278362125751684
+vil,will; wants to,,,danish::news_top_500,36,130,0.002762372240283887
 blandt,,,,danish::news_top_500,37,126,0.002677376171352075
 nyt,,,,danish::news_top_500,38,123,0.002613629119653216
 aftale,,,,danish::news_top_500,39,117,0.0024861350162554982
 folkeskolen,,,,danish::news_top_500,40,117,0.0024861350162554982
 undervisning,,,,danish::news_top_500,41,116,0.0024648859990225452
-mere,,,,danish::news_top_500,42,109,0.002316142878391874
-over,,,,danish::news_top_500,43,109,0.002316142878391874
+mere,more,,,danish::news_top_500,42,109,0.002316142878391874
+over,over; across,,,danish::news_top_500,43,109,0.002316142878391874
 anbefalinger,,,,danish::news_top_500,44,103,0.0021886487749941566
 kommuner,,,,danish::news_top_500,45,100,0.0021249017232952976
 deres,,,,danish::news_top_500,46,99,0.0021036527060623446
-efter,,,,danish::news_top_500,47,96,0.0020399056543634855
-får,,,,danish::news_top_500,48,96,0.0020399056543634855
+efter,after,,,danish::news_top_500,47,96,0.0020399056543634855
+får,gets; receives,,,danish::news_top_500,48,96,0.0020399056543634855
 erhvervsuddannelserne,,,,danish::news_top_500,49,94,0.0019974076198975795
 styrke,,,,danish::news_top_500,50,91,0.0019336605681987207
-alle,,,,danish::news_top_500,51,90,0.0019124115509657677
+alle,all; everyone,,,danish::news_top_500,51,90,0.0019124115509657677
 kroner,,,,danish::news_top_500,52,89,0.001891162533732815
 undervisningsområdet,,,,danish::news_top_500,53,89,0.001891162533732815
 række,,,,danish::news_top_500,54,86,0.001827415482033956
-få,,,,danish::news_top_500,55,85,0.001806166464801003
+få,few; get,,,danish::news_top_500,55,85,0.001806166464801003
 klar,,,,danish::news_top_500,56,85,0.001806166464801003
 kvalitet,,,,danish::news_top_500,57,84,0.00178491744756805
 millioner,,,,danish::news_top_500,58,83,0.001763668430335097
 styrelsen,,,,danish::news_top_500,59,83,0.001763668430335097
 tiltag,,,,danish::news_top_500,60,83,0.001763668430335097
 undervisningsministeren,,,,danish::news_top_500,61,82,0.0017424194131021441
-ved,,,,danish::news_top_500,62,79,0.001678672361403285
+ved,by; at; knows,,,danish::news_top_500,62,79,0.001678672361403285
 landets,,,,danish::news_top_500,63,79,0.001678672361403285
 klasse,,,,danish::news_top_500,64,77,0.001636174326937379
-end,,,,danish::news_top_500,65,76,0.001614925309704426
+end,than,,,danish::news_top_500,65,76,0.001614925309704426
 andet,,,,danish::news_top_500,66,76,0.001614925309704426
-være,,,,danish::news_top_500,67,75,0.0015936762924714733
-bliver,,,,danish::news_top_500,68,75,0.0015936762924714733
+være,be,,,danish::news_top_500,67,75,0.0015936762924714733
+bliver,becomes; will be,,,danish::news_top_500,68,75,0.0015936762924714733
 hvordan,,,,danish::news_top_500,69,74,0.0015724272752385203
 bedre,,,,danish::news_top_500,70,74,0.0015724272752385203
-eller,,,,danish::news_top_500,71,73,0.0015511782580055673
+eller,or,,,danish::news_top_500,71,73,0.0015511782580055673
 gang,,,,danish::news_top_500,72,73,0.0015511782580055673
 institutioner,,,,danish::news_top_500,73,72,0.0015299292407726143
 dansk,,,,danish::news_top_500,74,69,0.0014661821890737553
@@ -78,62 +78,62 @@ flertal,,,,danish::news_top_500,76,68,0.0014449331718408025
 danmark,,,,danish::news_top_500,77,67,0.0014236841546078495
 marts,,,,danish::news_top_500,78,66,0.0014024351373748965
 mulighed,,,,danish::news_top_500,79,65,0.0013811861201419434
-mod,,,,danish::news_top_500,80,64,0.0013599371029089904
-arbejde,,,,danish::news_top_500,81,64,0.0013599371029089904
-hvor,,,,danish::news_top_500,82,64,0.0013599371029089904
+mod,against; toward,,,danish::news_top_500,80,64,0.0013599371029089904
+arbejde,work,,,danish::news_top_500,81,64,0.0013599371029089904
+hvor,where,,,danish::news_top_500,82,64,0.0013599371029089904
 sikre,,,,danish::news_top_500,83,64,0.0013599371029089904
-op,,,,danish::news_top_500,84,64,0.0013599371029089904
+op,up,,,danish::news_top_500,84,64,0.0013599371029089904
 uddannelsesinstitutioner,,,,danish::news_top_500,85,63,0.0013386880856760374
 derfor,,,,danish::news_top_500,86,61,0.0012961900512101316
 blevet,,,,danish::news_top_500,87,60,0.0012749410339771786
 trivsel,,,,danish::news_top_500,88,60,0.0012749410339771786
 folkeskolens,,,,danish::news_top_500,89,60,0.0012749410339771786
-sig,,,,danish::news_top_500,90,59,0.0012536920167442256
-blev,,,,danish::news_top_500,91,57,0.0012111939822783196
+sig,himself; herself; itself,,,danish::news_top_500,90,59,0.0012536920167442256
+blev,became; was,,,danish::news_top_500,91,57,0.0012111939822783196
 tal,,,,danish::news_top_500,92,57,0.0012111939822783196
 fortsat,,,,danish::news_top_500,93,56,0.0011899449650453666
-to,,,,danish::news_top_500,94,56,0.0011899449650453666
+to,two,,,danish::news_top_500,94,56,0.0011899449650453666
 enige,,,,danish::news_top_500,95,56,0.0011899449650453666
 komme,,,,danish::news_top_500,96,55,0.0011686959478124136
 danske,,,,danish::news_top_500,97,54,0.0011474469305794606
-mange,,,,danish::news_top_500,98,54,0.0011474469305794606
+mange,many,,,danish::news_top_500,98,54,0.0011474469305794606
 tidligere,,,,danish::news_top_500,99,54,0.0011474469305794606
 pædagogiske,,,,danish::news_top_500,100,54,0.0011474469305794606
-andre,,,,danish::news_top_500,101,53,0.0011261979133465078
-men,,,,danish::news_top_500,102,53,0.0011261979133465078
+andre,others; other,,,danish::news_top_500,101,53,0.0011261979133465078
+men,but,,,danish::news_top_500,102,53,0.0011261979133465078
 tilbage,,,,danish::news_top_500,103,53,0.0011261979133465078
 erhvervsuddannelser,,,,danish::news_top_500,104,53,0.0011261979133465078
-se,,,,danish::news_top_500,105,52,0.0011049488961135548
-her,,,,danish::news_top_500,106,52,0.0011049488961135548
+se,see,,,danish::news_top_500,105,52,0.0011049488961135548
+her,here,,,danish::news_top_500,106,52,0.0011049488961135548
 besluttet,,,,danish::news_top_500,107,52,0.0011049488961135548
 undersøgelse,,,,danish::news_top_500,108,52,0.0011049488961135548
-også,,,,danish::news_top_500,109,51,0.0010836998788806018
+også,also,,,danish::news_top_500,109,51,0.0010836998788806018
 giver,,,,danish::news_top_500,110,51,0.0010836998788806018
 indgået,,,,danish::news_top_500,111,51,0.0010836998788806018
 rapport,,,,danish::news_top_500,112,51,0.0010836998788806018
 eleverne,,,,danish::news_top_500,113,51,0.0010836998788806018
 bredt,,,,danish::news_top_500,114,51,0.0010836998788806018
-første,,,,danish::news_top_500,115,50,0.0010624508616476488
+første,first,,,danish::news_top_500,115,50,0.0010624508616476488
 opdateret,,,,danish::news_top_500,116,50,0.0010624508616476488
 ungdomsuddannelser,,,,danish::news_top_500,117,50,0.0010624508616476488
 fgu,,,,danish::news_top_500,118,50,0.0010624508616476488
 folkeparti,,,,danish::news_top_500,119,50,0.0010624508616476488
 kl,,,,danish::news_top_500,120,49,0.0010412018444146958
-så,,,,danish::news_top_500,121,49,0.0010412018444146958
+så,so; then; saw,,,danish::news_top_500,121,49,0.0010412018444146958
 frem,,,,danish::news_top_500,122,49,0.0010412018444146958
-du,,,,danish::news_top_500,123,48,0.0010199528271817428
+du,you,,,danish::news_top_500,123,48,0.0010199528271817428
 grundskoler,,,,danish::news_top_500,124,48,0.0010199528271817428
 forsøg,,,,danish::news_top_500,125,47,0.0009987038099487898
 undervisningsministeriets,,,,danish::news_top_500,126,47,0.0009987038099487898
 genåbning,,,,danish::news_top_500,127,47,0.0009987038099487898
-dag,,,,danish::news_top_500,128,46,0.000977454792715837
+dag,day,,,danish::news_top_500,128,46,0.000977454792715837
 give,,,,danish::news_top_500,129,46,0.000977454792715837
-hele,,,,danish::news_top_500,130,46,0.000977454792715837
+hele,whole; entire,,,danish::news_top_500,130,46,0.000977454792715837
 kommune,,,,danish::news_top_500,131,46,0.000977454792715837
 prøver,,,,danish::news_top_500,132,46,0.000977454792715837
 elevernes,,,,danish::news_top_500,133,46,0.000977454792715837
 tre,,,,danish::news_top_500,134,45,0.0009562057754828839
-når,,,,danish::news_top_500,135,45,0.0009562057754828839
+når,when,,,danish::news_top_500,135,45,0.0009562057754828839
 danmarks,,,,danish::news_top_500,136,45,0.0009562057754828839
 ekspertgruppe,,,,danish::news_top_500,137,45,0.0009562057754828839
 undervisningen,,,,danish::news_top_500,138,45,0.0009562057754828839
@@ -142,7 +142,7 @@ fokus,,,,danish::news_top_500,140,44,0.000934956758249931
 januar,,,,danish::news_top_500,141,44,0.000934956758249931
 grundskolen,,,,danish::news_top_500,142,44,0.000934956758249931
 ordblindhed,,,,danish::news_top_500,143,44,0.000934956758249931
-skole,,,,danish::news_top_500,144,44,0.000934956758249931
+skole,school,,,danish::news_top_500,144,44,0.000934956758249931
 restriktioner,,,,danish::news_top_500,145,44,0.000934956758249931
 faglige,,,,danish::news_top_500,146,43,0.000913707741016978
 nationale,,,,danish::news_top_500,147,43,0.000913707741016978
@@ -150,18 +150,18 @@ folketinget,,,,danish::news_top_500,148,43,0.000913707741016978
 uddannelser,,,,danish::news_top_500,149,43,0.000913707741016978
 regler,,,,danish::news_top_500,150,43,0.000913707741016978
 læring,,,,danish::news_top_500,151,43,0.000913707741016978
-ud,,,,danish::news_top_500,152,42,0.000892458723784025
+ud,out,,,danish::news_top_500,152,42,0.000892458723784025
 have,,,,danish::news_top_500,153,42,0.000892458723784025
 både,,,,danish::news_top_500,154,42,0.000892458723784025
 forlænges,,,,danish::news_top_500,155,42,0.000892458723784025
 brug,,,,danish::news_top_500,156,41,0.0008712097065510721
-mellem,,,,danish::news_top_500,157,41,0.0008712097065510721
+mellem,between,,,danish::news_top_500,157,41,0.0008712097065510721
 procent,,,,danish::news_top_500,158,40,0.000849960689318119
 ungdomsuddannelserne,,,,danish::news_top_500,159,40,0.000849960689318119
-blive,,,,danish::news_top_500,160,39,0.000828711672085166
+blive,become; remain,,,danish::news_top_500,160,39,0.000828711672085166
 digitale,,,,danish::news_top_500,161,39,0.000828711672085166
 kommunerne,,,,danish::news_top_500,162,39,0.000828711672085166
-sidste,,,,danish::news_top_500,163,39,0.000828711672085166
+sidste,last,,,danish::news_top_500,163,39,0.000828711672085166
 partier,,,,danish::news_top_500,164,39,0.000828711672085166
 støtte,,,,danish::news_top_500,165,39,0.000828711672085166
 folkeskoler,,,,danish::news_top_500,166,39,0.000828711672085166
@@ -173,12 +173,12 @@ frie,,,,danish::news_top_500,171,38,0.000807462654852213
 skoleåret,,,,danish::news_top_500,172,38,0.000807462654852213
 folketingets,,,,danish::news_top_500,173,38,0.000807462654852213
 høj,,,,danish::news_top_500,174,37,0.0007862136376192601
-går,,,,danish::news_top_500,175,37,0.0007862136376192601
-hvis,,,,danish::news_top_500,176,37,0.0007862136376192601
+går,goes; yesterday,,,danish::news_top_500,175,37,0.0007862136376192601
+hvis,if; whose,,,danish::news_top_500,176,37,0.0007862136376192601
 resultater,,,,danish::news_top_500,177,37,0.0007862136376192601
 offentliggjort,,,,danish::news_top_500,178,37,0.0007862136376192601
-del,,,,danish::news_top_500,179,36,0.0007649646203863071
-samtidig,,,,danish::news_top_500,180,36,0.0007649646203863071
+del,part,,,danish::news_top_500,179,36,0.0007649646203863071
+samtidig,at the same time,,,danish::news_top_500,180,36,0.0007649646203863071
 evaluering,,,,danish::news_top_500,181,36,0.0007649646203863071
 årets,,,,danish::news_top_500,182,35,0.0007437156031533541
 indsats,,,,danish::news_top_500,183,35,0.0007437156031533541
@@ -190,7 +190,7 @@ mandag,,,,danish::news_top_500,188,34,0.0007224665859204012
 midler,,,,danish::news_top_500,189,34,0.0007224665859204012
 retningslinjer,,,,danish::news_top_500,190,34,0.0007224665859204012
 indsatser,,,,danish::news_top_500,191,33,0.0007012175686874482
-kommer,,,,danish::news_top_500,192,33,0.0007012175686874482
+kommer,comes,,,danish::news_top_500,192,33,0.0007012175686874482
 inden,,,,danish::news_top_500,193,33,0.0007012175686874482
 december,,,,danish::news_top_500,194,33,0.0007012175686874482
 aftalen,,,,danish::news_top_500,195,33,0.0007012175686874482
@@ -206,7 +206,7 @@ samt,,,,danish::news_top_500,204,32,0.0006799685514544952
 arbejdet,,,,danish::news_top_500,205,32,0.0006799685514544952
 landet,,,,danish::news_top_500,206,32,0.0006799685514544952
 matematik,,,,danish::news_top_500,207,32,0.0006799685514544952
-sin,,,,danish::news_top_500,208,31,0.0006587195342215422
+sin,his; her; its own,,,danish::news_top_500,208,31,0.0006587195342215422
 fravær,,,,danish::news_top_500,209,31,0.0006587195342215422
 endnu,,,,danish::news_top_500,210,31,0.0006587195342215422
 søge,,,,danish::news_top_500,211,31,0.0006587195342215422
@@ -215,7 +215,7 @@ erhvervsskoler,,,,danish::news_top_500,213,31,0.0006587195342215422
 styrket,,,,danish::news_top_500,214,31,0.0006587195342215422
 afsætte,,,,danish::news_top_500,215,31,0.0006587195342215422
 uden,,,,danish::news_top_500,216,30,0.0006374705169885893
-under,,,,danish::news_top_500,217,30,0.0006374705169885893
+under,under; during,,,danish::news_top_500,217,30,0.0006374705169885893
 længere,,,,danish::news_top_500,218,30,0.0006374705169885893
 vejledning,,,,danish::news_top_500,219,30,0.0006374705169885893
 hjælpe,,,,danish::news_top_500,220,30,0.0006374705169885893
@@ -237,10 +237,10 @@ pulje,,,,danish::news_top_500,235,27,0.0005737234652897303
 skolerne,,,,danish::news_top_500,236,27,0.0005737234652897303
 børnehaver,,,,danish::news_top_500,237,27,0.0005737234652897303
 eud,,,,danish::news_top_500,238,27,0.0005737234652897303
-store,,,,danish::news_top_500,239,26,0.0005524744480567774
+store,large; big,,,danish::news_top_500,239,26,0.0005524744480567774
 kommende,,,,danish::news_top_500,240,26,0.0005524744480567774
 set,,,,danish::news_top_500,241,26,0.0005524744480567774
-man,,,,danish::news_top_500,242,26,0.0005524744480567774
+man,one; you; people,,,danish::news_top_500,242,26,0.0005524744480567774
 kvaliteten,,,,danish::news_top_500,243,26,0.0005524744480567774
 viden,,,,danish::news_top_500,244,26,0.0005524744480567774
 test,,,,danish::news_top_500,245,26,0.0005524744480567774
@@ -252,7 +252,7 @@ område,,,,danish::news_top_500,250,25,0.0005312254308238244
 måneden,,,,danish::news_top_500,251,25,0.0005312254308238244
 nr,,,,danish::news_top_500,252,25,0.0005312254308238244
 vej,,,,danish::news_top_500,253,24,0.0005099764135908714
-stor,,,,danish::news_top_500,254,24,0.0005099764135908714
+stor,large; big,,,danish::news_top_500,254,24,0.0005099764135908714
 markant,,,,danish::news_top_500,255,24,0.0005099764135908714
 mindre,,,,danish::news_top_500,256,24,0.0005099764135908714
 forældre,,,,danish::news_top_500,257,24,0.0005099764135908714
@@ -310,7 +310,7 @@ nødundervisning,,,,danish::news_top_500,308,21,0.0004462293618920125
 smitten,,,,danish::news_top_500,309,21,0.0004462293618920125
 inviterer,,,,danish::news_top_500,310,20,0.0004249803446590595
 hjælp,,,,danish::news_top_500,311,20,0.0004249803446590595
-ind,,,,danish::news_top_500,312,20,0.0004249803446590595
+ind,in; into,,,danish::news_top_500,312,20,0.0004249803446590595
 hvad,,,,danish::news_top_500,313,20,0.0004249803446590595
 maj,,,,danish::news_top_500,314,20,0.0004249803446590595
 penge,,,,danish::news_top_500,315,20,0.0004249803446590595
@@ -344,7 +344,7 @@ står,,,,danish::news_top_500,342,18,0.00038248231019315357
 fem,,,,danish::news_top_500,343,18,0.00038248231019315357
 større,,,,danish::news_top_500,344,18,0.00038248231019315357
 stemme,,,,danish::news_top_500,345,18,0.00038248231019315357
-været,,,,danish::news_top_500,346,18,0.00038248231019315357
+været,been,,,danish::news_top_500,346,18,0.00038248231019315357
 gennem,,,,danish::news_top_500,347,18,0.00038248231019315357
 folketingsvalget,,,,danish::news_top_500,348,18,0.00038248231019315357
 stigning,,,,danish::news_top_500,349,18,0.00038248231019315357
@@ -357,13 +357,13 @@ september,,,,danish::news_top_500,355,18,0.00038248231019315357
 tilsynsberetning,,,,danish::news_top_500,356,18,0.00038248231019315357
 gælder,,,,danish::news_top_500,357,18,0.00038248231019315357
 andetsprog,,,,danish::news_top_500,358,18,0.00038248231019315357
-kunne,,,,danish::news_top_500,359,17,0.0003612332929602006
-havde,,,,danish::news_top_500,360,17,0.0003612332929602006
+kunne,could,,,danish::news_top_500,359,17,0.0003612332929602006
+havde,had,,,danish::news_top_500,360,17,0.0003612332929602006
 gøre,,,,danish::news_top_500,361,17,0.0003612332929602006
 allerede,,,,danish::news_top_500,362,17,0.0003612332929602006
 hverdag,,,,danish::news_top_500,363,17,0.0003612332929602006
 virksomheder,,,,danish::news_top_500,364,17,0.0003612332929602006
-seneste,,,,danish::news_top_500,365,17,0.0003612332929602006
+seneste,latest; most recent,,,danish::news_top_500,365,17,0.0003612332929602006
 lokale,,,,danish::news_top_500,366,17,0.0003612332929602006
 året,,,,danish::news_top_500,367,17,0.0003612332929602006
 minister,,,,danish::news_top_500,368,17,0.0003612332929602006
@@ -379,12 +379,12 @@ da,,,,danish::news_top_500,377,16,0.0003399842757272476
 mener,,,,danish::news_top_500,378,16,0.0003399842757272476
 udvikle,,,,danish::news_top_500,379,16,0.0003399842757272476
 ekstra,,,,danish::news_top_500,380,16,0.0003399842757272476
-hos,,,,danish::news_top_500,381,16,0.0003399842757272476
+hos,at; with,,,danish::news_top_500,381,16,0.0003399842757272476
 næsten,,,,danish::news_top_500,382,16,0.0003399842757272476
 bruges,,,,danish::news_top_500,383,16,0.0003399842757272476
 andelen,,,,danish::news_top_500,384,16,0.0003399842757272476
 problemer,,,,danish::news_top_500,385,16,0.0003399842757272476
-før,,,,danish::news_top_500,386,16,0.0003399842757272476
+før,before,,,danish::news_top_500,386,16,0.0003399842757272476
 hjem,,,,danish::news_top_500,387,16,0.0003399842757272476
 ukraine,,,,danish::news_top_500,388,16,0.0003399842757272476
 sendt,,,,danish::news_top_500,389,16,0.0003399842757272476
@@ -417,7 +417,7 @@ videre,,,,danish::news_top_500,415,15,0.00031873525849429466
 foreslår,,,,danish::news_top_500,416,15,0.00031873525849429466
 møde,,,,danish::news_top_500,417,15,0.00031873525849429466
 tid,,,,danish::news_top_500,418,15,0.00031873525849429466
-må,,,,danish::news_top_500,419,15,0.00031873525849429466
+må,may; must,,,danish::news_top_500,419,15,0.00031873525849429466
 rammer,,,,danish::news_top_500,420,15,0.00031873525849429466
 lettere,,,,danish::news_top_500,421,15,0.00031873525849429466
 fået,,,,danish::news_top_500,422,15,0.00031873525849429466
@@ -444,7 +444,7 @@ formand,,,,danish::news_top_500,442,14,0.00029748624126134165
 uge,,,,danish::news_top_500,443,14,0.00029748624126134165
 tager,,,,danish::news_top_500,444,14,0.00029748624126134165
 overblik,,,,danish::news_top_500,445,14,0.00029748624126134165
-stadig,,,,danish::news_top_500,446,14,0.00029748624126134165
+stadig,still,,,danish::news_top_500,446,14,0.00029748624126134165
 fremtiden,,,,danish::news_top_500,447,14,0.00029748624126134165
 lancerer,,,,danish::news_top_500,448,14,0.00029748624126134165
 fald,,,,danish::news_top_500,449,14,0.00029748624126134165
@@ -470,7 +470,7 @@ sprogvurdering,,,,danish::news_top_500,468,14,0.00029748624126134165
 retningslinjerne,,,,danish::news_top_500,469,14,0.00029748624126134165
 vende,,,,danish::news_top_500,470,14,0.00029748624126134165
 prosa,,,,danish::news_top_500,471,13,0.0002762372240283887
-selv,,,,danish::news_top_500,472,13,0.0002762372240283887
+selv,self; even,,,danish::news_top_500,472,13,0.0002762372240283887
 borgere,,,,danish::news_top_500,473,13,0.0002762372240283887
 fleste,,,,danish::news_top_500,474,13,0.0002762372240283887
 dermed,,,,danish::news_top_500,475,13,0.0002762372240283887
