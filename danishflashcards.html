@@ -496,10 +496,7 @@
         <select id="deckSelect">
           <option value="beginner">Beginner - 100 common words</option>
           <option value="medium" selected>Medium - 260-word list</option>
-          <option value="freq500">Frequency Core 500</option>
-          <option value="freq1000">Frequency Core 1000</option>
-          <option value="freq2000">Frequency Core 2000</option>
-          <option value="news500">News RSS Top 500</option>
+          <option value="common500">Common 500</option>
           <option value="custom">Custom CSV</option>
         </select>
       </label>
@@ -547,7 +544,7 @@
 
       <aside>
         <h2>Practice Notes</h2>
-        <p class="note">The beginner and medium decks use Danish-English CSVs. Frequency decks use DSL lemma data and show POS/rank details instead of translations.</p>
+        <p class="note">Built-in decks use clean Danish-English CSVs. Use Custom CSV for your own two-column decks.</p>
         <p class="note">Progress auto-saves in this browser. Use progress files if you want to move that data elsewhere.</p>
         <div class="progress-actions">
           <button id="saveProgressButton" type="button" disabled>Save Progress</button>
@@ -581,29 +578,11 @@
         type: "csv",
         description: "Loaded the 260-card medium Danish vocabulary deck."
       },
-      freq500: {
-        url: "danish-frequency-pipeline/exports/core_500.json",
-        name: "Frequency Core 500",
-        type: "frequency-json",
-        description: "Loaded the top 500 Danish frequency lemmas."
-      },
-      freq1000: {
-        url: "danish-frequency-pipeline/exports/core_1000.json",
-        name: "Frequency Core 1000",
-        type: "frequency-json",
-        description: "Loaded the top 1000 Danish frequency lemmas."
-      },
-      freq2000: {
-        url: "danish-frequency-pipeline/exports/core_2000.json",
-        name: "Frequency Core 2000",
-        type: "frequency-json",
-        description: "Loaded the top 2000 Danish frequency lemmas."
-      },
-      news500: {
-        url: "danish-frequency-pipeline/exports/news_top_500.csv",
-        name: "News RSS Top 500",
-        type: "news-csv",
-        description: "Loaded the top 500 words from the RSS news corpus."
+      common500: {
+        url: "danish_vocabulary_common_500.csv",
+        name: "Common 500",
+        type: "csv",
+        description: "Loaded the 500-card common Danish vocabulary deck."
       }
     };
 
@@ -701,31 +680,6 @@
       }).filter((row) => row.Danish && row.English);
     }
 
-    function normalizeNewsRows(rawRows) {
-      const headers = rawRows[0].map((header) => header.trim());
-      return rawRows.slice(1).map((rawRow) => {
-        const row = {};
-        headers.forEach((header, index) => {
-          row[header] = (rawRow[index] || "").trim();
-        });
-        return row;
-      }).filter((row) => row.Danish);
-    }
-
-    function normalizeFrequencyRows(records) {
-      return records.map((record) => ({
-        Danish: record.lemma || "",
-        English: Array.isArray(record.english) ? record.english.join("; ") : (record.english || ""),
-        PartOfSpeech: record.pos || "",
-        Example: [record.example_da, record.example_en].filter(Boolean).join(" / "),
-        frequencyRank: record.frequency_rank,
-        normalizedFrequency: record.normalized_frequency,
-        cefrEstimate: record.cefr_estimate || "",
-        tags: Array.isArray(record.tags) ? record.tags.join(" ") : "",
-        deckType: "frequency"
-      })).filter((row) => row.Danish);
-    }
-
     async function loadVocabulary() {
       const deckConfig = DECKS[elements.deckSelect.value] || DECKS.medium;
       if (elements.deckSelect.value === "custom") {
@@ -747,13 +701,7 @@
       if (!response.ok) {
         throw new Error("Could not load the bundled Danish vocabulary CSV.");
       }
-      if (deckConfig.type === "frequency-json") {
-        state.rows = normalizeFrequencyRows(await response.json());
-      } else if (deckConfig.type === "news-csv") {
-        state.rows = normalizeNewsRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
-      } else {
-        state.rows = normalizeRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
-      }
+      state.rows = normalizeRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
       state.loadedDeckKey = elements.deckSelect.value;
       state.results = {};
       elements.statusNote.classList.remove("error");
@@ -778,28 +726,16 @@
     function buildDeck() {
       const source = state.rows;
       const direction = elements.directionSelect.value;
-      const isFrequencyDeck = source.some((row) => row.deckType === "frequency");
-      const isNewsDeck = elements.deckSelect.value === "news500";
 
       state.deck = source.map((row, originalIndex) => {
-        const prompt = isFrequencyDeck || isNewsDeck || direction === "da-en" ? row.Danish : row.English;
-        const response = isFrequencyDeck
-          ? row.English || "No English gloss found"
-          : isNewsDeck
-            ? row.English || "No English translation yet"
-          : direction === "da-en" ? row.English : row.Danish;
-        const frequencyDetails = isFrequencyDeck
-          ? `Rank ${row.frequencyRank} - ${row.PartOfSpeech} - ${row.cefrEstimate} - Frequency ${Number(row.normalizedFrequency).toPrecision(4)}`
-          : isNewsDeck
-            ? `News RSS corpus - Count ${row.count} - Frequency ${Number(row.normalized_frequency).toPrecision(4)}`
-          : "";
+        const prompt = direction === "da-en" ? row.Danish : row.English;
+        const response = direction === "da-en" ? row.English : row.Danish;
         return {
           id: `${originalIndex}:${row.Danish}:${row.English}`,
           prompt,
           response,
           partOfSpeech: row.PartOfSpeech || "",
-          example: row.Example || "",
-          frequencyDetails
+          example: row.Example || ""
         };
       });
 
@@ -835,15 +771,6 @@
         ? `custom:${state.customName || "unnamed"}:${state.rows.length}`
         : elements.deckSelect.value;
       return ["danish-flashcards", deckKey, elements.directionSelect.value].join("|");
-    }
-
-    function syncDirectionAvailability() {
-      const deckConfig = DECKS[elements.deckSelect.value];
-      const oneWayDeck = deckConfig && (deckConfig.type === "frequency-json" || deckConfig.type === "news-csv");
-      elements.directionSelect.disabled = oneWayDeck;
-      if (oneWayDeck) {
-        elements.directionSelect.value = "da-en";
-      }
     }
 
     function loadLocalProgress() {
@@ -967,7 +894,7 @@
       elements.sideLabel.textContent = `${state.showingAnswer ? "Answer" : "Prompt"}${statusText}`;
 
       if (state.showingAnswer) {
-        const details = [card.frequencyDetails, card.partOfSpeech, card.example].filter(Boolean).join(" - ");
+        const details = [card.partOfSpeech, card.example].filter(Boolean).join(" - ");
         elements.cardText.className = "card-text";
         elements.cardText.innerHTML = `${escapeHtml(card.response)}${details ? `<span class="card-extra">${escapeHtml(details)}</span>` : ""}`;
       } else {
@@ -1018,7 +945,6 @@
 
     async function restartDeck() {
       try {
-        syncDirectionAvailability();
         await loadVocabulary();
       } catch (error) {
         elements.statusNote.classList.add("error");
@@ -1110,7 +1036,6 @@
       }
     });
 
-    syncDirectionAvailability();
     loadVocabulary().catch((error) => {
       elements.sideLabel.textContent = "Error";
       elements.cardText.className = "empty";
