@@ -144,6 +144,32 @@ The pipeline deliberately stays simple:
 - easy to rerun
 - translation-neutral
 
+## Optional News Corpus Deck
+
+`scripts/build_news_corpus_deck.py` builds a simple top-500 word-form deck from local Danish news text files.
+
+This script deliberately does not scrape DR, Børsen, or other news sites. Some Danish news sites disallow ChatGPT/GPTBot-style agents in `robots.txt`, and article text is copyrighted. Instead, put text you are allowed to analyze into:
+
+```text
+data/news_corpus/
+```
+
+Use `.txt` or `.md` files encoded as UTF-8. The raw corpus folder is ignored by git, so article text is not committed.
+
+Run:
+
+```bash
+python scripts/build_news_corpus_deck.py
+```
+
+Outputs:
+
+- `exports/news_top_500.csv`
+- `exports/news_top_500.json`
+- `exports/anki_news_top_500.tsv`
+
+The output stores only word counts and frequency ranks, not source article text. English translations are intentionally blank for this corpus-derived deck; fill them manually or through a reviewed translation workflow.
+
 ## License And Credit
 
 This project uses DSL open language resources. Review DSL's terms before redistribution or public use:

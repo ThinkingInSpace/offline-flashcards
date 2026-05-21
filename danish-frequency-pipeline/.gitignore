@@ -4,3 +4,5 @@ __pycache__/
 data/*.zip
 data/*.txt
 data/*.jsonl
+data/news_corpus/*
+!data/news_corpus/.gitkeep
