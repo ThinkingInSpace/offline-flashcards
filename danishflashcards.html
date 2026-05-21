@@ -701,6 +701,17 @@
       }).filter((row) => row.Danish && row.English);
     }
 
+    function normalizeNewsRows(rawRows) {
+      const headers = rawRows[0].map((header) => header.trim());
+      return rawRows.slice(1).map((rawRow) => {
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = (rawRow[index] || "").trim();
+        });
+        return row;
+      }).filter((row) => row.Danish);
+    }
+
     function normalizeFrequencyRows(records) {
       return records.map((record) => ({
         Danish: record.lemma || "",
@@ -738,6 +749,8 @@
       }
       if (deckConfig.type === "frequency-json") {
         state.rows = normalizeFrequencyRows(await response.json());
+      } else if (deckConfig.type === "news-csv") {
+        state.rows = normalizeNewsRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
       } else {
         state.rows = normalizeRows(parseCsv((await response.text()).replace(/^\uFEFF/, "")));
       }
