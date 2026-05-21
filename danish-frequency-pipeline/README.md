@@ -162,6 +162,14 @@ Run:
 python scripts/build_news_corpus_deck.py
 ```
 
+Or fetch the configured RSS title/description corpus first:
+
+```bash
+python scripts/build_news_corpus_deck.py --fetch-rss
+```
+
+The configured RSS sources are public feeds from Danish organizations and news-style publishers that responded cleanly during development. The script uses feed titles/descriptions only; it does not fetch article bodies.
+
 Outputs:
 
 - `exports/news_top_500.csv`

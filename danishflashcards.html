@@ -499,6 +499,7 @@
           <option value="freq500">Frequency Core 500</option>
           <option value="freq1000">Frequency Core 1000</option>
           <option value="freq2000">Frequency Core 2000</option>
+          <option value="news500">News RSS Top 500</option>
           <option value="custom">Custom CSV</option>
         </select>
       </label>
@@ -597,6 +598,12 @@
         name: "Frequency Core 2000",
         type: "frequency-json",
         description: "Loaded the top 2000 Danish frequency lemmas."
+      },
+      news500: {
+        url: "danish-frequency-pipeline/exports/news_top_500.csv",
+        name: "News RSS Top 500",
+        type: "news-csv",
+        description: "Loaded the top 500 words from the RSS news corpus."
       }
     };
 
@@ -759,14 +766,19 @@
       const source = state.rows;
       const direction = elements.directionSelect.value;
       const isFrequencyDeck = source.some((row) => row.deckType === "frequency");
+      const isNewsDeck = elements.deckSelect.value === "news500";
 
       state.deck = source.map((row, originalIndex) => {
-        const prompt = isFrequencyDeck || direction === "da-en" ? row.Danish : row.English;
+        const prompt = isFrequencyDeck || isNewsDeck || direction === "da-en" ? row.Danish : row.English;
         const response = isFrequencyDeck
           ? row.English || "No English gloss found"
+          : isNewsDeck
+            ? `Rank ${row.frequency_rank}`
           : direction === "da-en" ? row.English : row.Danish;
         const frequencyDetails = isFrequencyDeck
           ? `Rank ${row.frequencyRank} - ${row.PartOfSpeech} - ${row.cefrEstimate} - Frequency ${Number(row.normalizedFrequency).toPrecision(4)}`
+          : isNewsDeck
+            ? `News RSS corpus - Count ${row.count} - Frequency ${Number(row.normalized_frequency).toPrecision(4)}`
           : "";
         return {
           id: `${originalIndex}:${row.Danish}:${row.English}`,
@@ -814,9 +826,9 @@
 
     function syncDirectionAvailability() {
       const deckConfig = DECKS[elements.deckSelect.value];
-      const frequencyDeck = deckConfig && deckConfig.type === "frequency-json";
-      elements.directionSelect.disabled = frequencyDeck;
-      if (frequencyDeck) {
+      const oneWayDeck = deckConfig && (deckConfig.type === "frequency-json" || deckConfig.type === "news-csv");
+      elements.directionSelect.disabled = oneWayDeck;
+      if (oneWayDeck) {
         elements.directionSelect.value = "da-en";
       }
     }
