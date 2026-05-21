@@ -174,6 +174,14 @@
       box-shadow: var(--shadow);
     }
 
+    details.mobile-panel {
+      display: contents;
+    }
+
+    details.mobile-panel > summary {
+      display: none;
+    }
+
     label {
       display: grid;
       gap: 5px;
@@ -399,49 +407,106 @@
     @media (max-width: 520px) {
       .app {
         width: min(100vw - 14px, 1040px);
-        gap: 10px;
-        padding-top: 8px;
+        gap: 7px;
+        padding-top: 6px;
+      }
+
+      header {
+        flex-direction: row;
+        align-items: center;
       }
 
       .logo {
-        width: 44px;
-        height: 44px;
+        width: 34px;
+        height: 34px;
+        padding: 3px;
       }
 
       h1 {
-        font-size: 1.5rem;
+        font-size: 1.15rem;
       }
 
-      .tagline,
+      .tagline {
+        display: none;
+      }
+
       footer {
-        font-size: 0.8rem;
+        display: none;
+      }
+
+      header > button {
+        min-height: 34px;
+        padding: 0.35rem 0.55rem;
+        font-size: 0.78rem;
+      }
+
+      details.mobile-panel {
+        display: block;
+      }
+
+      details.mobile-panel > summary {
+        display: block;
+        min-height: 34px;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: var(--panel);
+        color: var(--text);
+        padding: 0.45rem 0.7rem;
+        font-size: 0.82rem;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: var(--shadow-soft);
+        list-style-position: inside;
+      }
+
+      details.mobile-panel:not([open]) .toolbar,
+      details.mobile-panel:not([open]) aside {
+        display: none;
       }
 
       .toolbar,
       aside {
-        padding: 11px;
+        padding: 9px;
       }
 
       .toolbar {
-        gap: 9px;
+        gap: 8px;
+      }
+
+      .toolbar label:nth-of-type(3),
+      .toolbar #startButton {
+        display: none;
+      }
+
+      .stats {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 5px;
       }
 
       .stat {
-        padding: 9px 10px;
+        padding: 5px 6px;
       }
 
       .stat strong {
-        font-size: 1.08rem;
+        font-size: 0.9rem;
+      }
+
+      .stat span {
+        font-size: 0.58rem;
       }
 
       main {
-        gap: 10px;
+        gap: 7px;
         min-height: auto;
       }
 
+      .study {
+        gap: 7px;
+      }
+
       .card {
-        min-height: clamp(265px, 44dvh, 380px);
-        padding: 46px 16px 24px;
+        min-height: clamp(210px, 38dvh, 320px);
+        padding: 38px 12px 18px;
       }
 
       .side-label {
@@ -451,7 +516,7 @@
       }
 
       .card-text {
-        font-size: clamp(1.75rem, 11vw, 3.2rem);
+        font-size: clamp(1.65rem, 10vw, 2.8rem);
       }
 
       .controls {
@@ -460,13 +525,9 @@
       }
 
       .answer-controls {
-        position: sticky;
-        bottom: 0;
-        z-index: 5;
         grid-template-columns: 1fr 1fr;
-        padding: 9px 0 max(9px, env(safe-area-inset-bottom));
-        background: color-mix(in srgb, var(--bg) 94%, transparent);
-        backdrop-filter: blur(10px);
+        gap: 8px;
+        padding: 0;
       }
 
       button,
@@ -490,32 +551,35 @@
       <button id="resetButton" type="button">Reset progress</button>
     </header>
 
-    <section class="toolbar" aria-label="Study settings">
-      <label>
-        Deck
-        <select id="deckSelect">
-          <option value="beginner">Beginner - 100 common words</option>
-          <option value="medium" selected>Medium - 260-word list</option>
-          <option value="common491">Common 491</option>
-          <option value="custom">Custom CSV</option>
-        </select>
-      </label>
-      <label>
-        Direction
-        <select id="directionSelect">
-          <option value="da-en" selected>Danish to English</option>
-          <option value="en-da">English to Danish</option>
-        </select>
-      </label>
-      <label>
-        Order
-        <select id="orderSelect">
-          <option value="shuffle" selected>Shuffle</option>
-          <option value="list">List order</option>
-        </select>
-      </label>
-      <button id="startButton" class="primary" type="button">Start</button>
-    </section>
+    <details class="mobile-panel" open>
+      <summary>Deck settings</summary>
+      <section class="toolbar" aria-label="Study settings">
+        <label>
+          Deck
+          <select id="deckSelect">
+            <option value="beginner">Beginner - 100 common words</option>
+            <option value="medium" selected>Medium - 260-word list</option>
+            <option value="common491">Common 491</option>
+            <option value="custom">Custom CSV</option>
+          </select>
+        </label>
+        <label>
+          Direction
+          <select id="directionSelect">
+            <option value="da-en" selected>Danish to English</option>
+            <option value="en-da">English to Danish</option>
+          </select>
+        </label>
+        <label>
+          Order
+          <select id="orderSelect">
+            <option value="shuffle" selected>Shuffle</option>
+            <option value="list">List order</option>
+          </select>
+        </label>
+        <button id="startButton" class="primary" type="button">Start</button>
+      </section>
+    </details>
 
     <section class="stats" aria-label="Session stats">
       <div class="stat"><span>Card</span><strong id="positionStat">0 / 0</strong></div>
@@ -542,23 +606,26 @@
         </div>
       </section>
 
-      <aside>
-        <h2>Practice Notes</h2>
-        <p class="note">Built-in decks use clean Danish-English CSVs. Use Custom CSV for your own two-column decks.</p>
-        <p class="note">Progress auto-saves in this browser. Use progress files if you want to move that data elsewhere.</p>
-        <div class="progress-actions">
-          <button id="saveProgressButton" type="button" disabled>Save Progress</button>
-          <label class="import-label">
-            Load Progress
-            <input id="loadProgressFile" type="file" accept=".json,application/json">
-          </label>
-          <label class="import-label">
-            Custom CSV
-            <input id="customCsvFile" type="file" accept=".csv,text/csv">
-          </label>
-        </div>
-        <p id="statusNote" class="note">Preparing vocabulary...</p>
-      </aside>
+      <details class="mobile-panel" open>
+        <summary>Progress and files</summary>
+        <aside>
+          <h2>Practice Notes</h2>
+          <p class="note">Built-in decks use clean Danish-English CSVs. Use Custom CSV for your own two-column decks.</p>
+          <p class="note">Progress auto-saves in this browser. Use progress files if you want to move that data elsewhere.</p>
+          <div class="progress-actions">
+            <button id="saveProgressButton" type="button" disabled>Save Progress</button>
+            <label class="import-label">
+              Load Progress
+              <input id="loadProgressFile" type="file" accept=".json,application/json">
+            </label>
+            <label class="import-label">
+              Custom CSV
+              <input id="customCsvFile" type="file" accept=".csv,text/csv">
+            </label>
+          </div>
+          <p id="statusNote" class="note">Preparing vocabulary...</p>
+        </aside>
+      </details>
     </main>
 
     <footer>Keyboard: Space flips, Left/Right changes cards, 1 marks Again, 2 marks Known.</footer>
@@ -1035,6 +1102,22 @@
         mark("known");
       }
     });
+
+    const mobilePanelQuery = window.matchMedia("(max-width: 520px)");
+
+    function syncMobilePanels() {
+      const isMobile = mobilePanelQuery.matches;
+      document.querySelectorAll("details.mobile-panel").forEach((panel) => {
+        panel.open = !isMobile;
+      });
+    }
+
+    syncMobilePanels();
+    if (mobilePanelQuery.addEventListener) {
+      mobilePanelQuery.addEventListener("change", syncMobilePanels);
+    } else {
+      mobilePanelQuery.addListener(syncMobilePanels);
+    }
 
     loadVocabulary().catch((error) => {
       elements.sideLabel.textContent = "Error";
