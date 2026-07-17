@@ -198,8 +198,25 @@
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(4, minmax(110px, 1fr));
+      grid-template-columns: repeat(6, minmax(90px, 1fr));
       gap: 12px;
+    }
+
+    .level-progress {
+      height: 5px;
+      margin-top: 7px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: var(--line);
+    }
+
+    .level-progress > span {
+      display: block;
+      width: 0;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--red);
+      transition: width 220ms ease;
     }
 
     .stat {
@@ -479,7 +496,7 @@
       }
 
       .stats {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 5px;
       }
 
@@ -585,7 +602,9 @@
       <div class="stat"><span>Card</span><strong id="positionStat">0 / 0</strong></div>
       <div class="stat"><span>Known</span><strong id="knownStat">0</strong></div>
       <div class="stat"><span>Again</span><strong id="againStat">0</strong></div>
-      <div class="stat"><span>Loaded</span><strong id="loadedStat">0</strong></div>
+      <div class="stat"><span>XP</span><strong id="xpStat">0</strong></div>
+      <div class="stat"><span>Streak</span><strong id="streakStat">0</strong></div>
+      <div class="stat"><span>Level</span><strong id="levelStat">1</strong><div class="level-progress" aria-hidden="true"><span id="levelProgress"></span></div></div>
     </section>
 
     <main>
@@ -653,6 +672,18 @@
       }
     };
 
+    const PROFILE_KEY = "danish-flashcards|learner-profile";
+
+    function emptyProfile() {
+      return {
+        version: 1,
+        lifetimeXp: 0,
+        currentStreak: 0,
+        bestStreak: 0,
+        dailyActivity: {}
+      };
+    }
+
     const state = {
       rows: [],
       deck: [],
@@ -661,7 +692,8 @@
       results: {},
       loadedDeckKey: "",
       customRows: [],
-      customName: ""
+      customName: "",
+      profile: emptyProfile()
     };
 
     const elements = {
@@ -676,7 +708,10 @@
       positionStat: document.getElementById("positionStat"),
       knownStat: document.getElementById("knownStat"),
       againStat: document.getElementById("againStat"),
-      loadedStat: document.getElementById("loadedStat"),
+      xpStat: document.getElementById("xpStat"),
+      streakStat: document.getElementById("streakStat"),
+      levelStat: document.getElementById("levelStat"),
+      levelProgress: document.getElementById("levelProgress"),
       prevButton: document.getElementById("prevButton"),
       flipButton: document.getElementById("flipButton"),
       nextButton: document.getElementById("nextButton"),
@@ -794,11 +829,11 @@
       const source = state.rows;
       const direction = elements.directionSelect.value;
 
-      state.deck = source.map((row, originalIndex) => {
+      state.deck = source.map((row) => {
         const prompt = direction === "da-en" ? row.Danish : row.English;
         const response = direction === "da-en" ? row.English : row.Danish;
         return {
-          id: `${originalIndex}:${row.Danish}:${row.English}`,
+          id: stableCardId(row.Danish, row.English),
           prompt,
           response,
           partOfSpeech: row.PartOfSpeech || "",
@@ -812,6 +847,73 @@
 
       state.index = 0;
       state.showingAnswer = false;
+    }
+
+    function normalizeCardText(value) {
+      return String(value || "").normalize("NFKC").trim().replace(/\s+/g, " ").toLocaleLowerCase("da-DK");
+    }
+
+    function stableCardId(danish, english) {
+      const identity = `${normalizeCardText(danish)}\u001f${normalizeCardText(english)}`;
+      let hash = 2166136261;
+      for (let index = 0; index < identity.length; index += 1) {
+        hash ^= identity.charCodeAt(index);
+        hash = Math.imul(hash, 16777619);
+      }
+      return `card-${(hash >>> 0).toString(36)}`;
+    }
+
+    function levelDetails(xp = state.profile.lifetimeXp) {
+      const level = Math.floor(Math.sqrt(Math.max(0, xp) / 100)) + 1;
+      const levelStart = 100 * (level - 1) * (level - 1);
+      const nextLevel = 100 * level * level;
+      return { level, progress: (xp - levelStart) / (nextLevel - levelStart) };
+    }
+
+    function localDateKey() {
+      const date = new Date();
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function loadProfile() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(PROFILE_KEY) || "null");
+        if (saved && typeof saved === "object") {
+          state.profile = {
+            ...emptyProfile(),
+            ...saved,
+            dailyActivity: saved.dailyActivity && typeof saved.dailyActivity === "object" ? saved.dailyActivity : {}
+          };
+        }
+      } catch (error) {
+        state.profile = emptyProfile();
+      }
+    }
+
+    function saveProfile() {
+      try {
+        localStorage.setItem(PROFILE_KEY, JSON.stringify(state.profile));
+      } catch (error) {
+        elements.statusNote.textContent = "This browser could not save the learner profile locally.";
+      }
+    }
+
+    function recordProfileResult(value) {
+      const today = localDateKey();
+      const activity = state.profile.dailyActivity[today] || { reviews: 0, known: 0, xp: 0 };
+      activity.reviews += 1;
+      if (value === "known") {
+        const xpEarned = 10;
+        state.profile.lifetimeXp += xpEarned;
+        state.profile.currentStreak += 1;
+        state.profile.bestStreak = Math.max(state.profile.bestStreak, state.profile.currentStreak);
+        activity.known += 1;
+        activity.xp += xpEarned;
+      } else {
+        state.profile.currentStreak = 0;
+      }
+      state.profile.dailyActivity[today] = activity;
+      saveProfile();
     }
 
     function shuffle(items) {
@@ -842,13 +944,39 @@
 
     function loadLocalProgress() {
       try {
-        state.results = JSON.parse(localStorage.getItem(progressKey()) || "{}");
+        const savedResults = JSON.parse(localStorage.getItem(progressKey()) || "{}");
+        state.results = migrateResults(savedResults);
+        if (JSON.stringify(savedResults) !== JSON.stringify(state.results)) {
+          saveLocalProgress();
+        }
         if (Object.keys(state.results).length) {
           elements.statusNote.textContent += ` Restored ${Object.keys(state.results).length} saved card status(es).`;
         }
       } catch (error) {
         state.results = {};
       }
+    }
+
+    function migrateResults(results) {
+      const validIds = new Set(state.deck.map((card) => card.id));
+      const migrated = {};
+      Object.entries(results || {}).forEach(([id, value]) => {
+        if (value !== "known" && value !== "again") {
+          return;
+        }
+        if (validIds.has(id)) {
+          migrated[id] = value;
+          return;
+        }
+        const legacyMatch = id.match(/^\d+:(.*?):(.*)$/s);
+        if (legacyMatch) {
+          const stableId = stableCardId(legacyMatch[1], legacyMatch[2]);
+          if (validIds.has(stableId)) {
+            migrated[stableId] = value;
+          }
+        }
+      });
+      return migrated;
     }
 
     function saveLocalProgress() {
@@ -862,14 +990,15 @@
     function makeProgressPayload() {
       return {
         app: "Danish Flashcards",
-        version: 1,
+        version: 2,
         savedAt: new Date().toISOString(),
         deck: elements.deckSelect.value,
         customDeckName: elements.deckSelect.value === "custom" ? state.customName : "",
         rowCount: state.rows.length,
         direction: elements.directionSelect.value,
         currentCardId: currentCard() ? currentCard().id : null,
-        results: state.results
+        results: state.results,
+        learnerProfile: state.profile
       };
     }
 
@@ -892,7 +1021,7 @@
     }
 
     async function applyProgressPayload(payload) {
-      if (!payload || payload.version !== 1 || !payload.results) {
+      if (!payload || ![1, 2].includes(payload.version) || !payload.results) {
         throw new Error("That is not a valid Danish Flashcards progress file.");
       }
 
@@ -910,13 +1039,18 @@
 
       await loadVocabulary();
 
-      const validIds = new Set(state.deck.map((card) => card.id));
-      state.results = {};
-      Object.entries(payload.results).forEach(([id, value]) => {
-        if (validIds.has(id) && (value === "known" || value === "again")) {
-          state.results[id] = value;
-        }
-      });
+      state.results = migrateResults(payload.results);
+
+      if (payload.version >= 2 && payload.learnerProfile) {
+        state.profile = {
+          ...emptyProfile(),
+          ...payload.learnerProfile,
+          dailyActivity: payload.learnerProfile.dailyActivity && typeof payload.learnerProfile.dailyActivity === "object"
+            ? payload.learnerProfile.dailyActivity
+            : {}
+        };
+        saveProfile();
+      }
 
       if (payload.currentCardId) {
         const nextIndex = state.deck.findIndex((card) => card.id === payload.currentCardId);
@@ -926,6 +1060,7 @@
       }
 
       state.showingAnswer = false;
+      saveLocalProgress();
       elements.statusNote.classList.remove("error");
       elements.statusNote.textContent = `Loaded progress for ${Object.keys(state.results).length} card(s).`;
       render();
@@ -939,7 +1074,11 @@
       elements.positionStat.textContent = hasDeck ? `${state.index + 1} / ${state.deck.length}` : "0 / 0";
       elements.knownStat.textContent = String(currentStats.known);
       elements.againStat.textContent = String(currentStats.again);
-      elements.loadedStat.textContent = String(state.deck.length);
+      elements.xpStat.textContent = String(state.profile.lifetimeXp);
+      elements.streakStat.textContent = `${state.profile.currentStreak} / ${state.profile.bestStreak}`;
+      const level = levelDetails();
+      elements.levelStat.textContent = String(level.level);
+      elements.levelProgress.style.width = `${Math.max(0, Math.min(100, level.progress * 100))}%`;
 
       elements.prevButton.disabled = !hasDeck || state.index === 0;
       elements.nextButton.disabled = !hasDeck || state.index >= state.deck.length - 1;
@@ -1001,6 +1140,7 @@
         return;
       }
       state.results[card.id] = value;
+      recordProfileResult(value);
       saveLocalProgress();
       if (state.index < state.deck.length - 1) {
         move(1);
@@ -1030,7 +1170,7 @@
       } catch (error) {
         // Some browser privacy settings can block local storage.
       }
-      elements.statusNote.textContent = "Progress reset in this browser. Saved progress files were not changed.";
+      elements.statusNote.textContent = "This deck's card progress was reset. Lifetime XP, level, and streak history were kept.";
       render();
     });
     elements.saveProgressButton.addEventListener("click", exportProgress);
@@ -1119,6 +1259,7 @@
       mobilePanelQuery.addListener(syncMobilePanels);
     }
 
+    loadProfile();
     loadVocabulary().catch((error) => {
       elements.sideLabel.textContent = "Error";
       elements.cardText.className = "empty";
