@@ -250,7 +250,13 @@
 
     .study {
       display: grid;
-      grid-template-rows: minmax(0, 1fr) auto auto;
+      grid-template-rows: minmax(0, 1fr) auto;
+      gap: 12px;
+    }
+
+    .card-stage {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 150px;
       gap: 12px;
     }
 
@@ -314,11 +320,19 @@
     }
 
     .controls {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 
     .answer-controls {
-      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .answer-controls button {
+      min-height: 112px;
+      padding: 1rem;
+      font-size: 1.22rem;
+      font-weight: 900;
+      border-width: 2px;
     }
 
     .again {
@@ -337,6 +351,23 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 8px;
+    }
+
+    .share-text {
+      width: 100%;
+      min-height: 92px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel-soft);
+      color: var(--text);
+      padding: 0.7rem;
+      font: inherit;
+      line-height: 1.4;
+    }
+
+    .share-text[hidden] {
+      display: none;
     }
 
     .import-label {
@@ -414,6 +445,24 @@
 
       .card {
         min-height: clamp(300px, 48dvh, 460px);
+      }
+
+      .card-stage {
+        grid-template-columns: 1fr;
+      }
+
+      .answer-controls {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        order: 2;
+      }
+
+      .answer-controls button {
+        min-height: 76px;
+      }
+
+      .controls {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
       }
 
       aside {
@@ -547,6 +596,11 @@
         padding: 0;
       }
 
+      .answer-controls button {
+        min-height: 68px;
+        font-size: 1.05rem;
+      }
+
       button,
       .import-label,
       select {
@@ -603,25 +657,28 @@
       <div class="stat"><span>Known</span><strong id="knownStat">0</strong></div>
       <div class="stat"><span>Again</span><strong id="againStat">0</strong></div>
       <div class="stat"><span>XP</span><strong id="xpStat">0</strong></div>
-      <div class="stat"><span>Streak</span><strong id="streakStat">0</strong></div>
+      <div class="stat"><span>Day streak</span><strong id="streakStat">0</strong></div>
       <div class="stat"><span>Level</span><strong id="levelStat">1</strong><div class="level-progress" aria-hidden="true"><span id="levelProgress"></span></div></div>
     </section>
 
     <main>
       <section class="study" aria-label="Flashcard study area">
-        <div id="card" class="card" role="button" tabindex="0" aria-live="polite">
-          <span id="sideLabel" class="side-label">Loading</span>
-          <div id="cardText" class="empty">Loading Danish vocabulary...</div>
+        <div class="card-stage">
+          <div id="card" class="card" role="button" tabindex="0" aria-live="polite">
+            <span id="sideLabel" class="side-label">Loading</span>
+            <div id="cardText" class="empty">Loading Danish vocabulary...</div>
+          </div>
+          <div class="answer-controls" aria-label="Grade this card">
+            <button id="againButton" class="again" type="button" disabled>Again</button>
+            <button id="knownButton" class="known" type="button" disabled>Known</button>
+          </div>
         </div>
         <div class="controls">
           <button id="prevButton" type="button" disabled>Previous</button>
           <button id="flipButton" type="button" disabled>Flip</button>
           <button id="nextButton" type="button" disabled>Next</button>
           <button id="shuffleButton" type="button" disabled>Shuffle</button>
-        </div>
-        <div class="answer-controls">
-          <button id="againButton" class="again" type="button" disabled>Again</button>
-          <button id="knownButton" class="known" type="button" disabled>Known</button>
+          <button id="unlearnedButton" type="button" disabled>Not learned</button>
         </div>
       </section>
 
@@ -641,7 +698,9 @@
               Custom CSV
               <input id="customCsvFile" type="file" accept=".csv,text/csv">
             </label>
+            <button id="shareProgressButton" type="button" disabled>Share Progress</button>
           </div>
+          <textarea id="shareText" class="share-text" aria-label="Shareable progress text" readonly hidden></textarea>
           <p id="statusNote" class="note">Preparing vocabulary...</p>
         </aside>
       </details>
@@ -686,9 +745,11 @@
 
     const state = {
       rows: [],
+      allDeck: [],
       deck: [],
       index: 0,
       showingAnswer: false,
+      unlearnedOnly: false,
       results: {},
       loadedDeckKey: "",
       customRows: [],
@@ -716,9 +777,12 @@
       flipButton: document.getElementById("flipButton"),
       nextButton: document.getElementById("nextButton"),
       shuffleButton: document.getElementById("shuffleButton"),
+      unlearnedButton: document.getElementById("unlearnedButton"),
       againButton: document.getElementById("againButton"),
       knownButton: document.getElementById("knownButton"),
       saveProgressButton: document.getElementById("saveProgressButton"),
+      shareProgressButton: document.getElementById("shareProgressButton"),
+      shareText: document.getElementById("shareText"),
       loadProgressFile: document.getElementById("loadProgressFile"),
       customCsvFile: document.getElementById("customCsvFile"),
       statusNote: document.getElementById("statusNote")
@@ -829,7 +893,7 @@
       const source = state.rows;
       const direction = elements.directionSelect.value;
 
-      state.deck = source.map((row) => {
+      state.allDeck = source.map((row) => {
         const prompt = direction === "da-en" ? row.Danish : row.English;
         const response = direction === "da-en" ? row.English : row.Danish;
         return {
@@ -842,10 +906,20 @@
       });
 
       if (elements.orderSelect.value === "shuffle") {
-        shuffle(state.deck);
+        shuffle(state.allDeck);
       }
 
+      state.unlearnedOnly = false;
+      state.deck = [...state.allDeck];
       state.index = 0;
+      state.showingAnswer = false;
+    }
+
+    function applyDeckFilter() {
+      state.deck = state.unlearnedOnly
+        ? state.allDeck.filter((card) => state.results[card.id] !== "known")
+        : [...state.allDeck];
+      state.index = Math.max(0, Math.min(state.index, state.deck.length - 1));
       state.showingAnswer = false;
     }
 
@@ -873,6 +947,35 @@
     function localDateKey() {
       const date = new Date();
       return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function dateKeyOffset(key, days) {
+      const [year, month, day] = key.split("-").map(Number);
+      const date = new Date(year, month - 1, day + days, 12);
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function dayStreaks() {
+      const activeDays = new Set(Object.entries(state.profile.dailyActivity)
+        .filter(([, activity]) => activity && Number(activity.reviews) > 0)
+        .map(([key]) => key));
+      const today = localDateKey();
+      let cursor = activeDays.has(today) ? today : dateKeyOffset(today, -1);
+      let current = 0;
+      while (activeDays.has(cursor)) {
+        current += 1;
+        cursor = dateKeyOffset(cursor, -1);
+      }
+
+      let best = 0;
+      let run = 0;
+      let previous = "";
+      [...activeDays].sort().forEach((key) => {
+        run = previous && key === dateKeyOffset(previous, 1) ? run + 1 : 1;
+        best = Math.max(best, run);
+        previous = key;
+      });
+      return { current, best };
     }
 
     function loadProfile() {
@@ -905,14 +1008,13 @@
       if (value === "known") {
         const xpEarned = 10;
         state.profile.lifetimeXp += xpEarned;
-        state.profile.currentStreak += 1;
-        state.profile.bestStreak = Math.max(state.profile.bestStreak, state.profile.currentStreak);
         activity.known += 1;
         activity.xp += xpEarned;
-      } else {
-        state.profile.currentStreak = 0;
       }
       state.profile.dailyActivity[today] = activity;
+      const streaks = dayStreaks();
+      state.profile.currentStreak = streaks.current;
+      state.profile.bestStreak = streaks.best;
       saveProfile();
     }
 
@@ -955,6 +1057,7 @@
       } catch (error) {
         state.results = {};
       }
+      applyDeckFilter();
     }
 
     function migrateResults(results) {
@@ -988,6 +1091,9 @@
     }
 
     function makeProgressPayload() {
+      const streaks = dayStreaks();
+      state.profile.currentStreak = streaks.current;
+      state.profile.bestStreak = streaks.best;
       return {
         app: "Danish Flashcards",
         version: 2,
@@ -1063,7 +1169,32 @@
       saveLocalProgress();
       elements.statusNote.classList.remove("error");
       elements.statusNote.textContent = `Loaded progress for ${Object.keys(state.results).length} card(s).`;
+      applyDeckFilter();
       render();
+    }
+
+    function shareProgressText() {
+      const currentStats = stats();
+      const streak = dayStreaks().current;
+      const level = levelDetails().level;
+      const deckName = elements.deckSelect.value === "custom"
+        ? (state.customName || "my custom Danish deck")
+        : (DECKS[elements.deckSelect.value] || DECKS.medium).name;
+      return `I have earned ${state.profile.lifetimeXp} XP, reached Level ${level}, built a ${streak}-day Danish learning streak, and learned ${currentStats.known} of ${state.allDeck.length} cards in the ${deckName} deck.`;
+    }
+
+    async function shareProgress() {
+      const text = shareProgressText();
+      elements.shareText.hidden = false;
+      elements.shareText.value = text;
+      elements.shareText.focus();
+      elements.shareText.select();
+      try {
+        await navigator.clipboard.writeText(text);
+        elements.statusNote.textContent = "Progress copied to the clipboard. The text is also ready below.";
+      } catch (error) {
+        elements.statusNote.textContent = "Share text is ready below. Copy it with Ctrl+C or your device's copy command.";
+      }
     }
 
     function render() {
@@ -1075,7 +1206,9 @@
       elements.knownStat.textContent = String(currentStats.known);
       elements.againStat.textContent = String(currentStats.again);
       elements.xpStat.textContent = String(state.profile.lifetimeXp);
-      elements.streakStat.textContent = `${state.profile.currentStreak} / ${state.profile.bestStreak}`;
+      const streaks = dayStreaks();
+      elements.streakStat.textContent = String(streaks.current);
+      elements.streakStat.title = `Best daily streak: ${streaks.best} day${streaks.best === 1 ? "" : "s"}`;
       const level = levelDetails();
       elements.levelStat.textContent = String(level.level);
       elements.levelProgress.style.width = `${Math.max(0, Math.min(100, level.progress * 100))}%`;
@@ -1083,15 +1216,21 @@
       elements.prevButton.disabled = !hasDeck || state.index === 0;
       elements.nextButton.disabled = !hasDeck || state.index >= state.deck.length - 1;
       elements.flipButton.disabled = !hasDeck;
-      elements.shuffleButton.disabled = !hasDeck;
+      elements.shuffleButton.disabled = !state.allDeck.length;
+      elements.unlearnedButton.disabled = !state.allDeck.length;
+      elements.unlearnedButton.textContent = state.unlearnedOnly ? "Show all" : "Not learned";
+      elements.unlearnedButton.setAttribute("aria-pressed", String(state.unlearnedOnly));
       elements.againButton.disabled = !hasDeck;
       elements.knownButton.disabled = !hasDeck;
-      elements.saveProgressButton.disabled = !hasDeck;
+      elements.saveProgressButton.disabled = !state.allDeck.length;
+      elements.shareProgressButton.disabled = !state.allDeck.length;
 
       if (!hasDeck) {
         elements.sideLabel.textContent = "Ready";
         elements.cardText.className = "empty";
-        elements.cardText.textContent = state.rows.length ? "Start a deck." : "Loading Danish vocabulary...";
+        elements.cardText.textContent = state.unlearnedOnly && state.allDeck.length
+          ? "All cards in this deck are learned. Nice work!"
+          : (state.rows.length ? "Start a deck." : "Loading Danish vocabulary...");
         return;
       }
 
@@ -1142,6 +1281,11 @@
       state.results[card.id] = value;
       recordProfileResult(value);
       saveLocalProgress();
+      if (state.unlearnedOnly && value === "known") {
+        applyDeckFilter();
+        render();
+        return;
+      }
       if (state.index < state.deck.length - 1) {
         move(1);
       } else {
@@ -1174,6 +1318,7 @@
       render();
     });
     elements.saveProgressButton.addEventListener("click", exportProgress);
+    elements.shareProgressButton.addEventListener("click", shareProgress);
     elements.loadProgressFile.addEventListener("change", async (event) => {
       const file = event.target.files[0];
       if (!file) {
@@ -1217,9 +1362,18 @@
     elements.prevButton.addEventListener("click", () => move(-1));
     elements.nextButton.addEventListener("click", () => move(1));
     elements.shuffleButton.addEventListener("click", () => {
-      shuffle(state.deck);
+      shuffle(state.allDeck);
+      applyDeckFilter();
       state.index = 0;
-      state.showingAnswer = false;
+      render();
+    });
+    elements.unlearnedButton.addEventListener("click", () => {
+      state.unlearnedOnly = !state.unlearnedOnly;
+      state.index = 0;
+      applyDeckFilter();
+      elements.statusNote.textContent = state.unlearnedOnly
+        ? `Studying ${state.deck.length} card(s) not yet marked Known.`
+        : `Showing all ${state.deck.length} cards in this deck.`;
       render();
     });
     elements.againButton.addEventListener("click", () => mark("again"));
