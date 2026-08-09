@@ -138,7 +138,7 @@
     .answer-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; }
     .answer-form input { width: 100%; min-height: 58px; background: var(--panel); font-size: 1.15rem; box-shadow: var(--shadow-soft); }
     .answer-form button { min-width: 150px; min-height: 58px; font-size: 1.05rem; }
-    .secondary-controls { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .secondary-controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
 
     aside { display: grid; align-content: start; gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 9px; background: var(--panel); box-shadow: var(--shadow-soft); }
     aside h2 { margin: 0; font-size: 1rem; }
@@ -166,7 +166,6 @@
       .answer-form { grid-template-columns: 1fr; }
       .answer-form input, .answer-form button { min-height: 56px; }
       .secondary-controls { grid-template-columns: 1fr 1fr; }
-      .secondary-controls button:last-child { grid-column: 1 / -1; }
     }
   </style>
 </head>
@@ -193,8 +192,8 @@
       </label>
       <label>Direction
         <select id="directionSelect">
-          <option value="number-da" selected>Number → Danish</option>
-          <option value="da-number">Danish → Number</option>
+          <option value="da-number" selected>Danish → Number</option>
+          <option value="number-da">Number → Danish</option>
         </select>
       </label>
       <label>Order
@@ -229,15 +228,32 @@
         </form>
         <div class="secondary-controls">
           <button id="hearButton" type="button">🔊 Hear Danish</button>
+          <button id="flipButton" type="button">⇄ Flip direction</button>
           <button id="revealButton" type="button">Show answer</button>
           <button id="weakButton" type="button" aria-pressed="false">Practice weak</button>
         </div>
+        <p class="note">Keyboard: Enter checks your answer; Enter again moves to the next number.</p>
       </section>
 
       <aside>
         <h2>The pattern</h2>
         <div class="pattern"><strong>21 = en-og-tyve</strong><br>Say the ones first, then <em>og</em> (“and”), then the tens.</div>
-        <div class="pattern"><strong>Focus on 50–90</strong><br>halvtreds · tres · halvfjerds · firs · halvfems</div>
+        <div class="pattern">
+          <strong>The tens</strong><br>
+          tredive = 30<br>
+          fyrre = 40<br>
+          halvtreds = 50<br>
+          tres = 60<br>
+          halvfjerds = 70<br>
+          firs = 80<br>
+          halvfems = 90
+        </div>
+        <label>Danish pronunciation voice
+          <select id="voiceSelect" disabled>
+            <option value="">Checking installed voices…</option>
+          </select>
+        </label>
+        <p id="voiceNote" class="note">Audio is available only when this browser provides a real Danish voice.</p>
         <button id="shareButton" type="button">Share progress</button>
         <textarea id="shareText" class="share-text" aria-label="Shareable progress text" readonly hidden></textarea>
         <button id="resetButton" type="button">Reset number progress</button>
@@ -262,6 +278,8 @@
       results: {},
       attempts: 0,
       correct: 0,
+      danishVoices: [],
+      selectedVoiceURI: "",
       profile: emptyProfile()
     };
 
@@ -282,8 +300,11 @@
       answerInput: document.getElementById("answerInput"),
       checkButton: document.getElementById("checkButton"),
       hearButton: document.getElementById("hearButton"),
+      flipButton: document.getElementById("flipButton"),
       revealButton: document.getElementById("revealButton"),
       weakButton: document.getElementById("weakButton"),
+      voiceSelect: document.getElementById("voiceSelect"),
+      voiceNote: document.getElementById("voiceNote"),
       shareButton: document.getElementById("shareButton"),
       shareText: document.getElementById("shareText"),
       resetButton: document.getElementById("resetButton"),
@@ -444,7 +465,8 @@
       elements.weakButton.setAttribute("aria-pressed", String(state.weakOnly));
       elements.answerInput.disabled = !hasQuestion || state.answered;
       elements.revealButton.disabled = !hasQuestion || state.answered;
-      elements.hearButton.disabled = !hasQuestion || !("speechSynthesis" in window);
+      elements.hearButton.disabled = !hasQuestion || !selectedDanishVoice();
+      elements.hearButton.textContent = selectedDanishVoice() ? "🔊 Hear Danish" : "No Danish voice";
       elements.checkButton.disabled = !hasQuestion;
       elements.checkButton.textContent = state.answered ? "Next" : "Check";
 
@@ -524,12 +546,77 @@
 
     function speakDanish() {
       const number = currentItem();
-      if (number === null || !("speechSynthesis" in window)) return;
+      const voice = selectedDanishVoice();
+      if (number === null || !voice || !("speechSynthesis" in window)) return;
       speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(danishNumber(number));
       utterance.lang = "da-DK";
+      utterance.voice = voice;
       utterance.rate = 0.82;
       speechSynthesis.speak(utterance);
+    }
+
+    function selectedDanishVoice() {
+      return state.danishVoices.find((voice) => voice.voiceURI === state.selectedVoiceURI) || null;
+    }
+
+    function voiceQualityScore(voice) {
+      const name = voice.name.toLocaleLowerCase();
+      let score = 0;
+      if (name.includes("natural") || name.includes("neural")) score += 5;
+      if (name.includes("online") || name.includes("google") || name.includes("microsoft")) score += 3;
+      if (voice.lang.toLocaleLowerCase() === "da-dk") score += 2;
+      return score;
+    }
+
+    function loadDanishVoices() {
+      if (!("speechSynthesis" in window)) {
+        elements.voiceSelect.innerHTML = '<option value="">Speech is unavailable</option>';
+        elements.voiceNote.textContent = "This browser does not support speech synthesis.";
+        render();
+        return;
+      }
+
+      state.danishVoices = speechSynthesis.getVoices()
+        .filter((voice) => /^da(?:-|_)/i.test(voice.lang))
+        .sort((first, second) => voiceQualityScore(second) - voiceQualityScore(first) || first.name.localeCompare(second.name));
+
+      if (!state.danishVoices.length) {
+        state.selectedVoiceURI = "";
+        elements.voiceSelect.disabled = true;
+        elements.voiceSelect.innerHTML = '<option value="">No Danish voice installed</option>';
+        elements.voiceNote.textContent = "Audio is disabled rather than using the wrong language. Install a Danish system voice or use generated Danish audio.";
+        render();
+        return;
+      }
+
+      let savedVoice = "";
+      try { savedVoice = localStorage.getItem("danish-numbers|voice") || ""; } catch (error) { /* Storage may be unavailable. */ }
+      const preferred = state.danishVoices.find((voice) => voice.voiceURI === savedVoice) || state.danishVoices[0];
+      state.selectedVoiceURI = preferred.voiceURI;
+      elements.voiceSelect.innerHTML = state.danishVoices.map((voice) => {
+        const local = voice.localService ? "device" : "online";
+        return `<option value="${escapeHtml(voice.voiceURI)}">${escapeHtml(voice.name)} (${local})</option>`;
+      }).join("");
+      elements.voiceSelect.value = state.selectedVoiceURI;
+      elements.voiceSelect.disabled = false;
+      elements.voiceNote.textContent = `${state.danishVoices.length} Danish voice${state.danishVoices.length === 1 ? "" : "s"} available. Choose the most natural one on your device.`;
+      render();
+    }
+
+    function escapeHtml(value) {
+      return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+    }
+
+    function changeDirection() {
+      loadProgress();
+      state.weakOnly = false;
+      buildQueue();
+    }
+
+    function flipDirection() {
+      elements.directionSelect.value = elements.directionSelect.value === "da-number" ? "number-da" : "da-number";
+      changeDirection();
     }
 
     async function shareProgress() {
@@ -550,12 +637,24 @@
     elements.answerForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswer(); });
     elements.startButton.addEventListener("click", buildQueue);
     elements.rangeSelect.addEventListener("change", buildQueue);
-    elements.directionSelect.addEventListener("change", () => { loadProgress(); state.weakOnly = false; buildQueue(); });
+    elements.directionSelect.addEventListener("change", changeDirection);
     elements.orderSelect.addEventListener("change", buildQueue);
     elements.hearButton.addEventListener("click", speakDanish);
+    elements.flipButton.addEventListener("click", flipDirection);
     elements.revealButton.addEventListener("click", revealAnswer);
     elements.weakButton.addEventListener("click", () => { state.weakOnly = !state.weakOnly; buildQueue(); });
     elements.shareButton.addEventListener("click", shareProgress);
+    elements.voiceSelect.addEventListener("change", () => {
+      state.selectedVoiceURI = elements.voiceSelect.value;
+      try { localStorage.setItem("danish-numbers|voice", state.selectedVoiceURI); } catch (error) { /* Storage may be unavailable. */ }
+      render();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && state.answered && !event.target.matches("button, select")) {
+        event.preventDefault();
+        nextQuestion();
+      }
+    });
     elements.resetButton.addEventListener("click", () => {
       state.results = {};
       try { localStorage.removeItem(progressKey()); } catch (error) { /* Storage may be unavailable. */ }
@@ -567,6 +666,8 @@
     loadProfile();
     loadProgress();
     buildQueue();
+    loadDanishVoices();
+    if ("speechSynthesis" in window) speechSynthesis.addEventListener("voiceschanged", loadDanishVoices);
   </script>
 </body>
 </html>
