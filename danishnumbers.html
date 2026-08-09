@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danish Number Drill</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f5f7;
+      --panel: #ffffff;
+      --panel-soft: #fafafa;
+      --text: #1f242b;
+      --muted: #66717f;
+      --line: #dfe4ea;
+      --red: #d91f2a;
+      --red-dark: #aa1620;
+      --green: #1f7a4d;
+      --green-bg: #eef8f2;
+      --red-bg: #fff1f2;
+      --shadow: 0 14px 34px rgba(24, 31, 41, 0.1);
+      --shadow-soft: 0 6px 18px rgba(24, 31, 41, 0.07);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111316;
+        --panel: #1c2025;
+        --panel-soft: #171a1f;
+        --text: #f4f6f8;
+        --muted: #aeb8c4;
+        --line: #343b44;
+        --red: #ff5a60;
+        --red-dark: #ff7b80;
+        --green: #7bd39d;
+        --green-bg: #13251c;
+        --red-bg: #2b171a;
+        --shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
+        --shadow-soft: 0 6px 18px rgba(0, 0, 0, 0.24);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      text-rendering: optimizeLegibility;
+    }
+
+    button, input, select { font: inherit; }
+
+    button, input, select {
+      min-height: 46px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 0.7rem 0.9rem;
+    }
+
+    button { cursor: pointer; font-weight: 800; box-shadow: var(--shadow-soft); }
+    button:hover:not(:disabled) { transform: translateY(-1px); }
+    button:disabled { cursor: not-allowed; opacity: 0.5; box-shadow: none; }
+    button:focus-visible, input:focus-visible, select:focus-visible, .question-card:focus-visible {
+      border-color: var(--red);
+      outline: 2px solid color-mix(in srgb, var(--red) 28%, transparent);
+      outline-offset: 2px;
+    }
+
+    .primary { background: var(--red); border-color: var(--red); color: #fff; }
+    .primary:hover:not(:disabled) { background: var(--red-dark); }
+
+    .app {
+      width: min(1020px, calc(100vw - 30px));
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0 auto;
+      display: grid;
+      align-content: start;
+      gap: 16px;
+      padding: 20px 0 max(24px, env(safe-area-inset-bottom));
+    }
+
+    header { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo { width: 52px; height: 52px; object-fit: contain; border-radius: 7px; background: #fff; padding: 5px; box-shadow: var(--shadow-soft); }
+    h1 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.25rem); line-height: 1.05; }
+    .tagline, .note { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+    .back-link { color: var(--red); font-weight: 800; text-decoration: none; }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(160px, 1fr)) auto;
+      gap: 12px;
+      align-items: end;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    label { display: grid; gap: 5px; color: var(--muted); font-size: 0.76rem; font-weight: 900; text-transform: uppercase; }
+    select { width: 100%; background: var(--panel-soft); }
+
+    .stats { display: grid; grid-template-columns: repeat(5, minmax(90px, 1fr)); gap: 10px; }
+    .stat { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow-soft); }
+    .stat span { display: block; color: var(--muted); font-size: 0.69rem; font-weight: 900; text-transform: uppercase; }
+    .stat strong { display: block; margin-top: 2px; font-size: 1.2rem; }
+
+    main { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 16px; }
+    .drill { display: grid; gap: 12px; }
+    .question-card {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 330px;
+      padding: 48px 24px 30px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .prompt-label { position: absolute; top: 15px; left: 15px; color: var(--red); font-size: 0.72rem; font-weight: 900; text-transform: uppercase; }
+    .prompt { font-size: clamp(3rem, 9vw, 6.8rem); line-height: 1; font-weight: 900; overflow-wrap: anywhere; }
+    .prompt.word { font-size: clamp(2.2rem, 6vw, 4.8rem); }
+    .feedback { min-height: 2rem; margin-top: 20px; font-size: 1.05rem; font-weight: 800; }
+    .feedback.correct { color: var(--green); }
+    .feedback.wrong { color: var(--red); }
+
+    .answer-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; }
+    .answer-form input { width: 100%; min-height: 58px; background: var(--panel); font-size: 1.15rem; box-shadow: var(--shadow-soft); }
+    .answer-form button { min-width: 150px; min-height: 58px; font-size: 1.05rem; }
+    .secondary-controls { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+
+    aside { display: grid; align-content: start; gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 9px; background: var(--panel); box-shadow: var(--shadow-soft); }
+    aside h2 { margin: 0; font-size: 1rem; }
+    .pattern { padding: 10px; border-radius: 8px; background: var(--panel-soft); color: var(--muted); font-size: 0.86rem; line-height: 1.45; }
+    .pattern strong { color: var(--text); }
+    .share-text { width: 100%; min-height: 100px; resize: vertical; border: 1px solid var(--line); border-radius: 8px; background: var(--panel-soft); color: var(--text); padding: 0.7rem; font: inherit; line-height: 1.4; }
+    .share-text[hidden] { display: none; }
+
+    @media (max-width: 760px) {
+      header { align-items: flex-start; flex-direction: column; }
+      .toolbar, main { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .question-card { min-height: 300px; }
+      aside { order: 2; }
+    }
+
+    @media (max-width: 480px) {
+      .app { width: calc(100vw - 14px); gap: 9px; padding-top: 8px; }
+      .logo { width: 42px; height: 42px; }
+      .tagline { font-size: 0.78rem; }
+      .toolbar { padding: 10px; gap: 8px; }
+      .stats { gap: 6px; }
+      .stat { padding: 7px 8px; }
+      .question-card { min-height: 250px; padding: 42px 14px 24px; }
+      .answer-form { grid-template-columns: 1fr; }
+      .answer-form input, .answer-form button { min-height: 56px; }
+      .secondary-controls { grid-template-columns: 1fr 1fr; }
+      .secondary-controls button:last-child { grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <img class="logo" src="assets/copenhagen-coding-logo.png" alt="Copenhagen Coding Club">
+        <div>
+          <h1>Danish Number Drill</h1>
+          <p class="tagline">Build automatic recall for Danish numbers</p>
+        </div>
+      </div>
+      <a class="back-link" href="danishflashcards.html">Vocabulary cards →</a>
+    </header>
+
+    <section class="toolbar" aria-label="Drill settings">
+      <label>Number set
+        <select id="rangeSelect">
+          <option value="basics">Basics: 0–20</option>
+          <option value="tens">Tricky tens: 20–90</option>
+          <option value="all" selected>All numbers: 0–100</option>
+        </select>
+      </label>
+      <label>Direction
+        <select id="directionSelect">
+          <option value="number-da" selected>Number → Danish</option>
+          <option value="da-number">Danish → Number</option>
+        </select>
+      </label>
+      <label>Order
+        <select id="orderSelect">
+          <option value="shuffle" selected>Shuffle</option>
+          <option value="list">Number order</option>
+        </select>
+      </label>
+      <button id="startButton" class="primary" type="button">Start drill</button>
+    </section>
+
+    <section class="stats" aria-label="Learning stats">
+      <div class="stat"><span>Question</span><strong id="positionStat">1 / 101</strong></div>
+      <div class="stat"><span>Learned</span><strong id="learnedStat">0</strong></div>
+      <div class="stat"><span>XP</span><strong id="xpStat">0</strong></div>
+      <div class="stat"><span>Day streak</span><strong id="streakStat">0</strong></div>
+      <div class="stat"><span>Level</span><strong id="levelStat">1</strong></div>
+    </section>
+
+    <main>
+      <section class="drill" aria-label="Number drill">
+        <div class="question-card" aria-live="polite">
+          <span id="promptLabel" class="prompt-label">Write this in Danish</span>
+          <div>
+            <div id="prompt" class="prompt">0</div>
+            <div id="feedback" class="feedback"></div>
+          </div>
+        </div>
+        <form id="answerForm" class="answer-form" autocomplete="off">
+          <input id="answerInput" type="text" inputmode="text" aria-label="Your answer" placeholder="Type the Danish number…" spellcheck="false" autocapitalize="none">
+          <button id="checkButton" class="primary" type="submit">Check</button>
+        </form>
+        <div class="secondary-controls">
+          <button id="hearButton" type="button">🔊 Hear Danish</button>
+          <button id="revealButton" type="button">Show answer</button>
+          <button id="weakButton" type="button" aria-pressed="false">Practice weak</button>
+        </div>
+      </section>
+
+      <aside>
+        <h2>The pattern</h2>
+        <div class="pattern"><strong>21 = en-og-tyve</strong><br>Say the ones first, then <em>og</em> (“and”), then the tens.</div>
+        <div class="pattern"><strong>Focus on 50–90</strong><br>halvtreds · tres · halvfjerds · firs · halvfems</div>
+        <button id="shareButton" type="button">Share progress</button>
+        <textarea id="shareText" class="share-text" aria-label="Shareable progress text" readonly hidden></textarea>
+        <button id="resetButton" type="button">Reset number progress</button>
+        <p id="statusNote" class="note">Answers and progress stay in this browser.</p>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    const PROFILE_KEY = "danish-flashcards|learner-profile";
+    const PROGRESS_PREFIX = "danish-numbers|progress|";
+    const ONES = ["nul", "en", "to", "tre", "fire", "fem", "seks", "syv", "otte", "ni"];
+    const TEENS = ["ti", "elleve", "tolv", "tretten", "fjorten", "femten", "seksten", "sytten", "atten", "nitten"];
+    const TENS = { 20: "tyve", 30: "tredive", 40: "fyrre", 50: "halvtreds", 60: "tres", 70: "halvfjerds", 80: "firs", 90: "halvfems" };
+
+    const state = {
+      allItems: [],
+      queue: [],
+      index: 0,
+      answered: false,
+      weakOnly: false,
+      results: {},
+      attempts: 0,
+      correct: 0,
+      profile: emptyProfile()
+    };
+
+    const elements = {
+      rangeSelect: document.getElementById("rangeSelect"),
+      directionSelect: document.getElementById("directionSelect"),
+      orderSelect: document.getElementById("orderSelect"),
+      startButton: document.getElementById("startButton"),
+      positionStat: document.getElementById("positionStat"),
+      learnedStat: document.getElementById("learnedStat"),
+      xpStat: document.getElementById("xpStat"),
+      streakStat: document.getElementById("streakStat"),
+      levelStat: document.getElementById("levelStat"),
+      promptLabel: document.getElementById("promptLabel"),
+      prompt: document.getElementById("prompt"),
+      feedback: document.getElementById("feedback"),
+      answerForm: document.getElementById("answerForm"),
+      answerInput: document.getElementById("answerInput"),
+      checkButton: document.getElementById("checkButton"),
+      hearButton: document.getElementById("hearButton"),
+      revealButton: document.getElementById("revealButton"),
+      weakButton: document.getElementById("weakButton"),
+      shareButton: document.getElementById("shareButton"),
+      shareText: document.getElementById("shareText"),
+      resetButton: document.getElementById("resetButton"),
+      statusNote: document.getElementById("statusNote")
+    };
+
+    function emptyProfile() {
+      return { version: 1, lifetimeXp: 0, currentStreak: 0, bestStreak: 0, dailyActivity: {} };
+    }
+
+    function danishNumber(number) {
+      if (number < 10) return ONES[number];
+      if (number < 20) return TEENS[number - 10];
+      if (number === 100) return "et hundrede";
+      const tens = Math.floor(number / 10) * 10;
+      const one = number % 10;
+      return one === 0 ? TENS[tens] : `${ONES[one]}og${TENS[tens]}`;
+    }
+
+    function acceptedDanish(number) {
+      if (number === 1) return ["en", "et", "én", "ét"];
+      if (number === 100) return ["et hundrede", "ethundrede", "hundrede"];
+      return [danishNumber(number)];
+    }
+
+    function normalizeWord(value) {
+      return String(value || "").normalize("NFKC").toLocaleLowerCase("da-DK").trim().replace(/[\s-]+/g, "").replace(/[.!?]+$/g, "");
+    }
+
+    function selectedNumbers() {
+      if (elements.rangeSelect.value === "basics") return Array.from({ length: 21 }, (_, index) => index);
+      if (elements.rangeSelect.value === "tens") return Object.keys(TENS).map(Number);
+      return Array.from({ length: 101 }, (_, index) => index);
+    }
+
+    function shuffle(items) {
+      for (let index = items.length - 1; index > 0; index -= 1) {
+        const other = Math.floor(Math.random() * (index + 1));
+        [items[index], items[other]] = [items[other], items[index]];
+      }
+    }
+
+    function progressKey() {
+      return `${PROGRESS_PREFIX}${elements.directionSelect.value}`;
+    }
+
+    function loadProgress() {
+      try { state.results = JSON.parse(localStorage.getItem(progressKey()) || "{}"); }
+      catch (error) { state.results = {}; }
+    }
+
+    function saveProgress() {
+      try { localStorage.setItem(progressKey(), JSON.stringify(state.results)); }
+      catch (error) { elements.statusNote.textContent = "This browser could not save number progress."; }
+    }
+
+    function loadProfile() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(PROFILE_KEY) || "null");
+        if (saved && typeof saved === "object") {
+          state.profile = { ...emptyProfile(), ...saved, dailyActivity: saved.dailyActivity && typeof saved.dailyActivity === "object" ? saved.dailyActivity : {} };
+        }
+      } catch (error) { state.profile = emptyProfile(); }
+    }
+
+    function saveProfile() {
+      try { localStorage.setItem(PROFILE_KEY, JSON.stringify(state.profile)); }
+      catch (error) { elements.statusNote.textContent = "This browser could not save the shared learner profile."; }
+    }
+
+    function localDateKey() {
+      const date = new Date();
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function dateKeyOffset(key, days) {
+      const [year, month, day] = key.split("-").map(Number);
+      const date = new Date(year, month - 1, day + days, 12);
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+    }
+
+    function dayStreaks() {
+      const active = new Set(Object.entries(state.profile.dailyActivity).filter(([, value]) => value && Number(value.reviews) > 0).map(([key]) => key));
+      const today = localDateKey();
+      let cursor = active.has(today) ? today : dateKeyOffset(today, -1);
+      let current = 0;
+      while (active.has(cursor)) { current += 1; cursor = dateKeyOffset(cursor, -1); }
+      let best = 0;
+      let run = 0;
+      let previous = "";
+      [...active].sort().forEach((key) => {
+        run = previous && key === dateKeyOffset(previous, 1) ? run + 1 : 1;
+        best = Math.max(best, run);
+        previous = key;
+      });
+      return { current, best };
+    }
+
+    function level() {
+      return Math.floor(Math.sqrt(Math.max(0, state.profile.lifetimeXp) / 100)) + 1;
+    }
+
+    function recordReview(isCorrect) {
+      const today = localDateKey();
+      const activity = state.profile.dailyActivity[today] || { reviews: 0, known: 0, xp: 0 };
+      activity.reviews += 1;
+      if (isCorrect) {
+        state.profile.lifetimeXp += 10;
+        activity.known += 1;
+        activity.xp += 10;
+      }
+      state.profile.dailyActivity[today] = activity;
+      const streaks = dayStreaks();
+      state.profile.currentStreak = streaks.current;
+      state.profile.bestStreak = streaks.best;
+      saveProfile();
+    }
+
+    function currentItem() {
+      return state.queue[state.index] ?? null;
+    }
+
+    function buildQueue() {
+      state.allItems = selectedNumbers();
+      state.queue = state.weakOnly ? state.allItems.filter((number) => state.results[number] !== "known") : [...state.allItems];
+      if (elements.orderSelect.value === "shuffle") shuffle(state.queue);
+      state.index = 0;
+      state.answered = false;
+      state.attempts = 0;
+      state.correct = 0;
+      elements.shareText.hidden = true;
+      render();
+      focusAnswer();
+    }
+
+    function answerFor(number) {
+      return elements.directionSelect.value === "number-da" ? danishNumber(number) : String(number);
+    }
+
+    function isCorrectAnswer(number, input) {
+      if (elements.directionSelect.value === "da-number") return String(Number(String(input).trim())) === String(number) && String(input).trim() !== "";
+      const normalized = normalizeWord(input);
+      return acceptedDanish(number).some((answer) => normalizeWord(answer) === normalized);
+    }
+
+    function render() {
+      const number = currentItem();
+      const hasQuestion = number !== null;
+      const learned = state.allItems.filter((item) => state.results[item] === "known").length;
+      const streaks = dayStreaks();
+      elements.positionStat.textContent = hasQuestion ? `${state.index + 1} / ${state.queue.length}` : `0 / ${state.queue.length}`;
+      elements.learnedStat.textContent = String(learned);
+      elements.xpStat.textContent = String(state.profile.lifetimeXp);
+      elements.streakStat.textContent = String(streaks.current);
+      elements.streakStat.title = `Best daily streak: ${streaks.best}`;
+      elements.levelStat.textContent = String(level());
+      elements.weakButton.textContent = state.weakOnly ? "Show full set" : "Practice weak";
+      elements.weakButton.setAttribute("aria-pressed", String(state.weakOnly));
+      elements.answerInput.disabled = !hasQuestion || state.answered;
+      elements.revealButton.disabled = !hasQuestion || state.answered;
+      elements.hearButton.disabled = !hasQuestion || !("speechSynthesis" in window);
+      elements.checkButton.disabled = !hasQuestion;
+      elements.checkButton.textContent = state.answered ? "Next" : "Check";
+
+      if (!hasQuestion) {
+        elements.promptLabel.textContent = state.weakOnly ? "Weak set complete" : "Drill complete";
+        elements.prompt.textContent = "✓";
+        elements.prompt.className = "prompt";
+        elements.feedback.className = "feedback correct";
+        elements.feedback.textContent = state.weakOnly ? "Every number in this set is marked learned." : "Start another round to keep building recall.";
+        return;
+      }
+
+      const numberFirst = elements.directionSelect.value === "number-da";
+      elements.promptLabel.textContent = numberFirst ? "Write this in Danish" : "Write this as digits";
+      elements.prompt.textContent = numberFirst ? String(number) : danishNumber(number);
+      elements.prompt.className = numberFirst ? "prompt" : "prompt word";
+      if (!state.answered) {
+        elements.feedback.className = "feedback";
+        elements.feedback.textContent = "";
+      }
+      elements.answerInput.placeholder = numberFirst ? "Type the Danish number…" : "Type the digits…";
+      elements.answerInput.inputMode = numberFirst ? "text" : "numeric";
+    }
+
+    function focusAnswer() {
+      if (!elements.answerInput.disabled) elements.answerInput.focus();
+    }
+
+    function submitAnswer() {
+      const number = currentItem();
+      if (number === null) return;
+      if (state.answered) { nextQuestion(); return; }
+      if (!elements.answerInput.value.trim()) {
+        elements.feedback.className = "feedback wrong";
+        elements.feedback.textContent = "Type an answer first.";
+        return;
+      }
+      const correct = isCorrectAnswer(number, elements.answerInput.value);
+      state.answered = true;
+      state.attempts += 1;
+      if (correct) state.correct += 1;
+      state.results[number] = correct ? "known" : "again";
+      recordReview(correct);
+      saveProgress();
+      elements.feedback.className = `feedback ${correct ? "correct" : "wrong"}`;
+      elements.feedback.textContent = correct ? `Correct — ${danishNumber(number)} (+10 XP)` : `Not quite — ${number} is ${danishNumber(number)}.`;
+      render();
+    }
+
+    function revealAnswer() {
+      const number = currentItem();
+      if (number === null || state.answered) return;
+      state.answered = true;
+      state.attempts += 1;
+      state.results[number] = "again";
+      recordReview(false);
+      saveProgress();
+      elements.feedback.className = "feedback wrong";
+      elements.feedback.textContent = `${number} is ${danishNumber(number)}.`;
+      render();
+    }
+
+    function nextQuestion() {
+      if (state.index < state.queue.length - 1) {
+        state.index += 1;
+        state.answered = false;
+        elements.answerInput.value = "";
+        render();
+        focusAnswer();
+      } else {
+        state.index = state.queue.length;
+        state.answered = false;
+        elements.answerInput.value = "";
+        render();
+      }
+    }
+
+    function speakDanish() {
+      const number = currentItem();
+      if (number === null || !("speechSynthesis" in window)) return;
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(danishNumber(number));
+      utterance.lang = "da-DK";
+      utterance.rate = 0.82;
+      speechSynthesis.speak(utterance);
+    }
+
+    async function shareProgress() {
+      const totalKnown = Object.values(state.results).filter((value) => value === "known").length;
+      const text = `I have earned ${state.profile.lifetimeXp} XP, reached Level ${level()}, built a ${dayStreaks().current}-day Danish learning streak, and learned ${totalKnown} Danish numbers.`;
+      elements.shareText.hidden = false;
+      elements.shareText.value = text;
+      elements.shareText.focus();
+      elements.shareText.select();
+      try {
+        await navigator.clipboard.writeText(text);
+        elements.statusNote.textContent = "Progress copied to the clipboard.";
+      } catch (error) {
+        elements.statusNote.textContent = "Share text is ready to copy.";
+      }
+    }
+
+    elements.answerForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswer(); });
+    elements.startButton.addEventListener("click", buildQueue);
+    elements.rangeSelect.addEventListener("change", buildQueue);
+    elements.directionSelect.addEventListener("change", () => { loadProgress(); state.weakOnly = false; buildQueue(); });
+    elements.orderSelect.addEventListener("change", buildQueue);
+    elements.hearButton.addEventListener("click", speakDanish);
+    elements.revealButton.addEventListener("click", revealAnswer);
+    elements.weakButton.addEventListener("click", () => { state.weakOnly = !state.weakOnly; buildQueue(); });
+    elements.shareButton.addEventListener("click", shareProgress);
+    elements.resetButton.addEventListener("click", () => {
+      state.results = {};
+      try { localStorage.removeItem(progressKey()); } catch (error) { /* Storage may be unavailable. */ }
+      state.weakOnly = false;
+      elements.statusNote.textContent = "Number mastery reset. Shared XP, level, and day streak were kept.";
+      buildQueue();
+    });
+
+    loadProfile();
+    loadProgress();
+    buildQueue();
+  </script>
+</body>
+</html>
